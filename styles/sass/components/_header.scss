@@ -1,0 +1,42 @@
+header {
+    padding: 0px 80px;
+    height: 80px;
+    background-color: $header-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $blanco;
+
+    a {
+        color: $blanco;
+        text-decoration: none;
+    }
+
+    nav {
+        ul {
+            display: flex;
+            text-transform: uppercase;
+            li {
+                padding: 0px 24px;
+                position: relative;
+                &::after {
+                    content: "";
+                    background-color: $blanco;
+                    width: 1px;
+                    height: 16px;
+                    position: absolute;
+                    right: -0.5px;
+                }
+                &:first-child {
+                    padding-left: 0px;
+                }
+                &:last-child {
+                    padding-right: 0px;
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+    }
+}
