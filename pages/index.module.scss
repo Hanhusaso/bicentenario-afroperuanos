@@ -11,10 +11,59 @@
 }
 .home2 {
     background-color: $bg-home-color-2;
+    color: $blanco;
+    height: 100vh;
+    a {
+        color: $blanco;
+    }
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        height: 100%;
+        .grid {
+            display: grid;
+            grid-template-columns: 30% auto;
+        }
+    }
 }
 .home3 {
     background-color: $bg-home-color-3;
+    color: $blanco;
+    height: 100vh;
+    a {
+        color: $blanco;
+    }
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        height: 100%;
+    }
 }
 .home4 {
     background-color: $bg-home-color-4;
+    color: $blanco;
+    a {
+        color: $blanco;
+    }
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        // height: 100%;
+    }
+}
+.home5 {
+    background-color: $footer-color;
+    color: $azul;
+    a {
+        color: $azul;
+    }
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        // height: 100%;
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }

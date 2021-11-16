@@ -1,7 +1,8 @@
 .buttonMove {
+    cursor: pointer;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     background-color: $blanco;
     display: inline-flex;
     align-items: center;
@@ -15,7 +16,7 @@
         align-items: center;
         justify-content: center;
         .whiteArrow {
-            margin-bottom: -1px;
+            // margin-bottom: -1px;
             color: $blanco;
         }
     }

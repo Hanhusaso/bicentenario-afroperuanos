@@ -1,11 +1,16 @@
 import React from 'react'
-import { AiOutlineCaretDown } from "react-icons/ai";
+import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 
-export default function ButtonMove() {
+export default function ButtonMove(props) {
+    const dir = props.dir
     return (
         <div className="buttonMove">
             <div className="circleInside">
-                <AiOutlineCaretDown className="whiteArrow" />
+                {
+                    dir == "down"
+                    ? <AiFillCaretDown className="whiteArrow" />
+                    : <AiFillCaretUp className="whiteArrow" />
+                }
             </div>
         </div>
     )
