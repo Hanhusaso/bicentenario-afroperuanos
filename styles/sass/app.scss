@@ -1,6 +1,33 @@
-@import "reboot";
+// @import "custom-bootstrap";
+
+// BUG TEMPORAL DE NEXT 12
+$form-check-input-checked-bg-image: none;
+$form-check-radio-checked-bg-image: none;
+$form-check-input-indeterminate-bg-image: none;
+$form-switch-bg-image: none;
+$form-switch-focus-bg-image: none;
+$form-switch-checked-bg-image: none;
+$form-select-indicator: none;
+$form-feedback-icon-valid: none;
+$form-feedback-icon-invalid: none;
+$navbar-light-toggler-icon-bg: none;
+$navbar-dark-toggler-icon-bg: none;
+$accordion-button-icon: none;
+$accordion-button-active-icon: none;
+$carousel-control-prev-icon-bg: none;
+$carousel-control-next-icon-bg: none;
+$btn-close-bg: none;
+// 
+
+@import '~bootstrap/scss/bootstrap.scss';
+
 @import "variables";
+@import "reboot";
+@import "img";
+@import "icons";
+@import "links";
 
 // componentes
 @import "./components/header";
 @import "./components/footer";
+@import "./components/buttons";

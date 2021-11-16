@@ -1,0 +1,22 @@
+.buttonMove {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    background-color: $blanco;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    .circleInside {
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        background-color: $button-move-color;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        .whiteArrow {
+            margin-bottom: -1px;
+            color: $blanco;
+        }
+    }
+}

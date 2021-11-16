@@ -1,6 +1,6 @@
 header {
-    padding: 0px 80px;
-    height: 80px;
+    padding: 0px $padding-x-container;
+    height: $header-height;
     background-color: $header-color;
     display: flex;
     align-items: center;
@@ -26,6 +26,7 @@ header {
                     height: 16px;
                     position: absolute;
                     right: -0.5px;
+                    top: 4px;
                 }
                 &:first-child {
                     padding-left: 0px;

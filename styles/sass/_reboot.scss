@@ -13,3 +13,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.containerGrid {
+    padding: 0px $padding-x-container;
+    display: grid;
+    grid-template-columns: 1fr minmax(auto, 800px) 1fr;
+}
