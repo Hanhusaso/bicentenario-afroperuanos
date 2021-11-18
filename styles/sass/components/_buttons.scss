@@ -1,16 +1,16 @@
 .buttonMove {
     cursor: pointer;
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     background-color: $blanco;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     .circleInside {
         border-radius: 50%;
-        width: 24px;
-        height: 24px;
+        width: 30px;
+        height: 30px;
         background-color: $button-move-color;
         display: inline-flex;
         align-items: center;

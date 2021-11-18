@@ -10,6 +10,9 @@ header {
     a {
         color: $blanco;
         text-decoration: none;
+        &:hover {
+            color: $blanco;
+        }
     }
 
     nav {

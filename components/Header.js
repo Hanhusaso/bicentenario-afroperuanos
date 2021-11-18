@@ -9,8 +9,15 @@ export default function Header() {
                 <header>
                         <div>
                             <Link href="/">
-                                <a>
-                                    logo
+                                <a className="wrapperLogo">
+                                    <div className="title-page home">
+                                        <img className="text-1" src="/img/svg/LOGO/DISCURSOS VISUALES.svg" alt="discursos visuales" />
+                                        <div className="wrapper-arrow-text">
+                                            <img className="flechas" src="/img/svg/HOME/flechas blancas.svg" alt="flechas" />
+                                            <img className="w-100" src="/img/svg/LOGO/SOBRE LO.svg" alt="sobre lo" />
+                                        </div>
+                                        <img className="text-2" src="/img/svg/LOGO/AFROPERUANO.svg" alt="afroperuano" />
+                                    </div>
                                 </a>
                             </Link>
                         </div>

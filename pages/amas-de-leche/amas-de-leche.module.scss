@@ -1,0 +1,34 @@
+@import "~/styles/sass/variables";
+
+.section1 {
+    background-color: $verde-mar;
+    color: $verde-claro;
+    height: 100vh;
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        height: 100%;
+    }
+    .gridDescImg {
+        display: grid;
+        grid-template-columns: auto auto;
+        img {
+            position: relative;
+            right: -100px;
+        }
+    }
+}
+.section2 {
+    background-color: $azul;
+    color: $verde-claro;
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        .linkMenu {
+            margin-top: 300px;
+        }
+        .titleSection {
+            color: $rosa;
+        }
+    }
+}

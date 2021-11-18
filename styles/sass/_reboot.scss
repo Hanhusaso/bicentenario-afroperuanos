@@ -20,9 +20,109 @@ ul {
 .containerGrid {
     padding: 0px $padding-x-container;
     display: grid;
-    grid-template-columns: 1fr minmax(auto, 800px) 1fr;
+    grid-template-columns: 1fr minmax(auto, 900px) 1fr;
+}
+
+.containerVideos {
+    padding: 0px 60px;
+    .wrapperVideo {
+        display: flex;
+        flex-direction: column;
+        .infoVideo {
+            padding: 10px 15px;
+            font-weight: 500;
+            .mirar {
+                padding-bottom: 10px;
+            }
+            .titulo {
+                font-size: 13px;
+                padding: 10px 0px;
+            }
+            .descripcion {
+                font-size: 13px;
+                padding-top: 10px;
+            }
+        }
+    }
 }
 
 .pointer {
     cursor: pointer;
+}
+
+.wrapperCaption {
+    transition: all .8s ease;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+    .caption {
+        transition: all .3s ease;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $negro-opac;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    &:hover .caption {
+        opacity: 1;
+    }
+}
+
+.wrapperLogo {
+    width: 130px;
+    display: block;
+}
+
+.title-page {
+    line-height: 0;
+    &.home {
+        .text-1 {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+        .wrapper-arrow-text {
+            width: 100%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto 36%;
+            gap: 0 2%;
+            margin-bottom: 2%;
+            .flechas {
+                width: 100%;
+            }
+        }
+        .text-2 {
+            width: 100%;
+        }
+    }
+    &.amas {
+        .text-1 {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+        .wrapper-arrow-text {
+            width: 100%;
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto 15%;
+            gap: 0 2%;
+            margin-bottom: 1%;
+            .flechas {
+                width: 100%;
+            }
+        }
+        .text-2 {
+            width: 100%;
+        }
+    }
+}
+
+.underline-arrows {
+    width: 218px;
 }
