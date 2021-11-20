@@ -1,0 +1,14 @@
+.carousel-fade .active.carousel-item-start, .carousel-fade .active.carousel-item-end {
+    transition: opacity 0.6s 0s;
+}
+
+.carousel-indicators {
+    transform: translate(17%, calc(100% + 20px));
+    margin-bottom: 0;
+    [data-bs-target] {
+        height: 30px;
+        border-radius: 50%;
+        border-top: none;
+        border-bottom: none;
+    }
+}

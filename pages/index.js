@@ -57,7 +57,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div>
-                            <img className="img-fluid logo-bicentenario" src="/img/LOGO HORIZONTAL PEB.png" alt="bicentenario peru" />
+                            <img className={`${styles.logoBicentenario} ${"img-fluid"}`} src="/img/LOGO HORIZONTAL PEB.png" alt="bicentenario peru" />
                         </div>
                     </div>
                 </section>
@@ -119,7 +119,7 @@ export default function Home() {
                                             <div className={`${styles.menuGrid} ${"menuGrid"}`}>
                                                 <div className={`${styles.ama} ${""}`}>
                                                     <Link href="./amas-de-leche">
-                                                        <a className={`${styles.wrapperCaption1} ${"wrapperCaption"}`}>
+                                                        <a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
                                                             <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" />
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
@@ -135,7 +135,7 @@ export default function Home() {
                                                 </div>
                                                 <div className={`${styles.lorry} ${""}`}>
                                                     <Link href="#">
-                                                        <a className={`${styles.wrapperCaption2} ${"wrapperCaption"}`}>
+                                                        <a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
                                                             <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" />
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
@@ -149,7 +149,7 @@ export default function Home() {
                                                 </div>
                                                 <div className={`${styles.martin} ${""}`}>
                                                     <Link href="#">
-                                                        <a className={`${styles.wrapperCaption3} ${"wrapperCaption"}`}>
+                                                        <a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
                                                             <img className="img-fluid" src="/img/menu/martin.jpg" alt="" />
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
@@ -290,8 +290,12 @@ export default function Home() {
                                         <p className="mb-0">Judith León</p>
                                     </div>
                                     <div className="mb-3">
-                                        <div className="fw-700">Programación:</div>
+                                        <div className="fw-700">Teach lead:</div>
                                         <p className="mb-0">Luis Castillo</p>
+                                    </div>
+                                    <div className="mb-3">
+                                        <div className="fw-700">Web developer:</div>
+                                        <p className="mb-0">Hans Huiza</p>
                                     </div>
                                     <div className="mb-3">
                                         <div className="fw-700">Revisión de textos y traducción:</div>

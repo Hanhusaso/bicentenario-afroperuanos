@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
 nav {
@@ -18,9 +19,38 @@ ul {
 }
 
 .containerGrid {
-    padding: 0px $padding-x-container;
+    padding: 32px $padding-x-container;
     display: grid;
-    grid-template-columns: 1fr minmax(auto, 900px) 1fr;
+    grid-template-columns: minmax(20%, 1fr) minmax(20%, 866px) minmax(20%, 1fr);
+    position: relative;
+    .linkDown {
+        position: absolute;
+        left: 50%;
+        bottom: 50px;
+        transform: translate(-50%, 0);
+    }
+    @include media-breakpoint-down(xxl) {
+        padding: 0px 20px;
+        // grid-template-columns: minmax(20%, 1fr) minmax(20%, 750px) minmax(20%, 1fr);
+    }
+    @include media-breakpoint-down(xl) {
+        // padding: 0px 14px;
+        // grid-template-columns: minmax(20%, 1fr) minmax(20%, 700px) minmax(20%, 1fr);
+    }
+}
+
+.containerGrid2 {
+    padding: 32px $padding-x-container;
+    display: grid;
+    grid-template-columns: minmax(15%, 1fr) minmax(20%, 1080px) minmax(15%, 1fr);
+    position: relative;
+}
+
+.containerGrid3 {
+    padding: 32px $padding-x-container;
+    display: grid;
+    grid-template-columns: minmax(10%, 1fr) minmax(20%, 1080px) minmax(10%, 1fr);
+    position: relative;
 }
 
 .containerVideos {
@@ -50,7 +80,17 @@ ul {
     cursor: pointer;
 }
 
-.wrapperCaption {
+.captionInfo {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.captionDesc {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.wrapperCaptionMenu {
     transition: all .8s ease;
     display: inline-block;
     position: relative;
@@ -125,4 +165,57 @@ ul {
 
 .underline-arrows {
     width: 218px;
+}
+
+.gridCarousel {
+    display: grid;
+    grid-template-columns: auto 32%;
+    .gridImgCaption {
+        display: grid;
+        grid-template-columns: 25% auto;
+        .wrapperCaption {
+            display: grid;
+            place-items: center;
+            text-align: right;
+        }
+        .wrapperImg {
+            height: auto;
+            display: grid;
+            place-items: center;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    [data-bs-target] {
+
+    }
+}
+.wrapperCaption {
+    padding-right: 3vw;
+    line-height: 1.3;
+}
+.wrappertextDescImg {
+    padding-left: 3vw;
+    display: grid;
+    place-items: center;
+    .text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+.mb-64 {
+    margin-bottom: 64px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-160 {
+    margin-bottom: 160px;
 }
