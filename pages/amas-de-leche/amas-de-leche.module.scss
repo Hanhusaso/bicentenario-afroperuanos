@@ -1,5 +1,9 @@
 @import "~/styles/sass/variables";
 
+.linkMenu {
+    color: $verde-claro;
+}
+
 .section1 {
     background-color: $verde-mar;
     color: $verde-claro;
@@ -182,4 +186,67 @@
     background-color: $negro;
     color: $piel;
     padding-top: 160px;
+
+    .gridCarouselWidth {
+        display: grid;
+        grid-template-columns: auto 32%;
+    }
+
+    .gridCarousel {
+        .gridImgCaption {
+            .wrapperImg {
+                height: 37vw;
+                max-height: 800px;
+            }
+        }
+        [data-bs-target] {
+            background-color: $piel;
+        }
+        &.gridCarouselAuto {
+            .gridImgCaption {
+                .wrapperImg {
+                    height: auto;
+                }
+            }
+        }
+    }
+    .wrapperCaption {
+        color: $piel;
+    }
+    .wrappertextDescImg {
+        .text {
+            color: $piel;
+            border-top-color: $piel;
+            border-bottom-color: $piel;
+        }
+    }
+}
+
+.section6 {
+    background-color: $verde-mar;
+    color: $azul;
+    .linkMenu {
+        margin-top: 300px;
+    }
+    .titleSection1 {
+        color: $verde-claro;
+        margin-bottom: 75px;
+    }
+    .grid3 {
+        display: grid;
+        grid-template-columns: 65.2% auto;
+        margin-bottom: 30px;
+        .wrapperImage {
+            position: relative;
+            top: -15px;
+            left: 140px;
+            width: 95%;
+            img {
+                width: 100%;
+            }
+            .captionInfo {
+                color: $rosa;
+            }
+        }
+    }
 }

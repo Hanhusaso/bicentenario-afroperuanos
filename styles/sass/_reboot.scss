@@ -21,7 +21,7 @@ ul {
 .containerGrid {
     padding: 32px $padding-x-container;
     display: grid;
-    grid-template-columns: minmax(20%, 1fr) minmax(20%, 866px) minmax(20%, 1fr);
+    grid-template-columns: minmax(20%, 1fr) minmax(20%, 885px) minmax(20%, 1fr);
     position: relative;
     .linkDown {
         position: absolute;
@@ -161,6 +161,46 @@ ul {
             width: 100%;
         }
     }
+    &.lorry {
+        .text-1 {
+            width: 71%;
+            margin-bottom: 2%;
+        }
+        .wrapper-arrow-text {
+            width: 100%;
+            // display: grid;
+            // align-items: center;
+            // grid-template-columns: auto 15%;
+            // gap: 0 2%;
+            margin-bottom: 1%;
+            .flechas {
+                width: 100%;
+            }
+        }
+        .text-2 {
+            width: 100%;
+        }
+    }
+    &.martin {
+        .text-1 {
+            width: 71%;
+            margin-bottom: 2%;
+        }
+        .wrapper-arrow-text {
+            width: 100%;
+            // display: grid;
+            // align-items: center;
+            // grid-template-columns: auto 15%;
+            // gap: 0 2%;
+            margin-bottom: 1%;
+            .flechas {
+                width: 100%;
+            }
+        }
+        .text-2 {
+            width: 100%;
+        }
+    }
 }
 
 .underline-arrows {
@@ -218,4 +258,17 @@ ul {
 }
 .mb-160 {
     margin-bottom: 160px;
+}
+
+.textArrow {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+    .arrow {
+        width: 100%;
+        max-width: 240px;
+        &.right {
+            float: right;
+        }
+    }
 }

@@ -1,0 +1,80 @@
+@import "~/styles/sass/variables";
+
+.linkMenu {
+    color: $verde-claro;
+}
+
+.carousel {
+    margin-bottom: 160px;
+    .gridImgCaption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .wrapperImg {
+            width: 100%;
+            max-width: 458px;
+        }
+    }
+}
+
+.section1 {
+    background-color: $morado;
+    color: $rosa-claro;
+    height: 100vh;
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        height: 100%;
+    }
+    .grid1 {
+        display: grid;
+        grid-template-columns: 55% auto;
+        gap: 0px 60px;
+        .wrapperImg {
+            display: grid;
+            place-items: center;
+            height: 100%;
+        }
+    }
+    .partText {
+        color: $negro;
+    }
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 {
+    background-color: $verde-oscuro;
+    color: $rosa-claro;
+    .containerGrid3 {
+        padding-bottom: 0;
+    }
+    .linkMenu {
+        margin-top: 300px;
+    }
+}
+
+.section3 {
+    background-color: $verde-oscuro;
+    color: $rosa-claro;
+    .containerGrid3 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .linkMenu {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+.section4 {
+    background-color: $verde-oscuro;
+    color: $rosa-claro;
+    .containerGrid3 {
+        padding-top: 0;
+    }
+}

@@ -1,0 +1,57 @@
+@import "~/styles/sass/variables";
+
+.linkMenu {
+    color: $verde-claro;
+}
+
+.section1 {
+    background-color: $piel;
+    color: $guinda;
+    height: 100vh;
+    .containerGrid {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        height: 100%;
+    }
+    .grid1 {
+        display: grid;
+        grid-template-columns: 55% auto;
+        gap: 0px 60px;
+        .wrapperImg {
+            display: grid;
+            place-items: center;
+            height: 100%;
+        }
+    }
+    .partText {
+        color: $negro;
+    }
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 {
+    background-color: $guinda;
+    color: $piel;
+    .linkMenu {
+        margin-top: 300px;
+    }
+}
+.section3 {
+    background-color: $negro;
+    color: $piel;
+    .linkMenu {
+        margin-top: 300px;
+    }
+}
+.section4 {
+    background-color: $negro;
+    color: $piel;
+    .linkMenu {
+        margin-top: 100px;
+    }
+}

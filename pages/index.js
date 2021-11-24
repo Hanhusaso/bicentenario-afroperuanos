@@ -134,7 +134,7 @@ export default function Home() {
                                                     </Link>
                                                 </div>
                                                 <div className={`${styles.lorry} ${""}`}>
-                                                    <Link href="#">
+                                                    <Link href="./lorry-salcedo">
                                                         <a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
                                                             <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" />
                                                             <div className={`${styles.caption} ${"caption"}`}>
@@ -148,7 +148,7 @@ export default function Home() {
                                                     </Link>
                                                 </div>
                                                 <div className={`${styles.martin} ${""}`}>
-                                                    <Link href="#">
+                                                    <Link href="./martin-alvarado">
                                                         <a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
                                                             <img className="img-fluid" src="/img/menu/martin.jpg" alt="" />
                                                             <div className={`${styles.caption} ${"caption"}`}>

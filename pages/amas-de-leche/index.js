@@ -13,7 +13,7 @@ export default function index() {
             <Layout title="Amas de leche de la colección Gourret">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                        <div className="d-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5">
+                        <div className={`${styles.linkMenu} ${"d-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
                                     <div className="mb-2">
@@ -77,7 +77,7 @@ export default function index() {
                 <section className={styles.section2}>
                     <Element name="section2">
                         <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                            <div className="ps-0 ps-xl-5">
+                            <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
                                 <Link href="./#menuPrincipal">
                                     <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                         <div className="mb-2">
@@ -208,7 +208,7 @@ export default function index() {
                 </section>
                 <section className={styles.section3}>
                     <div className={`${styles.containerGrid2} ${"containerGrid2"}`}>
-                        <div className="ps-0 ps-xl-5">
+                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                     <div className="mb-2">
@@ -480,6 +480,88 @@ export default function index() {
                                     <p className={`${styles.text} ${"text mb-0"}`}>
                                         El conde Giacometti Marzano de Visconti, natural de Piacenza, Italia, se estableció en Lima como comerciante y contrajo matrimonio con Victoria Soyer Morote, natural de Lima.
                                     </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarouselWidth} ${"mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <div className="mb-5">
+                                        <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                            <div className={`${styles.wrapperImg} ${"wrapperImg mb-5"}`}>
+                                                <img className="img-fluid" src="/img/amas/don norman e hijo.jpg" alt="" />
+                                            </div>
+                                            <div className={`${styles.wrapperCaption} ${"wrapperCaption pe-0 text-center"}`}>
+                                                <p className="mb-0">
+                                                <b>Don Norman Evans e hijo Norman John y nieta.</b>
+                                                <br />
+                                                Adolfo Dubreuil.
+                                                <br />
+                                                18cm. x 24cm.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        El patriarca Norman Evans, natural de Inglaterra, se estableció en Lima en la década de 1860. Se casó con la arequipeña Ysabel Gallagher. Fue uno de los fundadores del Club Callao, exclusivo lugar de reunión de la comunidad inglesa en la capital. En este retrato realizado por A. Dubreuil, están reunidas tres generaciones de esta familia: Norman Evans acompañado de su hijo Johm y su pequeña nieta, quienes posan en medio de una suntuosa escenografía y mobiliario que imita un espacio residencial burgués.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </section>
+                <section className={styles.section6}>
+                    <div className={`${styles.containerGrid} ${"containerGrid"}`}>
+                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                            <Link href="./#menuPrincipal">
+                                <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
+                                    <div className="mb-2">
+                                        <ButtonMove dir="up"/>
+                                    </div>
+                                    <span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+                                </a>
+                            </Link>
+                        </div>
+                        <div>
+                            <p className={`${styles.titleSection1} ${"titleSection"}`}>Las fotografías de amas de leche 1879 –1912.<br />El rol de la mujer afroperuana en el último tercio del siglo XIX</p>
+                            <p className="mb-5">
+                                Tras la abolición de la esclavitud en 1854, las mujeres afroperuanas buscaron diversos medios para subsistir en una sociedad donde el color de la piel y el estatus socioeconómico teñían cada estamento y donde la mujer empezaba a abrirse al espacio público. De acuerdo con el censo de Lima de 1860, las encontramos dedicadas a la venta y producción de alimentos, administrando pequeños negocios o como costureras, trabajadoras domésticas y nodrizas, entre otros oficios.
+                            </p>
+                            <p className="mb-5">
+                                Muchas de ellas continuaron ofreciendo sus servicios como ama de leche o ama de cría. No obstante, este no fue un oficio cualquiera, puesto que estas mujeres se vincularon directamente con el núcleo familiar de las esferas más altas de la sociedad limeña nutriendo y cuidando a los más pequeños por un salario modesto. Para su contratación, debían probar que contaban con una excelente salud, conducta y una moral intachable. Asimismo, si el vínculo con estas familias se prolongaba en el tiempo pasaban a ser amas secas o de cría.
+                            </p>
+                            <p className="mb-5">
+                                La fotografía desveló de forma masiva esta antigua práctica llenando los álbumes familiares y las tarjetas de visita que circularon por diferentes países ganando fama alrededor del mundo. En nuestro continente, distinguidos estudios y fotógrafos de la época como Wenderoth, Taylor & Brown en los Estados Unidos de Norteamérica, Joao Ferreira Villela en Brasil, Federico Lessman en Venezuela y Alejandro Witcomb en Argentina desarrollaron este tipo de retrato. Posiblemente, fue el único contexto en que estas nodrizas pudieron acceder a un retrato en un estudio fotográfico.
+                            </p>
+                            <div className={`${styles.grid3} ${""}`}>
+                                <div>
+                                    <p>
+                                        En nuestro país, el prestigioso Estudio Courret no fue la excepción y los infantes de las familias de la élite limeña posaron junto a sus amas ante las lentes de Eugenio Courret y Adolfo Dubreuil; su sucesor, entre el último tercio del siglo XIX y principios del XX. Los niños fueron retratados generalmente sobre un pedestal o descansando sobre el regazo y los brazos de su ama, en medio de una escenografía compuesta por telones neutros o pintados con arquitecturas simuladas. Bajo una luz cenital que desciende sobre ellos a través de teatinas, predomina una atmósfera de intimidad y cercanía que desborda el retrato.
+                                    </p>
+                                    <p>
+                                        La casa Courret es reconocida por una notable construcción estética de la imagen fotográfica, lograda a partir del decorado de la escenografía, el mobiliario y las posturas que debían sostener los retratados; las cuales eran reflejo del rol que la sociedad les asignaba o pensaba sobre ellos. De esto, observamos que el discurso visual vertido en estos retratos buscó transmitir familiaridad y un vínculo casi maternal entre el niño y su ama. Gestos como las manos entrelazadas y la misma proximidad la encontramos también en las fotografías de estos infantes junto a sus madres biológicas.
+                                    </p>
+                                    <p className="mb-0">
+                                        Estamos habituados a ver con cierta normalidad estos retratos, pero raramente nos preguntamos quiénes fueron estas mujeres y desconocemos que su rol dentro de los hogares de las clases altas no fue secundario. Su identidad ha permanecido en el anonimato, pero su identidad étnica no, puesto que fueron un puente entre distintas clases sociales, culturas y tradiciones. Lejos de ser imágenes estereotipadas de la mujer afroperuana o de los afrodescendientes en general, estos retratos antológicos perviven como una muestra de que todos estamos conectados étnica y culturalmente, ya que por nuestras venas corre una misma sangre, una misma nación. He ahí la emoción de estas fotografías.
+                                    </p>
+                                </div>
+                                <div className={styles.wrapperImage}>
+                                    <div className="text-center">
+                                        <img loading="lazy" className="img-fluid mb-4" src="/img/amas/estudio courret.jpg" alt="" />
+                                        <div className={`${styles.captionInfo} ${"captionInfo"}`}>
+                                            <p>
+                                                “<b>Fotografía Central</b>”. E. Courret y Cia.
+                                                <br />
+                                                Adolfo Dubreuil, sucesor.
+                                            </p>
+                                            <p className="mb-0">
+                                                Estudio fotográfico Courret. (1863-1935)
+                                                <br />
+                                                El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en 1905.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

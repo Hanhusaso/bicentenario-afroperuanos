@@ -3,12 +3,19 @@
 }
 
 .carousel-indicators {
-    transform: translate(17%, calc(100% + 20px));
+    transform: translate(0, calc(100% + 20px));
     margin-bottom: 0;
     [data-bs-target] {
         height: 30px;
         border-radius: 50%;
         border-top: none;
         border-bottom: none;
+    }
+}
+
+.gridCarousel {
+    .carousel-indicators {
+        transform: translate(17%, calc(100% + 20px));
+        margin-bottom: 0;
     }
 }
