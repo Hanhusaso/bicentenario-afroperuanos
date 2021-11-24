@@ -1,161 +1,161 @@
 @import "~/styles/sass/variables";
 
 .home1 {
-    background-color: $bg-home-color-1;
-    height: calc( 100vh - $header-height);
-    .containerGrid {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        height: 100%;
-        .logoBicentenario {
-            width: 100%;
-            padding-left: 50px;
-            max-width: 320px;
-            float: right;
-        }
-    }
+	background-color: $bg-home-color-1;
+	height: calc(100vh - $header-height);
+	.containerGrid {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		height: 100%;
+		.logoBicentenario {
+			width: 100%;
+			padding-left: 50px;
+			max-width: 320px;
+			float: right;
+		}
+	}
 }
 .home2 {
-    background-color: $bg-home-color-2;
-    color: $blanco;
-    height: 100vh;
-    a {
-        color: $blanco;
-    }
-    .containerGrid {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        height: 100%;
-        .grid {
-            display: grid;
-            grid-template-columns: 30% auto;
-            .menuGrid {
-                display: inline-grid;
-                grid-template-columns: auto auto;
-                grid-template-rows: repeat(4, auto);
-                gap: 25px 30px;
-                .ama {
-                    grid-row-start: 2;
-                    grid-row-end: span 2;
-                }
-                .lorry {
-                    grid-column-start: 2;
-                    grid-row-end: span 2;
-                }
-                .martin {
-                    grid-column-start: 2;
-                    grid-row-start: 3;
-                    grid-row-end: span 2;
-                }
-                .wrapperCaption1 {
-                    &:hover {
-                        top: -100px;
-                    }
-                }
-                .wrapperCaption2 {
-                    &:hover {
-                        right: -80px;
-                    }
-                }
-                .wrapperCaption3 {
-                    &:hover {
-                        top: 80px;
-                    }
-                }
-            }
-        }
-    }
+	background-color: $bg-home-color-2;
+	color: $blanco;
+	height: 100vh;
+	a {
+		color: $blanco;
+	}
+	.containerGrid {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		height: 100%;
+		.grid {
+			display: grid;
+			grid-template-columns: 30% auto;
+			.menuGrid {
+				display: inline-grid;
+				grid-template-columns: auto auto;
+				grid-template-rows: repeat(4, auto);
+				gap: 25px 30px;
+				.ama {
+					grid-row-start: 2;
+					grid-row-end: span 2;
+				}
+				.lorry {
+					grid-column-start: 2;
+					grid-row-end: span 2;
+				}
+				.martin {
+					grid-column-start: 2;
+					grid-row-start: 3;
+					grid-row-end: span 2;
+				}
+				// .wrapperCaption1 {
+				//     &:hover {
+				//         top: -100px;
+				//     }
+				// }
+				// .wrapperCaption2 {
+				// 	&:hover {
+				// 		right: -80px;
+				// 	}
+				// }
+				// .wrapperCaption3 {
+				// 	&:hover {
+				// 		top: 80px;
+				// 	}
+				// }
+			}
+		}
+	}
 }
 .home3 {
-    background-color: $bg-home-color-3;
-    color: $blanco;
-    height: 100vh;
-    a {
-        color: $blanco;
-    }
-    .containerGrid {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        height: 100%;
-    }
+	background-color: $bg-home-color-3;
+	color: $blanco;
+	height: 100vh;
+	a {
+		color: $blanco;
+	}
+	.containerGrid {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		height: 100%;
+	}
 }
 .home4 {
-    background-color: $bg-home-color-4;
-    color: $piel;
-    a {
-        color: $piel;
-    }
-    .containerGrid {
-        padding-top: 64px;
-        padding-bottom: 32px;
-        // height: 100%;
-        .linkMenu {
-            margin-top: 300px;
-        }
-        .containerVideos {
-            .video1 {
-                .infoVideo {
-                    background-color: $guinda;
-                    .mirar {
-                        border-bottom: 1px solid $piel;
-                    }
-                    .titulo {
-                        border-bottom: 1px solid $piel;
-                    }
-                }
-            }
-            .video2 {
-                .infoVideo {
-                    color: $guinda;
-                    background-color: $piel;
-                    .mirar {
-                        border-bottom: 1px solid $guinda;
-                    }
-                    .titulo {
-                        border-bottom: 1px solid $guinda;
-                    }
-                }
-            }
-            .video3 {
-                .infoVideo {
-                    color: $azul;
-                    background-color: $gris;
-                    .mirar {
-                        border-bottom: 1px solid $azul;
-                    }
-                    .titulo {
-                        border-bottom: 1px solid $azul;
-                    }
-                }
-            }
-            .video4 {
-                .infoVideo {
-                    color: $gris;
-                    background-color: $azul;
-                    .mirar {
-                        border-bottom: 1px solid $gris;
-                    }
-                    .titulo {
-                        border-bottom: 1px solid $gris;
-                    }
-                }
-            }
-        }
-    }
+	background-color: $bg-home-color-4;
+	color: $piel;
+	a {
+		color: $piel;
+	}
+	.containerGrid {
+		padding-top: 64px;
+		padding-bottom: 32px;
+		// height: 100%;
+		.linkMenu {
+			margin-top: 300px;
+		}
+		.containerVideos {
+			.video1 {
+				.infoVideo {
+					background-color: $guinda;
+					.mirar {
+						border-bottom: 1px solid $piel;
+					}
+					.titulo {
+						border-bottom: 1px solid $piel;
+					}
+				}
+			}
+			.video2 {
+				.infoVideo {
+					color: $guinda;
+					background-color: $piel;
+					.mirar {
+						border-bottom: 1px solid $guinda;
+					}
+					.titulo {
+						border-bottom: 1px solid $guinda;
+					}
+				}
+			}
+			.video3 {
+				.infoVideo {
+					color: $azul;
+					background-color: $gris;
+					.mirar {
+						border-bottom: 1px solid $azul;
+					}
+					.titulo {
+						border-bottom: 1px solid $azul;
+					}
+				}
+			}
+			.video4 {
+				.infoVideo {
+					color: $gris;
+					background-color: $azul;
+					.mirar {
+						border-bottom: 1px solid $gris;
+					}
+					.titulo {
+						border-bottom: 1px solid $gris;
+					}
+				}
+			}
+		}
+	}
 }
 .home5 {
-    background-color: $footer-color;
-    color: $azul;
-    a {
-        color: $azul;
-    }
-    .containerGrid {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        // height: 100%;
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-    }
+	background-color: $footer-color;
+	color: $azul;
+	a {
+		color: $azul;
+	}
+	.containerGrid {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		// height: 100%;
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
 }
