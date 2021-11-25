@@ -19,7 +19,6 @@ export default function Compar1() {
     return (
         <>
             <Layout title="comparison 1">
-                <script src="/js/comparison.js"></script>
                 <div className={`${styles.body} ${"body"}`}>
                     <div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
                         <img className={`${styles.imgCompImg} ${"imgCompImg"}`} src="/img/amas/matrimonio ascher freymann.jpg" />
