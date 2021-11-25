@@ -10,7 +10,7 @@
         .logoBicentenario {
             width: 100%;
             padding-left: 50px;
-            max-width: 320px;
+            max-width: 290px;
             float: right;
         }
     }
@@ -29,6 +29,7 @@
         .grid {
             display: grid;
             grid-template-columns: 30% auto;
+            gap: 0px 60px;
             .menuGrid {
                 display: inline-grid;
                 grid-template-columns: auto auto;
