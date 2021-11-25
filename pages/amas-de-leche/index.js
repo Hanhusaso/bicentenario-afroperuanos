@@ -606,7 +606,7 @@ export default function index() {
                                                         <input type="range" min="0" max="100" value="50" />
                                                     </div>
                                                 </div> */}
-                                                {/* <iframe className={`${styles.iframe1} ${"iframe1"}`} src="/amas-de-leche/compar1" frameborder="0"></iframe> */}
+                                                <iframe className={`${styles.iframe1} ${"iframe1"}`} src="/amas-de-leche/compar1" frameborder="0"></iframe>
                                             </div>
                                         </div>
                                     </div>
