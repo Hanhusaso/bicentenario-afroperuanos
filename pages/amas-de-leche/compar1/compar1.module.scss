@@ -1,0 +1,42 @@
+@import "~/styles/sass/variables";
+
+.body {
+    height: 100vh;
+    background-color: $negro;
+    display: grid;
+    place-items: center;
+}
+
+.wrapperComp {
+    height: 95vmin;
+    width: 67.5vmin;
+    position: relative;
+    // overflow: hidden;
+    .imgCompImg {
+        position: absolute;
+        width: 100%;
+        &.last {
+            clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        }
+    }
+    .slider {
+        position: relative;
+        appearance: none;
+        width: calc(100% + 40px);
+        height: 100%;
+        margin-left: -20px;
+        // background: url("/img/amas/red_circle.png");
+        background: transparent;
+        outline: none;
+        &::-webkit-slider-thumb {
+            appearance: none;
+            height: 100vh;
+            width: 40px;
+            background: url("/img/amas/red_circle_trans.png"), url("/img/amas/red_circle_trans.png"), url("/img/amas/blockred.png");
+            background-size: 20px 20px, 20px 20px, 6px 6px;
+            background-repeat: no-repeat, no-repeat, no-repeat repeat;
+            background-position: center 0%, center 100%, center 0%;
+            // background-position-y: 0, 100%, 0;
+        }
+    }
+}

@@ -408,9 +408,9 @@ export default function index() {
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
                                                 <p className="mb-0">
-                                                <b>Ysidro Ernesto Ascher Freymann y ama.</b>
+                                                <b>Clinton Evans Gallagher y ama.</b>
                                                 <br />
-                                                Adolfo Dubreuil. 1903
+                                                Eugenio Courret. 1880
                                                 <br />
                                                 18 cm. X 13 cm.
                                                 </p>
@@ -423,7 +423,7 @@ export default function index() {
                                 </div>
                                 <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
                                     <p className={`${styles.text} ${"text mb-0"}`}>
-                                        El bebé Ascher, retratado con un primoroso ropón de bautizo, nació el 31 de octubre de 1902. Su nodriza lo sostiene de modo que sea el punto de mira del retrato.
+                                        El bebé Clinton Evans sería retratado por el Estudio Courret hasta su adolescencia. El retrato con su joven ama de leche afroperuana sería una de las imágenes más representativas de esta familia limeña.
                                     </p>
                                 </div>
                             </div>
@@ -434,11 +434,11 @@ export default function index() {
                                             <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                                 <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
                                                     <p className="mb-0">
-                                                    <b>Conde José Luis Giacometti Marzano de Visconti</b>
+                                                    <b>Clinton Evans Gallagher y ama.</b>
                                                     <br />
-                                                    Eugenio Courret. 1886
+                                                    Eugenio Courret. 1880
                                                     <br />
-                                                    12 cm. X 9cm
+                                                    18 cm, x 13 cm.
                                                     </p>
                                                 </div>
                                                 <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -478,7 +478,7 @@ export default function index() {
                                 </div>
                                 <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
                                     <p className={`${styles.text} ${"text mb-0"}`}>
-                                        El conde Giacometti Marzano de Visconti, natural de Piacenza, Italia, se estableció en Lima como comerciante y contrajo matrimonio con Victoria Soyer Morote, natural de Lima.
+                                        Ysabel Gallagher falleció repentinamente dos años después de la realización de este retrato junto a su mejor hijo.
                                     </p>
                                 </div>
                             </div>
@@ -551,14 +551,11 @@ export default function index() {
                                         <img loading="lazy" className="img-fluid mb-4" src="/img/amas/estudio courret.jpg" alt="" />
                                         <div className={`${styles.captionInfo} ${"captionInfo"}`}>
                                             <p>
-                                                “<b>Fotografía Central</b>”. E. Courret y Cia.
+                                                “<b>Manuela Gildemesiter con ama.</b>”
                                                 <br />
-                                                Adolfo Dubreuil, sucesor.
-                                            </p>
-                                            <p className="mb-0">
-                                                Estudio fotográfico Courret. (1863-1935)
+                                                Eugenio Courrer. Ca. 1870.
                                                 <br />
-                                                El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en 1905.
+                                                Tarjeta de visita
                                             </p>
                                         </div>
                                     </div>
@@ -568,6 +565,525 @@ export default function index() {
                         <div></div>
                     </div>
                 </section>
+                <section className={styles.section7}>
+                    <div className={`${styles.containerGrid2} ${"containerGrid2"}`}>
+                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                            <Link href="./#menuPrincipal">
+                                <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
+                                    <div className="mb-2">
+                                        <ButtonMove dir="up"/>
+                                    </div>
+                                    <span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+                                </a>
+                            </Link>
+                        </div>
+                        <div>
+                            <div className={`${styles.gridCarousel} ${styles.gridCarouselAuto} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <div className="w-100 mb-5">
+                                        <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                            <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                <p className="mb-0">
+                                                <b>YCarlos Grace y Ama.</b>
+                                                <br />
+                                                Eugenio Courret, 1881.
+                                                <br />
+                                                12 cm. x 18 cm.
+                                                </p>
+                                            </div>
+                                            <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                {/* <img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" /> */}
+                                                {/* <div className="wrapper-comp">
+                                                    <div className="img-comp-container">
+                                                        <div className="img-comp-img">
+                                                            <img src="/img/amas/matrimonio ascher freymann.jpg" />
+                                                        </div>
+                                                        <div className="img-comp-img">
+                                                            <img src="/img/amas/familia ascher freymann.jpg" />
+                                                        </div>
+                                                    </div>
+                                                    <div className="slider">
+                                                        <input type="range" min="0" max="100" value="50" />
+                                                    </div>
+                                                </div> */}
+                                                <iframe className={`${styles.iframe1} ${"iframe1"}`} src="/amas-de-leche/compar1" frameborder="0"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        <b>Las familias más acaudaladas</b> podían permitirse contar con más de una nodriza para el cuidado de sus hijos, este fue el caso del pequeño Roberto Baudrot, quien fue retratado junto a sus dos jóvenes amas. Una de ellas sonríe y sostiene al niño con su mano derecha; mientras que la nodriza ubicada en el fondo destaca por la elegancia de su atuendo, el cual reflejaría indirectamente el elevado estatus de esta familia. Roberto Baudrot fue hijo de Augusto Antonio Baudrot, un notable comerciante francés radicado en Lima.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${styles.gridCarouselAuto} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <div className="mb-5">
+                                        <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                            <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                <p className="mb-0">
+                                                <b>Familia Ascher Freymann</b>
+                                                <br />
+                                                Adolfo Dubreuil. 1903
+                                                </p>
+                                            </div>
+                                            <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                <img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        <b>La composición de estos retratos</b> nos remite a una de las primeras fotografías o retratos de amas o nodrizas afroperuanas realizada por Benjamin Franklin Pease casi medio siglo antes: “El Patroncito” o “Niño y dos amas”. En este daguerrotipo, dos amas flanquean y sostienen a un niño ubicado sobre una lujosa silla Hepplewhite, mientras una tercera persona escondida en el fondo sujeta la cabeza del infante para mantenerlo estable. Por la fecha aproximada de esta fotografía, es probable que estas mujeres fueron retratadas en condición de esclavitud, lo cual estaría simbolizado y dulcificado en el fuete que sostiene el pequeño “amito”.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </section>
+                <section className={styles.section8}>
+                    <div className={`${styles.containerGrid2} ${"containerGrid2"}`}>
+                        <div></div>
+                        <div>
+                            <div className={`${styles.gridCarousel} ${styles.gridCarouselAuto} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <div className="mb-5">
+                                        <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                            <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                <p className="mb-0">
+                                                <b>Andrés Larco y Ama.</b>
+                                                <br />
+                                                Adolfo Dubreuil, 1895
+                                                <br />
+                                                13 cm. x 18 cm.
+                                                </p>
+                                            </div>
+                                            <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                <img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        Este retrato fue la imagen de la VII versión del Mes de la Fotografía de Paris en el año 1994, la que reunió más de noventa exposiciones de todo el mundo y en la queparticipó nuestro país con la celebrada exposición “Memoria de una ciudad. Estudio Fotográfico Courret Hnos. (1863-1935)”.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <Carousel className="mb-5" fade={true} controls={false} interval={null}>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Ada Peters Brown y nodriza.</b>
+                                                    <br />
+                                                    Wenderoth, Taylor & Brown, 1860.
+                                                    <br />
+                                                    Pensilvania, Estados Unidos.
+                                                    <br />
+                                                    Carta de visita, 10cm. X 6cm.
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        Otros paises Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iste debitis. Labore voluptatibus harum aperiam perferendis nihil explicabo quos doloremque iusto, tenetur ex culpa, voluptatum quas, fugit earum eveniet fugiat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </section>
+                <section className={styles.section9}>
+                    <div className={`${styles.containerGrid2} ${"containerGrid2"}`}>
+                        <div></div>
+                        <div>
+                            <div className={`${styles.gridCarousel} ${styles.gridCarouselNoText} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <div className="mb-5">
+                                        <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                            <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                <p className="mb-0">
+                                                <b>Familia Ascher Freymann</b>
+                                                <br />
+                                                Adolfo Dubreuil. 1903
+                                                </p>
+                                            </div>
+                                            <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                <img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}></p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <Carousel className="mb-5" fade={true} controls={false} interval={null}>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Manuel Valverde y ama.</b>
+                                                    <br />
+                                                    Eugenio Courret, 1879.
+                                                    <br />
+                                                    12 cm. x 9 cm.
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        La mayoría de las amas fueron retratadas vistiendo un pañolón largo o mantilla negra. Las mujeres de clase alta la usaron con telas finas de ricos bordados, mientras que las clases bajas emplearon telas más sencillas como el algodón o el lino. Se ha dicho que esta prenda reflejaba la decencia y religiosidad de quien la portaba, cualidades admiradas en una nodriza.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <Carousel className="mb-5" fade={true} controls={false} interval={null}>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>René Melot y ama</b>
+                                                    <br />
+                                                    Adolfo Dubreuil, 1912
+                                                    <br />
+                                                    13 cm. x 18 cm
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        <b>Ante un telón de fondo decorado</b> con un cortinaje y una estancia interior, el bebé Melot y su ama fueron retratados en distintas composiciones. En la primera, la nodriza sostiene al pequeño en su regazo mientras que, en la segunda, Dubreuil agregó una pequeña mesa colocando al niño a la misma altura que su ama, generando así una mayor cercanía entre ambos. Ella mira hacia la cámara en tanto que el bebé sonríe y dirige su mirada hacia un punto detrás de la toma fotográfica, posiblemente en donde se encuentra uno de sus padres.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <Carousel className="mb-5" fade={true} controls={false} interval={null}>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Carmen Gallagher Canaval</b>
+                                                    <br />
+                                                    Eugenio Courret, 1882.
+                                                    <br />
+                                                    12 cm. X 18cm
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        Estas nodrizas eran requeridas, además, cuando se retrataba individualmente a los bebés y niños más pequeños. Ellas debían sostenerlos y, para no aparecer en el retrato, se les pedía ocultarse tras el mobiliario como vemos en el retrato de la niña Carmen Gallagher. En estas diferentes tomas se observa cómo el ama sostiene a la pequeña a través de una cinta mientras se ubica detrás de la silla para quedar parcialmente fuera de la toma. En algunos casos, se las cubría completamente con un manto negro borrándolas o anulándolas de la imagen. No obstante, la presencia “ausente” de estas amas cubiertas o escondidas en estas fotografías es lo que llama poderosamente nuestra atención. A lo largo del tiempo se han vertido diversas interpretaciones sobre estos retratos, unas relacionadas con la invisibilización de estas nodrizas por cuestiones étnicas o clasistas; mientras otras refieren que se trató de una técnica fotográfica más. No tenemos ninguna certeza, pero aparentemente no eran las madres de la élite a quienes se cubría.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+                                <div className="d-flex align-items-center">
+                                    <Carousel className="mb-5" fade={true} controls={false} interval={null}>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Conde José Luis Giacometti Marzano de Visconti</b>
+                                                    <br />
+                                                    Eugenio Courret. 1886
+                                                    <br />
+                                                    12 cm. X 9cm
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>María Dubois y ama</b>
+                                                    <br />
+                                                    Adolfo Dubreuil, 1894
+                                                    <br />
+                                                    13 cm. x 18 cm
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                        <Carousel.Item>
+                                            <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                                <div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+                                                    <p className="mb-0">
+                                                    <b>Familia Ascher Freymann</b>
+                                                    <br />
+                                                    Adolfo Dubreuil. 1903
+                                                    </p>
+                                                </div>
+                                                <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+                                                    <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" />
+                                                </div>
+                                            </div>
+                                        </Carousel.Item>
+                                    </Carousel>
+                                </div>
+                                <div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+                                    <p className={`${styles.text} ${"text mb-0"}`}>
+                                        <b>En una misma sesión fotográfica</b>, se realizaban diversos retratos del infante: uno junto a su ama de leche, un retrato individual o en solitario y diversos retratos junto a sus familiares.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </section>
+                {/* <script src="/js/comparison.js"></script> */}
             </Layout>
         </>
     )
