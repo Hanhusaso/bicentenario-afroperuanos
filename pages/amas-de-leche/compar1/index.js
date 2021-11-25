@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Layout from "../../../components/Layout"
 import styles from "./compar1.module.scss"
 
-export default function compar1() {
+export default function Compar1() {
     const lastImgRef = useRef();
     const sliderRef = useRef();
 
