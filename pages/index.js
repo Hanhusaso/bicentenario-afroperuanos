@@ -62,9 +62,9 @@ export default function Home() {
                     </div>
                 </section>
                 <section className={styles.home2}>
-                    <Element id="menuPrincipal" className="h-100" name="menuPrincipal">
+                    <Element id="menuPrincipal" className={`${styles.element2}`} name="menuPrincipal">
                         <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                            <div className="d-flex align-items-center">
+                            <div className="d-none d-md-flex align-items-center">
                                 <LinkScroll activeClass="active" className="pointer d-flex align-items-center" to="header" smooth={true} duration={200}>
                                     <div className="me-2 d-inline">
                                         <ButtonMove dir="up"/>
@@ -171,9 +171,9 @@ export default function Home() {
                     </Element>
                 </section>
                 <section className={styles.home3}>
-                    <Element className="h-100" name="introduccion">
+                    <Element className={`${styles.element3}`} name="introduccion">
                         <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                            <div className="d-flex align-items-center">
+                            <div className={`${styles.linkMenu} ${"linkMenu d-none d-md-flex align-items-center"}`}>
                                 <LinkScroll activeClass="active" className="pointer d-flex align-items-center" to="menuPrincipal" smooth={true} duration={200}>
                                     <div className="me-2 d-inline">
                                         <ButtonMove dir="up"/>
@@ -204,10 +204,10 @@ export default function Home() {
                     </Element>
                 </section>
                 <section className={styles.home4}>
-                    <Element className="h-100" name="actividadesParalelas">
+                    <Element className={`${styles.element4}`} name="actividadesParalelas">
                         <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                             <div className="">
-                                <LinkScroll activeClass="active" className={`${styles.linkMenu} ${"pointer d-flex align-items-center"}`} to="menuPrincipal" smooth={true} duration={200}>
+                                <LinkScroll activeClass="active" className={`${styles.linkMenu} ${"pointer d-none d-md-flex align-items-center"}`} to="menuPrincipal" smooth={true} duration={200}>
                                     <div className="me-2 d-inline">
                                         <ButtonMove dir="up"/>
                                     </div>
@@ -263,9 +263,9 @@ export default function Home() {
                     </Element>
                 </section>
                 <section className={styles.home5}>
-                <Element className="h-100" name="creditos">
+                <Element className={`${styles.element5}`} name="creditos">
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                        <div className="d-flex align-items-center">
+                        <div className="d-none d-md-flex align-items-center">
                             <LinkScroll activeClass="active" className="pointer d-flex align-items-center" to="menuPrincipal" smooth={true} duration={200}>
                                 <div className="me-2 d-inline">
                                     <ButtonMove dir="up"/>

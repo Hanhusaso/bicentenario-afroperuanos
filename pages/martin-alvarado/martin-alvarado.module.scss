@@ -21,6 +21,9 @@
     background-color: $morado;
     color: $rosa-claro;
     height: 100vh;
+    @media (max-width: 767.98px) {
+        height: auto;
+    }
     .containerGrid {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -30,6 +33,9 @@
         display: grid;
         grid-template-columns: 55% auto;
         gap: 0px 60px;
+        @media (max-width: 767.98px) {
+            display: block;
+        }
         .wrapperImg {
             display: grid;
             place-items: center;

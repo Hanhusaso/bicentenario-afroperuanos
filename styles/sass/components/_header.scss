@@ -1,4 +1,4 @@
-header {
+.navbarHeader {
     padding: 0px $padding-x-container;
     height: $header-height;
     background-color: $header-color;
@@ -11,6 +11,11 @@ header {
         padding: 0px 20px;
     }
 
+    @include media-breakpoint-down(lg) {
+        height: auto;
+        padding: 10px 20px;
+    }
+
     a {
         color: $blanco;
         text-decoration: none;
@@ -19,13 +24,21 @@ header {
         }
     }
 
-    nav {
+    .navbar-collapse {
+        flex-grow: initial;
         ul {
             display: flex;
             text-transform: uppercase;
+            @include media-breakpoint-down(lg) {
+                display: block;
+                padding-top: 10px;
+            }
             li {
                 padding: 0px 24px;
                 position: relative;
+                @include media-breakpoint-down(lg) {
+                    padding: 5px 0px;
+                }
                 &::after {
                     content: "";
                     background-color: $blanco;
@@ -34,6 +47,9 @@ header {
                     position: absolute;
                     right: -0.5px;
                     top: 4px;
+                    @include media-breakpoint-down(lg) {
+                        content: initial;
+                    }
                 }
                 &:first-child {
                     padding-left: 0px;
@@ -47,4 +63,8 @@ header {
             }
         }
     }
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/img/svg/menu.svg");
 }

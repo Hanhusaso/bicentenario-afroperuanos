@@ -13,7 +13,7 @@ export default function index() {
             <Layout title="Lorry Salcedo">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                        <div className={`${styles.linkMenu} ${"d-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
                                     <div className="mb-2">
@@ -56,7 +56,7 @@ export default function index() {
                                     </div>
                                     <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
                                         <div className={`${styles.partText} ${"partText"}`}>
-                                            <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
+                                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
                                             Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
                                             Eveniet omnis dignissimos doloremque et cum excepturi?</p>
                                         </div>
@@ -80,7 +80,7 @@ export default function index() {
                 <section className={styles.section2}>
                     <Element name="section2">
                         <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                            <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                            <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                                 <Link href="./#menuPrincipal">
                                     <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                         <div className="mb-2">
@@ -99,7 +99,7 @@ export default function index() {
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Bailando El Alcatraz
@@ -107,7 +107,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Bailando durante la yunza
@@ -115,7 +115,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             José bailando
@@ -130,7 +130,7 @@ export default function index() {
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Filomeno tocando para el vecino
@@ -138,7 +138,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Filomeno tocando cajón
@@ -146,7 +146,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Manos sobre la tumba
@@ -154,14 +154,14 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
-                                    <img loading="lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
+                                    <img loading="img-fluid lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                     <p className="mb-0">
                                         “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
                                     </p>
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Paseando al Santo de día
@@ -169,7 +169,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Rezando a la virgen
@@ -177,7 +177,7 @@ export default function index() {
                                     </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
                                             Jugando en el cementario
@@ -191,7 +191,7 @@ export default function index() {
                 </section>
                 <section className={styles.section3}>
                     <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                     <div className="mb-2">
@@ -210,7 +210,7 @@ export default function index() {
                                 <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                             </div>
                             <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                 <div>
                                     <p className="captionInfo mb-0">
                                         Susana Baca
@@ -218,7 +218,7 @@ export default function index() {
                                 </div>
                             </div>
                             <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                 <div>
                                     <p className="captionInfo mb-0">
                                         Músico Amador Balllumbrosio
@@ -233,7 +233,7 @@ export default function index() {
                                 <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                             </div>
                             <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                 <div>
                                     <p className="captionInfo mb-0">
                                         Señora Cueto con futbolista
@@ -246,7 +246,7 @@ export default function index() {
                 </section>
                 <section className={styles.section4}>
                     <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                     <div className="mb-2">
@@ -258,7 +258,7 @@ export default function index() {
                         </div>
                         <div>
                             <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                 <div>
                                     <p className="captionInfo mb-0">
                                         Tila y Roberto
@@ -266,7 +266,7 @@ export default function index() {
                                 </div>
                             </div>
                             <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                 <div>
                                     <p className="captionInfo mb-0">
                                         Camilo

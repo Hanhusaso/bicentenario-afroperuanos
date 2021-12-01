@@ -13,7 +13,7 @@ export default function index() {
             <Layout title="Martín Alvarado">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                        <div className={`${styles.linkMenu} ${"d-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
                                     <div className="mb-2">
@@ -56,7 +56,7 @@ export default function index() {
                                     </div>
                                     <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
                                         <div className={`${styles.partText} ${"partText"}`}>
-                                            <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
+                                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
                                             Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
                                             Eveniet omnis dignissimos doloremque et cum excepturi?</p>
                                         </div>
@@ -80,7 +80,7 @@ export default function index() {
                 <section className={styles.section2}>
                     <Element name="section2">
                         <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                            <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                            <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                                 <Link href="./#menuPrincipal">
                                     <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                         <div className="mb-2">
@@ -102,7 +102,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -112,7 +112,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -122,7 +122,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -132,7 +132,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -142,7 +142,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -152,7 +152,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -162,7 +162,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -172,7 +172,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -182,7 +182,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -192,7 +192,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -204,7 +204,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -214,7 +214,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -224,7 +224,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -234,7 +234,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -244,7 +244,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -254,7 +254,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -264,7 +264,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -274,7 +274,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -284,7 +284,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -294,7 +294,7 @@ export default function index() {
                                     <Carousel.Item>
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                             <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                                <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                                <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                             </div>
                                             <p className="captionInfo mb-0">
                                                 Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -309,7 +309,7 @@ export default function index() {
                 </section>
                 <section className={styles.section3}>
                     <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                        <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                     <div className="mb-2">
@@ -331,7 +331,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -341,7 +341,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -351,7 +351,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -361,7 +361,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -371,7 +371,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -381,7 +381,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -391,7 +391,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -401,7 +401,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -411,7 +411,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -421,7 +421,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -441,7 +441,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -451,7 +451,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -461,7 +461,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -471,7 +471,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -481,7 +481,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -491,7 +491,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -501,7 +501,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -511,7 +511,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -521,7 +521,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -531,218 +531,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                            </Carousel>
-                            <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
-                                <img loading="lazy" className="arrow left" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
-                                <p className="mb-0">
-                                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
-                                </p>
-                                <img loading="lazy" className="arrow right" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
-                            </div>
-                            <Carousel className={`${styles.carousel} ${"carousel"}`} fade={true} controls={false} interval={null}>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                            </Carousel>
-                            <Carousel className={`${styles.carousel} ${"carousel"}`} fade={true} controls={false} interval={null}>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
-                                        </div>
-                                        <p className="captionInfo mb-0">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
-                                        </p>
-                                    </div>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -761,7 +550,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -771,7 +560,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -781,7 +570,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -791,7 +580,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -801,7 +590,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -811,7 +600,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -821,7 +610,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -831,7 +620,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -841,7 +630,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -851,7 +640,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -863,7 +652,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -873,7 +662,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -883,7 +672,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -893,7 +682,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -903,7 +692,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -913,7 +702,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -923,7 +712,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -933,7 +722,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -943,7 +732,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -953,7 +742,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -972,7 +761,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -982,7 +771,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -992,7 +781,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1002,7 +791,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1012,7 +801,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1022,7 +811,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1032,7 +821,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1042,7 +831,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1052,7 +841,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1062,7 +851,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1074,7 +863,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1084,7 +873,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1094,7 +883,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1104,7 +893,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1114,7 +903,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1124,7 +913,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1134,7 +923,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1144,7 +933,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.
@@ -1154,7 +943,7 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -1164,7 +953,218 @@ export default function index() {
                                 <Carousel.Item>
                                     <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
                                         <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
-                                            <img src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                            </Carousel>
+                            <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
+                                <img loading="lazy" className="arrow left" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
+                                <p className="mb-0">
+                                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
+                                </p>
+                                <img loading="lazy" className="arrow right" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
+                            </div>
+                            <Carousel className={`${styles.carousel} ${"carousel"}`} fade={true} controls={false} interval={null}>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                            </Carousel>
+                            <Carousel className={`${styles.carousel} ${"carousel"}`} fade={true} controls={false} interval={null}>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing2.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-1.jpg" alt="" />
+                                        </div>
+                                        <p className="captionInfo mb-0">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                        </p>
+                                    </div>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+                                        <div className={`${styles.wrapperImg} ${"wrapperImg mb-4"}`}>
+                                            <img className="img-fluid" src="/img/martin/test-martin-alto-2.jpg" alt="" />
                                         </div>
                                         <p className="captionInfo mb-0">
                                             Lorem ipsum dolor, sit amet consectetur adipisicing2.

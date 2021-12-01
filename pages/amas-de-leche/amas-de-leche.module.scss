@@ -8,6 +8,9 @@
     background-color: $verde-mar;
     color: $verde-claro;
     height: 100vh;
+    @media (max-width: 767.98px) {
+        height: auto;
+    }
     .containerGrid {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -17,11 +20,18 @@
         .partText {
             display: grid;
             grid-template-columns: 62% auto;
+            @media (max-width: 767.98px) {
+                display: block;
+            }
             .wrapperImg {
                 position: relative;
                 top: -22px;
                 left: 43px;
                 width: 110%;
+                @media (max-width: 767.98px) {
+                    position: static;
+                    width: 100%;
+                }
             }
         }
     }
@@ -48,11 +58,17 @@
         display: grid;
         grid-template-columns: 65.2% auto;
         margin-bottom: 30px;
+        @media (max-width: 767.98px) {
+            display: block;
+        }
         .wrapperImage {
             position: relative;
             top: -35px;
             left: 140px;
             width: 95%;
+            @media (max-width: 767.98px) {
+                position: static;
+            }
             img {
                 width: 100%;
             }
@@ -62,10 +78,20 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 80px;
+        @media (max-width: 767.98px) {
+            display: block;
+        }
         .wrapperImg {
+            @media (max-width: 767.98px) {
+                display: flex;
+                flex-direction: column;
+            }
             img {
                 // height: 546px;
                 height: 26vw;
+                @media (max-width: 767.98px) {
+                    height: auto;
+                }
             }
         }
     }

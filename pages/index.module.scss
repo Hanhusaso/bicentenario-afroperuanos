@@ -3,6 +3,9 @@
 .home1 {
     background-color: $bg-home-color-1;
     height: calc( 100vh - $header-height);
+    @media (max-width: 767.98px) {
+        height: auto;
+    }
     .containerGrid {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -12,6 +15,16 @@
             padding-left: 50px;
             max-width: 290px;
             float: right;
+            @media (max-width: 767.98px) {
+                position: absolute;
+                right: 20px;
+                bottom: 0;
+                transform: translate(0px, -220%);
+                max-width: 200px;
+            }
+            @media (max-width: 575.98px) {
+                transform: translate(0px, -160%);
+            }
         }
     }
 }
@@ -19,8 +32,14 @@
     background-color: $bg-home-color-2;
     color: $blanco;
     height: 100vh;
+    @media (max-width: 767.98px) {
+        height: auto;
+    }
     a {
         color: $blanco;
+    }
+    .element2 {
+        height: 100%;
     }
     .containerGrid {
         padding-top: 32px;
@@ -30,6 +49,9 @@
             display: grid;
             grid-template-columns: 30% auto;
             gap: 0px 60px;
+            @media (max-width: 767.98px) {
+                display: block;
+            }
             .menuGrid {
                 display: inline-grid;
                 grid-template-columns: auto auto;
@@ -71,8 +93,14 @@
     background-color: $bg-home-color-3;
     color: $blanco;
     height: 100vh;
+    @media (max-width: 991.98px) {
+        height: auto;
+    }
     a {
         color: $blanco;
+    }
+    .element3 {
+        height: 100%;
     }
     .containerGrid {
         padding-top: 32px;
@@ -85,6 +113,9 @@
     color: $piel;
     a {
         color: $piel;
+    }
+    .element4 {
+        height: 100%;
     }
     .containerGrid {
         padding-top: 64px;
@@ -149,6 +180,9 @@
     color: $azul;
     a {
         color: $azul;
+    }
+    .element5 {
+        height: 100%;
     }
     .containerGrid {
         padding-top: 32px;

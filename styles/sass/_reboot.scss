@@ -36,9 +36,8 @@ ul {
         padding: 15px 20px;
         grid-template-columns: minmax(25%, 1fr) minmax(auto, 885px) minmax(25%, 1fr);
     }
-    @include media-breakpoint-down(xl) {
-        // padding: 0px 14px;
-        // grid-template-columns: minmax(20%, 1fr) minmax(20%, 700px) minmax(20%, 1fr);
+    @include media-breakpoint-down(md) {
+        grid-template-columns: auto;
     }
 }
 
@@ -47,6 +46,12 @@ ul {
     display: grid;
     grid-template-columns: minmax(15%, 1fr) minmax(20%, 1080px) minmax(15%, 1fr);
     position: relative;
+    @include media-breakpoint-down(xxl) {
+        padding: 15px 20px;
+    }
+    @include media-breakpoint-down(md) {
+        grid-template-columns: auto;
+    }
 }
 
 .containerGrid3 {
@@ -54,10 +59,19 @@ ul {
     display: grid;
     grid-template-columns: minmax(10%, 1fr) minmax(20%, 1080px) minmax(10%, 1fr);
     position: relative;
+    @include media-breakpoint-down(xxl) {
+        padding: 15px 20px;
+    }
+    @include media-breakpoint-down(md) {
+        grid-template-columns: auto;
+    }
 }
 
 .containerVideos {
     padding: 0px 60px;
+    @media (max-width: 767.98px) {
+        padding: 0px;
+    }
     .wrapperVideo {
         display: flex;
         flex-direction: column;
@@ -252,21 +266,36 @@ ul {
 
 .mb-32 {
     margin-bottom: 32px;
+    @include media-breakpoint-down(md) {
+        margin-bottom: 20px;
+    }
 }
 .mb-64 {
     margin-bottom: 64px;
+    @include media-breakpoint-down(md) {
+        margin-bottom: 30px;
+    }
 }
 .mb-100 {
     margin-bottom: 100px;
+    @include media-breakpoint-down(md) {
+        margin-bottom: 40px;
+    }
 }
 .mb-160 {
     margin-bottom: 160px;
+    @include media-breakpoint-down(md) {
+        margin-bottom: 50px;
+    }
 }
 
 .textArrow {
     font-size: 40px;
     font-weight: 500;
     line-height: 1.4;
+    @include media-breakpoint-down(md) {
+        font-size: 18px;
+    }
     .arrow {
         width: 100%;
         max-width: 240px;

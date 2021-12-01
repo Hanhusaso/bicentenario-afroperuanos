@@ -13,7 +13,7 @@ export default function index() {
             <Layout title="Amas de leche de la colección Gourret">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                        <div className={`${styles.linkMenu} ${"d-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
+                        <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
                             <Link href="./#menuPrincipal">
                                 <a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
                                     <div className="mb-2">
@@ -55,7 +55,7 @@ export default function index() {
                                 </div>
                                 <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
                                     <div className={`${styles.partText} ${"partText"}`}>
-                                        <p className="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
+                                        <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
                                         Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
                                         Eveniet omnis dignissimos doloremque et cum excepturi? Commodi deleniti maxime at consequuntur ullam dicta minima impedit reprehenderit minus magni ipsa corporis eaque accusamus quibusdam explicabo, reiciendis asperiores assumenda, officia quo?
                                         Optio consequuntur dignissimos suscipit inventore facere nisi neque.</p>
@@ -77,7 +77,7 @@ export default function index() {
                 <section className={styles.section2}>
                     <Element name="section2">
                         <div className={`${styles.containerGrid} ${"containerGrid"}`}>
-                            <div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
+                            <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
                                 <Link href="./#menuPrincipal">
                                     <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
                                         <div className="mb-2">
@@ -94,14 +94,14 @@ export default function index() {
                                         <p>
                                             Corría el año de 1839 cuando Louis Daguerre dio a conocer un innovador método fotográfico: el daguerrotipo. La repercusión de este fenómeno sería de escala mundial y un hecho trascendental en la historia de la fotografía. Desde ese momento, el retrato fotográfico se convertiría en uno de los géneros más solicitados a lo largo del siglo XIX y aunque su costo estaba por debajo de un retrato o pintura al óleo, no estaba al alcance de todos.
                                         </p>
-                                        <p className="mb-0">
+                                        <p className="">
                                             El daguerrotipo llegó al Perú de la mano del fotógrafo Maximiliano Danti y con él la moda de la fotografía, posteriormente, el norteamericano Benjamin Franklin Pease estableció el primer estudio fotográfico en nuestra capital y hacia 1863, los hermanos Aquiles y Eugenio Courret fundaron “Fotografía Central”, célebre estudio que pasaría a la historia como el más importante de la época. Desde su creación, la casa Courret desarrolló una prolífica actividad que pervivió hasta 1935, siendo el retrato de estudio su máximo estandarte.
                                         </p>
                                     </div>
                                     <div className={styles.wrapperImage}>
                                         <div className="text-center">
                                             <img loading="lazy" className="img-fluid mb-4" src="/img/amas/estudio courret.jpg" alt="" />
-                                            <div className={`${styles.captionInfo} ${"captionInfo"}`}>
+                                            <div className={`${styles.captionInfo} ${"captionInfo img-fluid"}`}>
                                                 <p>
                                                     “<b>Fotografía Central</b>”. E. Courret y Cia.
                                                     <br />
@@ -124,7 +124,7 @@ export default function index() {
                                 </p>
                                 <div className={`${styles.grid2} ${""}`}>
                                     <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-                                        <img loading="lazy" className="mb-3" src="/img/amas/pedro tonesi.jpg" alt="" />
+                                        <img loading="lazy" className="img-fluid mb-3" src="/img/amas/pedro tonesi.jpg" alt="" />
                                         <div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
                                             <p>
                                                 <b>Pedro Tonesi y ama de leche</b>
@@ -136,7 +136,7 @@ export default function index() {
                                         </div>
                                     </div>
                                     <div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-                                        <img loading="lazy" className="mb-3" src="/img/amas/niña chaize.jpg" alt="" />
+                                        <img loading="lazy" className="img-fluid mb-3" src="/img/amas/niña chaize.jpg" alt="" />
                                         <div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
                                             <p>
                                                 <b>Niña Chaize y ama de cría</b>
