@@ -12,7 +12,7 @@ const LayoutHome = ({title, description, children}) => {
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:url"           content="https://bicentenario-afroperuanos.vercel.app/" />
                 <meta property="og:type"          content="website" />
-                <meta property="og:title"         content={title} />
+                <meta property="og:title"         content="Discursos visuales sobre lo afroperuano" />
                 <meta property="og:description"   content={description} />
                 <meta property="og:image"         content="https://cdn.www.gob.pe/uploads/document/file/2022785/standard_Bicentenario%202021.png" />
             </Head>
