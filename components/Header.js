@@ -21,7 +21,7 @@ export default function Header() {
                                         </div>
                                     </a>
                                 </Link>
-                                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                                {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                                 <Navbar.Collapse className="ms-auto" id="responsive-navbar-nav">
                                     <ul>
                                         <li>
@@ -40,7 +40,7 @@ export default function Header() {
                                             </Link>
                                         </li>
                                     </ul>
-                                </Navbar.Collapse>
+                                </Navbar.Collapse> */}
                         </Navbar>
                 </header>
             </Element>
