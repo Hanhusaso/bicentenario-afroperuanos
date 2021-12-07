@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const LayoutHome = ({title, children}) => {
+const LayoutHome = ({title, description, children}) => {
     return (
         <div>
             <Head>
@@ -12,8 +12,8 @@ const LayoutHome = ({title, children}) => {
                 <link rel="icon" href="/favicon.ico" />
                 <meta property="og:url"           content="https://bicentenario-afroperuanos.vercel.app/" />
                 <meta property="og:type"          content="website" />
-                <meta property="og:title"         content="Your Website Title" />
-                <meta property="og:description"   content="Your description" />
+                <meta property="og:title"         content={title} />
+                <meta property="og:description"   content={description} />
                 <meta property="og:image"         content="https://cdn.www.gob.pe/uploads/document/file/2022785/standard_Bicentenario%202021.png" />
             </Head>
             <Header></Header>

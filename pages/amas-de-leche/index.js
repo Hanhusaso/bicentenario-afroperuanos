@@ -10,7 +10,7 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 export default function index() {
     return (
         <>
-            <Layout title="Amas de leche de la colección Gourret">
+            <Layout title="Amas de leche de la colección Gourret" path="/amas-de-leche" description="En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia, cuyo patrimonio incluía a la propia ama.">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
@@ -28,16 +28,16 @@ export default function index() {
                                     <span>COMPARTIR</span>
                                 </div>
                                 <div>
-                                    <a className="d-inline-block color-inherit me-1" href="#">
+                                    <a href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/amas-de-leche" data-action="share/whatsapp/share" className="d-inline-block color-inherit me-1">
                                         <FaWhatsapp className="icon" />
                                     </a>
-                                    <a className="d-inline-block color-inherit me-1" href="">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/amas-de-leche&quote=" className="d-inline-block color-inherit me-1">
                                         <FaFacebookF className="icon" />
                                     </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
+                                    {/* <a className="d-inline-block color-inherit me-2" href="">
                                         <FaInstagram className="icon" />
-                                    </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
+                                    </a> */}
+                                    <a target="_blank" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/amas-de-leche" className="d-inline-block color-inherit me-2">
                                         <FaTwitter className="icon" />
                                     </a>
                                 </div>

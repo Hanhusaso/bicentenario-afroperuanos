@@ -6,12 +6,11 @@ import Carousel from 'react-bootstrap/Carousel'
 import { Link as LinkScroll, Element } from 'react-scroll'
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import ShareButtons from "../../components/ShareButtons"
 
 export default function index() {
     return (
         <>
-            <Layout title="Lorry Salcedo">
+            <Layout title="Lorry Salcedo" path="/lorry-salcedo" description="A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianidad, la rutina, el trabajo, las celebraciones o la música.">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
@@ -23,7 +22,26 @@ export default function index() {
                                     <p className="mb-0">MENÚ PRINCIPAL</p>
                                 </a>
                             </Link>
-                            <ShareButtons></ShareButtons>
+                            <div className="black-text d-inline-flex flex-column align-items-center">
+                                <div className="mb-3">
+                                    <BsShare className="icon share-icon me-2" />
+                                    <span>COMPARTIR</span>
+                                </div>
+                                <div>
+                                    <a href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo" data-action="share/whatsapp/share" className="d-inline-block color-inherit me-1">
+                                        <FaWhatsapp className="icon" />
+                                    </a>
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo&quote=" className="d-inline-block color-inherit me-1">
+                                        <FaFacebookF className="icon" />
+                                    </a>
+                                    {/* <a className="d-inline-block color-inherit me-2" href="">
+                                        <FaInstagram className="icon" />
+                                    </a> */}
+                                    <a target="_blank" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo" className="d-inline-block color-inherit me-2">
+                                        <FaTwitter className="icon" />
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div className="d-flex align-items-center">
                             <div className={`${styles.grid1} ${"grid1"}`}>

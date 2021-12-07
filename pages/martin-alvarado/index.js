@@ -10,7 +10,7 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 export default function index() {
     return (
         <>
-            <Layout title="Martín Alvarado">
+            <Layout title="Martín Alvarado" path="/martin-alvarado" description="Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país documentando con su cámara fotográfica diferentes modos de vida, festividades, personajes, danzas, música y tradiciones. Uno de los motivos fundamentales de su obra es visibilizar la presencia afroperuana en nuestro país, buscando contribuir, a través de su extensa labor fotográfica, al conocimiento y preservación de su memoria cultural y colectiva. Martín Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente más grande del país.">
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
@@ -28,16 +28,16 @@ export default function index() {
                                     <span>COMPARTIR</span>
                                 </div>
                                 <div>
-                                    <a className="d-inline-block color-inherit me-1" href="#">
+                                    <a href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/martin-alvarado" data-action="share/whatsapp/share" className="d-inline-block color-inherit me-1">
                                         <FaWhatsapp className="icon" />
                                     </a>
-                                    <a className="d-inline-block color-inherit me-1" href="">
+                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/martin-alvarado&quote=" className="d-inline-block color-inherit me-1">
                                         <FaFacebookF className="icon" />
                                     </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
+                                    {/* <a className="d-inline-block color-inherit me-2" href="">
                                         <FaInstagram className="icon" />
-                                    </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
+                                    </a> */}
+                                    <a target="_blank" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/martin-alvarado" className="d-inline-block color-inherit me-2">
                                         <FaTwitter className="icon" />
                                     </a>
                                 </div>

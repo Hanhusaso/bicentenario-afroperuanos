@@ -9,7 +9,7 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 export default function Home() {
     return (
         <>
-            <LayoutHome title="Inicio">
+            <LayoutHome title="Inicio" path="/" description="En el marco de la celebración del Bicentenario de la independencia del Perú es imperativo el reconocimiento y puesta en valor de la riqueza étnica y multicultural que conforma la república, elementos fundamentales para la construcción de la identidad peruana. Una de las poblaciones que ha contribuido a la edificación del imaginario nacional, con su legado, resiliencia y acervo, es la afroperuana, y, sin embargo, a lo largo de la historia su presencia ha sido valorada de forma desigual e incluso invisibilizada. En ese sentido, esta exposición promueve la reflexión en torno a la representación visual de la comunidad afrodescendiente al reunir una selección de fotografías que constituyen tres registros elaborados en diferentes épocas de nuestra historia republicana: los retratos de amas afroperuanas del Estudio Courret realizadas entre 1879 y 1912, los retratos de Lorry Salcedo Mitrani sobre la comunidad de El Carmen, Chincha, entre 1985 y 1996, y el proyecto DÍA 100 de Martín Alvarado Gamarra, la compilación más extensa de retratos de afroperuanos.">
                 <section className={styles.home1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div></div>
@@ -25,8 +25,8 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <div className="mb-5">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsa deserunt magni rem libero, quod at nihil tempore debitis, architecto odit aut modi reiciendis fuga iusto aperiam temporibus? Ut, esse.
-                                        Maiores aut debitis corrupti repellendus soluta deserunt, quaerat fugiat rem vero aliquid aspernatur placeat impedit deleniti tempore ullam beatae nostrum aperiam, laborum repellat, sint praesentium? Debitis quibusdam nisi tenetur delectus.</p>
+                                        <p className="mb-0"><b>En el marco de la celebración del Bicentenario de la independencia del Perú</b> es imperativo el reconocimiento y puesta en valor de la riqueza étnica y multicultural que conforma la república, elementos fundamentales para la construcción de la identidad peruana. Una de las poblaciones que ha contribuido a la edificación del imaginario nacional, con su legado, resiliencia y acervo, es la afroperuana, y, sin embargo, a lo largo de la historia su presencia ha sido valorada de forma desigual e incluso invisibilizada. En ese sentido, esta exposición promueve la reflexión en torno a la representación visual de la comunidad afrodescendiente al reunir una selección de fotografías que constituyen tres registros elaborados en diferentes épocas de nuestra historia republicana: los retratos de amas afroperuanas del Estudio Courret realizadas entre 1879 y 1912, los retratos de Lorry Salcedo Mitrani sobre la comunidad de El Carmen, Chincha, entre 1985 y 1996, y el proyecto DÍA 100 de Martín Alvarado Gamarra, la compilación más extensa de retratos de afroperuanos.</p>
+                                        <p>La exhibición en conjunto de las imágenes de estos archivos fotográficos, propone visibilizar las condiciones históricas y socioculturales de los afrodescendientes en nuestro país, pensar sobre nuestras diferencias y evaluar nuestro pasado y presente. Creemos en la posibilidad de un futuro común que integre plenamente a la comunidad afroperuana, valore su presencia y preserve su herencia, identidad y riqueza cultural. De igual manera, los videos de la sección actividades complementarias están orientados a contextualizar sobre su historia, problemática y agencia, propiciando una reflexión crítica.</p>
                                     </div>
                                     <div className="d-inline-flex flex-column align-items-center ms-3">
                                         <div className="mb-3">
@@ -34,16 +34,16 @@ export default function Home() {
                                             <span>COMPARTIR</span>
                                         </div>
                                         <div>
-                                            <a className="d-inline-block color-inherit me-1" href="#">
+                                            <a href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/" data-action="share/whatsapp/share" className="d-inline-block color-inherit me-1">
                                                 <FaWhatsapp className="icon" />
                                             </a>
-                                            <a className="d-inline-block color-inherit me-1" href="">
+                                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/&quote=" className="d-inline-block color-inherit me-1">
                                                 <FaFacebookF className="icon" />
                                             </a>
-                                            <a className="d-inline-block color-inherit me-2" href="">
+                                            {/* <a className="d-inline-block color-inherit me-2" href="">
                                                 <FaInstagram className="icon" />
-                                            </a>
-                                            <a className="d-inline-block color-inherit me-2" href="">
+                                            </a> */}
+                                            <a target="_blank" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/" className="d-inline-block color-inherit me-2">
                                                 <FaTwitter className="icon" />
                                             </a>
                                         </div>
