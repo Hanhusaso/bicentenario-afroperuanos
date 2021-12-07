@@ -31,13 +31,13 @@ export default function index() {
                                     <a href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/martin-alvarado" data-action="share/whatsapp/share" className="d-inline-block color-inherit me-1">
                                         <FaWhatsapp className="icon" />
                                     </a>
-                                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/martin-alvarado&quote=" className="d-inline-block color-inherit me-1">
+                                    <a target="_blank" rel="noreferrer" href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/martin-alvarado&quote=" className="d-inline-block color-inherit me-1">
                                         <FaFacebookF className="icon" />
                                     </a>
                                     {/* <a className="d-inline-block color-inherit me-2" href="">
                                         <FaInstagram className="icon" />
                                     </a> */}
-                                    <a target="_blank" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/martin-alvarado" className="d-inline-block color-inherit me-2">
+                                    <a target="_blank" rel="noreferrer" href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/martin-alvarado" className="d-inline-block color-inherit me-2">
                                         <FaTwitter className="icon" />
                                     </a>
                                 </div>
