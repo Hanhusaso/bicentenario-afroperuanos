@@ -6,6 +6,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import { Link as LinkScroll, Element } from 'react-scroll'
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import ShareButtons from "../../components/ShareButtons"
 
 export default function index() {
     return (
@@ -22,26 +23,7 @@ export default function index() {
                                     <p className="mb-0">MENÚ PRINCIPAL</p>
                                 </a>
                             </Link>
-                            <div className="black-text d-inline-flex flex-column align-items-center">
-                                <div className="mb-3">
-                                    <BsShare className="icon share-icon me-2" />
-                                    <span>COMPARTIR</span>
-                                </div>
-                                <div>
-                                    <a className="d-inline-block color-inherit me-1" href="#">
-                                        <FaWhatsapp className="icon" />
-                                    </a>
-                                    <a className="d-inline-block color-inherit me-1" href="">
-                                        <FaFacebookF className="icon" />
-                                    </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
-                                        <FaInstagram className="icon" />
-                                    </a>
-                                    <a className="d-inline-block color-inherit me-2" href="">
-                                        <FaTwitter className="icon" />
-                                    </a>
-                                </div>
-                            </div>
+                            <ShareButtons></ShareButtons>
                         </div>
                         <div className="d-flex align-items-center">
                             <div className={`${styles.grid1} ${"grid1"}`}>

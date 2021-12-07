@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Layout from "../../../components/Layout"
-import styles from "./compar1.module.scss"
+import styles from "./compar2.module.scss"
 
-export default function Compar1() {
+export default function Compar2() {
     const lastImgRef = useRef();
     const sliderRef = useRef();
 
@@ -12,13 +12,12 @@ export default function Compar1() {
     useEffect(() => {
         console.log(slideValue);
         setclipPatchValue("polygon(0 0," + slideValue + "% 0, " + slideValue + "% 100%, 0 100%)")
-        // console.log(clipPatchValue);
         lastImgRef.current.style.clipPath = clipPatchValue
     }, [slideValue, clipPatchValue])
 
     return (
         <>
-            <Layout title="comparison 1">
+            <Layout title="comparison 2">
                 <div className={`${styles.body} ${"body"}`}>
                     <div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
                         <img className={`${styles.imgCompImg} ${"imgCompImg"}`} src="/img/amas/matrimonio ascher freymann.jpg" />
