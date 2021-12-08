@@ -121,8 +121,8 @@ export default function Home() {
                                                         <a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
                                                             {/* <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" /> */}
                                                             <picture>
-                                                                <source srcset="/img/home/responsive/amas.png" media="(max-width: 767.98px)" />
-                                                                <img className="img-fluid" srcset="/img/menu/ama_leche.jpg" alt="Amas de leche" />
+                                                                <source srcSet="/img/home/responsive/amas.png" media="(max-width: 767.98px)" />
+                                                                <img className="img-fluid" srcSet="/img/menu/ama_leche.jpg" alt="Amas de leche" />
                                                             </picture>
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
@@ -141,8 +141,8 @@ export default function Home() {
                                                         <a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
                                                             {/* <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" /> */}
                                                             <picture>
-                                                                <source srcset="/img/home/responsive/lorry.png" media="(max-width: 767.98px)" />
-                                                                <img className="img-fluid" srcset="/img/menu/lorry.jpg" alt="Lorry Salcedo" />
+                                                                <source srcSet="/img/home/responsive/lorry.png" media="(max-width: 767.98px)" />
+                                                                <img className="img-fluid" srcSet="/img/menu/lorry.jpg" alt="Lorry Salcedo" />
                                                             </picture>
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
@@ -161,8 +161,8 @@ export default function Home() {
                                                         <a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
                                                             {/* <img className="img-fluid" src="/img/menu/martin.jpg" alt="" /> */}
                                                             <picture>
-                                                                <source srcset="/img/home/responsive/martin.png" media="(max-width: 767.98px)" />
-                                                                <img className="img-fluid" srcset="/img/menu/martin.jpg" alt="Martín Alvarado" />
+                                                                <source srcSet="/img/home/responsive/martin.png" media="(max-width: 767.98px)" />
+                                                                <img className="img-fluid" srcSet="/img/menu/martin.jpg" alt="Martín Alvarado" />
                                                             </picture>
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
