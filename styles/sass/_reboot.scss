@@ -135,9 +135,10 @@ ul {
         place-items: center;
         @include media-breakpoint-down(md) {
             opacity: 1;
-            height: 30%;
+            height: auto;
             top: auto;
             bottom: 0;
+            padding: 10px 0px;
         }
     }
     &:hover .caption {
