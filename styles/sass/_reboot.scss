@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    // line-height: normal;
     @include media-breakpoint-down(xxl) {
         font-size: 15px;
     }
@@ -68,7 +69,7 @@ ul {
 }
 
 .containerVideos {
-    padding: 0px 60px;
+    padding: 0px 80px;
     @media (max-width: 767.98px) {
         padding: 0px;
     }
@@ -97,6 +98,10 @@ ul {
     cursor: pointer;
 }
 
+.lh-normal {
+    line-height: normal;
+}
+
 .captionInfo {
     font-size: 13px;
     line-height: normal;
@@ -113,6 +118,9 @@ ul {
     position: relative;
     top: 0;
     right: 0;
+    // @include media-breakpoint-down(md) {
+    //     position: static;
+    // }
     .caption {
         transition: all .3s ease;
         opacity: 0;
@@ -125,6 +133,12 @@ ul {
         text-align: center;
         display: grid;
         place-items: center;
+        @include media-breakpoint-down(md) {
+            opacity: 1;
+            height: 30%;
+            top: auto;
+            bottom: 0;
+        }
     }
     &:hover .caption {
         opacity: 1;
@@ -221,7 +235,8 @@ ul {
 }
 
 .underline-arrows {
-    width: 218px;
+    width: 100%;
+    max-width: 326px;
 }
 
 .gridCarousel {

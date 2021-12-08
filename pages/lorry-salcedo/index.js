@@ -56,9 +56,7 @@ export default function index() {
                                     </div>
                                     <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
                                         <div className={`${styles.partText} ${"partText"}`}>
-                                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
-                                            Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
-                                            Eveniet omnis dignissimos doloremque et cum excepturi?</p>
+                                            <p className="">A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianidad, la rutina, el trabajo, las celebraciones o la música.</p>
                                         </div>
                                     </div>
                                 </div>
