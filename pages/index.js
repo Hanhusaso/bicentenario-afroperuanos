@@ -126,7 +126,7 @@ export default function Home() {
                                                             </picture>
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
-                                                                    "AMAS DE LECHE"
+                                                                    &quot;AMAS DE LECHE&quot;
                                                                     <br />
                                                                     EN LAS FOTOGRAFÍAS
                                                                     <br />
