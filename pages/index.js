@@ -312,12 +312,12 @@ export default function Home() {
                 <Element className={`${styles.element5}`} name="creditos">
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div className="d-none d-md-flex align-items-center">
-                            <LinkScroll activeClass="active" className="pointer d-flex align-items-center" to="menuPrincipal" smooth={true} duration={200}>
+                            {/* <LinkScroll activeClass="active" className="pointer d-flex align-items-center" to="menuPrincipal" smooth={true} duration={200}>
                                 <div className="me-2 d-inline">
                                     <ButtonMove dir="up"/>
                                 </div>
                                 <span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
-                            </LinkScroll>
+                            </LinkScroll> */}
                         </div>
                         <div>
                             <div className="titleHome text-uppercase mb-1">CRÉDITOS</div>
