@@ -149,6 +149,8 @@ export default function Home() {
                                                                     LORRY
                                                                     <br />
                                                                     SALCEDO
+                                                                    <br />
+                                                                    Y EL CARMEN
                                                                 </p>
                                                             </div>
                                                         </a>
@@ -164,9 +166,11 @@ export default function Home() {
                                                             </picture>
                                                             <div className={`${styles.caption} ${"caption"}`}>
                                                                 <p className="mb-0">
-                                                                    MARTÍN
+                                                                    MARTÍN ALVARADO
                                                                     <br />
-                                                                    ALVARADO
+                                                                    CRÓNICAS
+                                                                    <br />
+                                                                    AFROPERUANAS
                                                                 </p>
                                                             </div>
                                                         </a>
