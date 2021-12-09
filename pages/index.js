@@ -220,11 +220,22 @@ export default function Home() {
 												<div className={`${styles.ama} ${""}`}>
 													<Link href="./amas-de-leche">
 														<a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
-															<img
+															<picture>
+																<source
+																	srcset={`${awsUrl}` + "amas-de-leche-menu" + ".webp"}
+																	type="image/webp"
+																/>
+																<img
+																	className="img-fluid"
+																	src={`${awsUrl}` + "amas-de-leche-menu" + ".png"}
+																	alt=""
+																/>
+															</picture>
+															{/* <img
 																className="img-fluid"
 																src={`${awsUrl}` + "amas-de-leche-menu" + ".png"}
 																alt=""
-															/>
+															/> */}
 															<div className={`${styles.caption} ${"caption"}`}>
 																<p className="mb-0">
 																	AMAS DE LECHE
@@ -240,11 +251,17 @@ export default function Home() {
 												<div className={`${styles.lorry} ${""}`}>
 													<Link href="./lorry-salcedo">
 														<a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
-															<img
-																className="img-fluid"
-																src={`${awsUrl}` + "lorry-salcedo-menu" + ".png"}
-																alt=""
-															/>
+															<picture>
+																<source
+																	srcset={`${awsUrl}` + "lorry-salcedo-menu" + ".webp"}
+																	type="image/webp"
+																/>
+																<img
+																	className="img-fluid"
+																	src={`${awsUrl}` + "lorry-salcedo-menu" + ".png"}
+																	alt=""
+																/>
+															</picture>
 															<div className={`${styles.caption} ${"caption"}`}>
 																<p className="mb-0">
 																	LORRY
@@ -258,11 +275,17 @@ export default function Home() {
 												<div className={`${styles.martin} ${""}`}>
 													<Link href="./martin-alvarado">
 														<a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
-															<img
-																className="img-fluid"
-																src={`${awsUrl}` + "martin-alvarado-menu" + ".png"}
-																alt=""
-															/>
+															<picture>
+																<source
+																	srcset={`${awsUrl}` + "martin-alvarado-menu" + ".webp"}
+																	type="image/webp"
+																/>
+																<img
+																	className="img-fluid"
+																	src={`${awsUrl}` + "martin-alvarado-menu" + ".png"}
+																	alt=""
+																/>
+															</picture>
 															<div className={`${styles.caption} ${"caption"}`}>
 																<p className="mb-0">
 																	MARTÍN
