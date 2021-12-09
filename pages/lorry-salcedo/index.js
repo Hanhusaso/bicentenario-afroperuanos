@@ -14,15 +14,8 @@ export default function index() {
                 <section className={styles.section1}>
                     <div className={`${styles.containerGrid} ${"containerGrid"}`}>
                         <div className={`${styles.linkMenu} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}>
-                            <Link href="./#menuPrincipal">
-                                <a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
-                                    <div className="mb-2">
-                                        <ButtonMove dir="up"/>
-                                    </div>
-                                    <p className="mb-0">MENÚ PRINCIPAL</p>
-                                </a>
-                            </Link>
-                            <div className="black-text d-inline-flex flex-column align-items-center">
+                            
+                            <div className="black-text d-inline-flex flex-column align-items-center mb-5">
                                 <div className="mb-3">
                                     <BsShare className="icon share-icon me-2" />
                                     <span>COMPARTIR</span>
@@ -42,23 +35,32 @@ export default function index() {
                                     </a>
                                 </div>
                             </div>
+
+                            <Link href="./#menuPrincipal">
+                                <a className="d-inline-flex flex-column align-items-center color-inherit">
+                                    <div className="mb-2">
+                                        <ButtonMove dir="up"/>
+                                    </div>
+                                    <p className="mb-0">MENÚ PRINCIPAL</p>
+                                </a>
+                            </Link>
+
                         </div>
                         <div className="d-flex align-items-center">
                             <div className={`${styles.grid1} ${"grid1"}`}>
                                 <div>
                                     <div className="title-page lorry mb-5 fw-600">
                                         <img loading="lazy" className="text-1" src="/img/svg/LORRY SALCEDO/LORRY.svg" alt="lorry" />
+                                        <img loading="lazy" className="text-2" src="/img/svg/LORRY SALCEDO/SALCEDO.svg" alt="salcedo" />
                                         <div className="wrapper-arrow-text">
                                             <img loading="lazy" className="flechas" src="/img/svg/LORRY SALCEDO/flechas_moradas(31).svg" alt="flechas" />
                                             {/* <img loading="lazy" className="w-100" src="/img/svg/LORRY SALCEDO/DE LA.svg" alt="de la" /> */}
                                         </div>
-                                        <img loading="lazy" className="text-2" src="/img/svg/LORRY SALCEDO/SALCEDO.svg" alt="salcedo" />
+                                        <img loading="lazy" className="text-3 text-right" src="/img/svg/LORRY SALCEDO/Y EL CARMEN.svg" alt="y el carmen" />
                                     </div>
                                     <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
                                         <div className={`${styles.partText} ${"partText"}`}>
-                                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
-                                            Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
-                                            Eveniet omnis dignissimos doloremque et cum excepturi?</p>
+                                            <p className="">A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianidad, la rutina, el trabajo, las celebraciones o la música.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,19 +92,19 @@ export default function index() {
                                     </a>
                                 </Link>
                             </div>
-                            <div>
-                                <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
+                            <div className={styles.pt}>
+                                {/* <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
                                     <img loading="lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                     <p className="mb-0">
                                         “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
                                     </p>
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
-                                </div>
+                                </div> */}
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Bailando El Alcatraz
+                                            José bailando, 1985
                                         </p>
                                     </div>
                                 </div>
@@ -110,7 +112,7 @@ export default function index() {
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Bailando durante la yunza
+                                            Manos sobre la tumba, 1985
                                         </p>
                                     </div>
                                 </div>
@@ -118,22 +120,22 @@ export default function index() {
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            José bailando
+                                            Bailando El Alcatraz, 1992
                                         </p>
                                     </div>
                                 </div>
-                                <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
+                                {/* <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
                                     <img loading="lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                     <p className="mb-0">
                                         “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
                                     </p>
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
-                                </div>
+                                </div> */}
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Filomeno tocando para el vecino
+                                            Bailando durante la yunza, 1992
                                         </p>
                                     </div>
                                 </div>
@@ -141,7 +143,7 @@ export default function index() {
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Filomeno tocando cajón
+                                            Paseando al Santo de día, 1992
                                         </p>
                                     </div>
                                 </div>
@@ -149,22 +151,70 @@ export default function index() {
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Manos sobre la tumba
+                                            Rezando a la Virgen, 1992
                                         </p>
                                     </div>
                                 </div>
-                                <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
+                                {/* <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
                                     <img loading="img-fluid lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
                                     <p className="mb-0">
                                         “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
                                     </p>
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
+                                </div> */}
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Jugando en el cementerio, 1992
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Sra. Cueto con futbolista, 1992
+                                        </p>
+                                    </div>
                                 </div>
                                 <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Paseando al Santo de día
+                                            Tila y Roberto, 1992
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Camilo, 1992
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Susana Baca, 1994
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Amador Ballumbrosio, 1996
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
+                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
+                                    <div>
+                                        <p className="captionInfo mb-0">
+                                            Filomeno tocando para el vecino, 1996
                                         </p>
                                     </div>
                                 </div>
@@ -172,15 +222,7 @@ export default function index() {
                                     <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
                                     <div>
                                         <p className="captionInfo mb-0">
-                                            Rezando a la virgen
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                    <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
-                                    <div>
-                                        <p className="captionInfo mb-0">
-                                            Jugando en el cementario
+                                            Filomeno tocando cajón, 1996
                                         </p>
                                     </div>
                                 </div>
@@ -190,91 +232,50 @@ export default function index() {
                     </Element>
                 </section>
                 <section className={styles.section3}>
-                    <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                        <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
-                            <Link href="./#menuPrincipal">
-                                <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
-                                    <div className="mb-2">
-                                        <ButtonMove dir="up"/>
-                                    </div>
-                                    <span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
-                                <img loading="lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
-                                <p className="mb-0">
-                                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
-                                </p>
-                                <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
+                    <div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
+                        <div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
+                            <div className="titleHome text-uppercase mb-1">
+                                SOBRE
+                                <br />
+                                LORRY SOLCEDO
                             </div>
-                            <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-ancho.jpg" alt="" />
-                                <div>
-                                    <p className="captionInfo mb-0">
-                                        Susana Baca
-                                    </p>
-                                </div>
-                            </div>
-                            <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
-                                <div>
-                                    <p className="captionInfo mb-0">
-                                        Músico Amador Balllumbrosio
-                                    </p>
-                                </div>
-                            </div>
-                            <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
-                                <img loading="lazy" className="arrow left" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
-                                <p className="mb-0">
-                                    “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
-                                </p>
-                                <img loading="lazy" className="arrow right" src="/img/svg/flechas_piel(18).svg" alt="arrows" />
-                            </div>
-                            <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
-                                <div>
-                                    <p className="captionInfo mb-0">
-                                        Señora Cueto con futbolista
-                                    </p>
-                                </div>
+                            <div className="mb-4">
+                                <img className="underline-arrows" src="/img/svg/flechas_azul(37).svg" alt="" />
                             </div>
                         </div>
-                        <div></div>
+                        <div className={`${styles.minWrap} ${"minWrap"}`}>
+                            <p className="pb-0">Fotógrafo y cineasta. Sus temas de investigación y registro están vinculados a la historia de la cultura peruana, sus mitos y leyendas, la reflexión sobre lo erótico y la muerte, el deseo y la religiosidad. Son notables sus series sobre las comunidades afrodescendientes de Perú y Brasil, a manera de testimonio de sobre la diversidad y celebración de vida. Su trabajo fotográfico se encuentra en colecciones del Perú y universidades de Estados Unidos, Francia e Inglaterra e instituciones como el Brooklyn Museum of Art, Museum of African American Life and Culture, la Biblioteca del Congreso de Estado Unidos y la Biblioteca Nacional de Francia.</p>
+                        </div>
                     </div>
                 </section>
                 <section className={styles.section4}>
-                    <div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-                        <div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
-                            <Link href="./#menuPrincipal">
-                                <a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
-                                    <div className="mb-2">
-                                        <ButtonMove dir="up"/>
+                    <div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
+                        <div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
+                            <div className="titleHome text-uppercase mb-1">
+                                ¿QUIÉRES SABER MÁS SOBRE
+                                <br />
+                                LA PROPUESTA ARTÍSTICA DE
+                                <br />
+                                LORRY SALCEDO?
+                            </div>
+                            <div className="mb-4">
+                                <img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
+                            </div>
+                        </div>
+                        <div className={`${styles.containerVideos} ${"containerVideos"}`}>
+                            <div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
+                                <video className="w-100" src="/video/video afro.mp4" controls></video>
+                                <div className={`${styles.infoVideo} ${"infoVideo"}`}>
+                                    <div className={`${styles.mirar} ${"mirar"}`}></div>
+                                    <div className={`${styles.titulo} ${"titulo"}`}>
+                                    <b>Testimonio del artista</b>
+                                    <br />
+                                    <span>Lorry Salcedo. Fotógrafo y cineasta</span>
                                     </div>
-                                    <span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
-                                <div>
-                                    <p className="captionInfo mb-0">
-                                        Tila y Roberto
-                                    </p>
-                                </div>
-                            </div>
-                            <div className={`${styles.grid2} ${"grid2 mb-160"}`}>
-                                <img className="img-fluid mb-4" loading="lazy" src="/img/larry/test-larry-alto.jpg" alt="" />
-                                <div>
-                                    <p className="captionInfo mb-0">
-                                        Camilo
-                                    </p>
+                                    <div className="descripcion"></div>
                                 </div>
                             </div>
                         </div>
-                        <div></div>
                     </div>
                 </section>
             </Layout>

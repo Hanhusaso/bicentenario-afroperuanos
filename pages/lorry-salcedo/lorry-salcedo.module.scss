@@ -1,8 +1,6 @@
 @import "~/styles/sass/variables";
 
-.linkMenu {
-    color: $verde-claro;
-}
+
 
 .section1 {
     background-color: $piel;
@@ -10,6 +8,9 @@
     height: 100vh;
     @media (max-width: 767.98px) {
         height: auto;
+    }
+    .linkMenu {
+        color: $guinda;
     }
     .containerGrid {
         padding-top: 32px;
@@ -44,14 +45,24 @@
     background-color: $guinda;
     color: $piel;
     .linkMenu {
+        color: $verde-claro;
         margin-top: 300px;
+    }
+    .pt {
+        padding-top: 160px;
+        @media (max-width: 767.98px) {
+            padding-top: 40px;
+        }
     }
 }
 .section3 {
-    background-color: $negro;
-    color: $piel;
+    background-color: $gris;
+    color: $azul;
     .linkMenu {
         margin-top: 300px;
+    }
+    .minWrap {
+        color: $negro;
     }
 }
 .section4 {
@@ -59,5 +70,19 @@
     color: $piel;
     .linkMenu {
         margin-top: 100px;
+    }
+    .containerVideos {
+        .video1 {
+            .infoVideo {
+                color: $azul;
+                background-color: $verde-mar;
+                .mirar {
+                    border-bottom: 1px solid $azul;
+                }
+                .titulo {
+                    border-bottom: 1px solid $azul;
+                }
+            }
+        }
     }
 }

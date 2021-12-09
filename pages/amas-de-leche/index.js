@@ -99,24 +99,32 @@ export default function index() {
 								</div>
 								<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 									<div className={`${styles.partText} ${"partText"}`}>
-										<p className="">
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi
-											blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis
-											sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto,
-											dicta inventore. Dicta, atque, fuga eligendi quo culpa iste corporis
-											consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae
-											repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit
-											iusto dolorem. Eveniet omnis dignissimos doloremque et cum excepturi? Commodi
-											deleniti maxime at consequuntur ullam dicta minima impedit reprehenderit minus
-											magni ipsa corporis eaque accusamus quibusdam explicabo, reiciendis asperiores
-											assumenda, officia quo? Optio consequuntur dignissimos suscipit inventore
-											facere nisi neque.
-										</p>
+										<div>
+											<p className="mb-0">
+												En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente
+												abolición en 1854, los libertos contemplaron diferentes estrategias de
+												subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la
+												lactancia pagada o lactancia mercenaria. De este modo, la presencia de un
+												ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado
+												por la sociedad peruana republicana, siendo las nodrizas de origen
+												afrodescendiente las preferidas como tradición. Esta práctica fue
+												visibilizada a través del retrato fotográfico como un medio de afirmación y
+												aspiración social: el retrato del ama junto al niño a su cuidado era un
+												reflejo del elevado estatus socioeconómico de la familia, cuyo patrimonio
+												incluía a la propia ama.
+											</p>
+											<p>
+												Se presenta una selección de los retratos fotográficos de amas de leche de
+												ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe
+												Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la
+												actualidad, más de 50 mil placas en vidrio están en custodia en la
+												Biblioteca Nacional del Perú.
+											</p>
+										</div>
 										<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
 											<img
 												loading="lazy"
 												className="img-fluid"
-												src={`${awsUrl}` + "amas-de-leche-principal" + ".png"}
 												src="/img/amas/inicio_amas.png"
 												alt=""
 											/>
@@ -189,7 +197,7 @@ export default function index() {
 											<img
 												loading="lazy"
 												className="img-fluid mb-4"
-												src={`${awsUrl}` + "amas-de-leche-1" + ".png"}
+												src="/img/amas/estudio courret.jpg"
 												alt=""
 											/>
 											<div className={`${styles.captionInfo} ${"captionInfo img-fluid"}`}>
@@ -226,11 +234,7 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-2" + ".png"}
-														alt=""
-													/>
+													<img className="img-fluid" src="/img/amas/test1.jpg" alt="" />
 												</div>
 											</div>
 										</div>
@@ -284,7 +288,7 @@ export default function index() {
 									<img
 										loading="lazy"
 										className="img-fluid mb-3"
-										src={`${awsUrl}` + "amas-de-leche-2" + ".png"}
+										src="/img/amas/pedro tonesi.jpg"
 										alt=""
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>

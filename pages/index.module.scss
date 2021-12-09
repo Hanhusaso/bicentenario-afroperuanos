@@ -2,9 +2,21 @@
 
 .home1 {
     background-color: $bg-home-color-1;
-    height: calc( 100vh - $header-height);
+    // height: calc( 100vh - $header-height);
     @media (max-width: 767.98px) {
         height: auto;
+    }
+    .mt {
+        margin-top: 120px;
+        @media (max-width: 1199.98px) {
+            margin-top: 90px;
+        }
+        @media (max-width: 991.98px) {
+            margin-top: 50px;
+        }
+        @media (max-width: 767.98px) {
+            margin-top: 0px;
+        }
     }
     .containerGrid {
         padding-top: 32px;
@@ -41,7 +53,7 @@
     .element2 {
         height: 100%;
     }
-    .containerGrid {
+    .containerGrid2 {
         padding-top: 32px;
         padding-bottom: 32px;
         height: 100%;
@@ -57,6 +69,9 @@
                 grid-template-columns: auto auto;
                 grid-template-rows: repeat(4, auto);
                 gap: 25px 30px;
+                @media (max-width: 767.98px) {
+                    display: block;
+                }
                 .ama {
                     grid-row-start: 2;
                     grid-row-end: span 2;
@@ -71,18 +86,36 @@
                     grid-row-end: span 2;
                 }
                 .wrapperCaption1 {
+                    @media (max-width: 767.98px) {
+                        margin-bottom: 20px;
+                    }
                     &:hover {
                         top: -100px;
+                        @media (max-width: 767.98px) {
+                            top: 0px;
+                        }
                     }
                 }
                 .wrapperCaption2 {
+                    @media (max-width: 767.98px) {
+                        margin-bottom: 20px;
+                    }
                     &:hover {
                         right: -80px;
+                        @media (max-width: 767.98px) {
+                            right: 0px;
+                        }
                     }
                 }
                 .wrapperCaption3 {
+                    @media (max-width: 767.98px) {
+                        margin-bottom: 20px;
+                    }
                     &:hover {
                         top: 80px;
+                        @media (max-width: 767.98px) {
+                            top: 0px;
+                        }
                     }
                 }
             }
@@ -124,19 +157,25 @@
         .linkMenu {
             margin-top: 300px;
         }
+        .boxText {
+            width: 100%;
+            max-width: 327px;
+            font-size: 14px;
+        }
+        .sesion1 {
+            color: $gris;
+            .titleHome {
+                border-bottom: 1px solid $gris;
+            }
+        }
+        .sesion2 {
+            // color: $gris;
+            .titleHome {
+                border-bottom: 1px solid $piel;
+            }
+        }
         .containerVideos {
             .video1 {
-                .infoVideo {
-                    background-color: $guinda;
-                    .mirar {
-                        border-bottom: 1px solid $piel;
-                    }
-                    .titulo {
-                        border-bottom: 1px solid $piel;
-                    }
-                }
-            }
-            .video2 {
                 .infoVideo {
                     color: $guinda;
                     background-color: $piel;
@@ -145,6 +184,17 @@
                     }
                     .titulo {
                         border-bottom: 1px solid $guinda;
+                    }
+                }
+            }
+            .video2 {
+                .infoVideo {
+                    background-color: $guinda;
+                    .mirar {
+                        border-bottom: 1px solid $piel;
+                    }
+                    .titulo {
+                        border-bottom: 1px solid $piel;
                     }
                 }
             }
