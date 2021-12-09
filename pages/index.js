@@ -225,12 +225,12 @@ export default function Home() {
 															{/* <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" /> */}
 															<picture>
 																<source
-																	srcSet="/img/home/responsive/amas.png"
+																	srcSet={`${awsUrl}` + "amas-de-leche-responsive-portada" + ".png"}
 																	media="(max-width: 767.98px)"
 																/>
 																<img
 																	className="img-fluid"
-																	srcSet="/img/menu/ama_leche.jpg"
+																	srcSet={`${awsUrl}` + "amas-de-leche-menu" + ".png"}
 																	alt="Amas de leche"
 																/>
 															</picture>
@@ -252,12 +252,16 @@ export default function Home() {
 															{/* <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" /> */}
 															<picture>
 																<source
-																	srcSet="/img/home/responsive/lorry.png"
+																	srcSet={
+																		`${awsUrl}` +
+																		"lorry-salcedo-amas-de-leche-responsive-portada" +
+																		".png"
+																	}
 																	media="(max-width: 767.98px)"
 																/>
 																<img
 																	className="img-fluid"
-																	srcSet="/img/menu/lorry.jpg"
+																	srcSet={`${awsUrl}` + "lorry-salcedo-menu" + ".webp"}
 																	alt="Lorry Salcedo"
 																/>
 															</picture>
@@ -278,12 +282,16 @@ export default function Home() {
 															{/* <img className="img-fluid" src="/img/menu/martin.jpg" alt="" /> */}
 															<picture>
 																<source
-																	srcSet="/img/home/responsive/martin.png"
+																	srcSet={
+																		`${awsUrl}` +
+																		"martin-alvarado-amas-de-leche-responsive-portada" +
+																		".png"
+																	}
 																	media="(max-width: 767.98px)"
 																/>
 																<img
 																	className="img-fluid"
-																	srcSet="/img/menu/martin.jpg"
+																	srcSet={`${awsUrl}` + "martin-alvarado-menu" + ".png"}
 																	alt="Martín Alvarado"
 																/>
 															</picture>

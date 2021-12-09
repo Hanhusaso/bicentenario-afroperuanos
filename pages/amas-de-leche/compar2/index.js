@@ -1,31 +1,49 @@
-import React, { useEffect, useRef, useState } from 'react'
-import Layout from "../../../components/Layout"
-import styles from "./compar2.module.scss"
+import React, { useEffect, useRef, useState } from "react";
+import Layout from "../../../components/Layout";
+import styles from "./compar2.module.scss";
+const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
 
 export default function Compar2() {
-    const lastImgRef = useRef();
-    const sliderRef = useRef();
+	const lastImgRef = useRef();
+	const sliderRef = useRef();
 
-    const [slideValue, setValueInput] = useState(50)
-    const [clipPatchValue, setclipPatchValue] = useState("")
+	const [slideValue, setValueInput] = useState(50);
+	const [clipPatchValue, setclipPatchValue] = useState("");
 
-    useEffect(() => {
-        console.log(slideValue);
-        setclipPatchValue("polygon(0 0," + slideValue + "% 0, " + slideValue + "% 100%, 0 100%)")
-        lastImgRef.current.style.clipPath = clipPatchValue
-    }, [slideValue, clipPatchValue])
+	useEffect(() => {
+		console.log(slideValue);
+		setclipPatchValue("polygon(0 0," + slideValue + "% 0, " + slideValue + "% 100%, 0 100%)");
+		lastImgRef.current.style.clipPath = clipPatchValue;
+	}, [slideValue, clipPatchValue]);
 
-    return (
-        <>
-            <Layout title="comparison 2">
-                <div className={`${styles.body} ${"body"}`}>
-                    <div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
-                        <img className={`${styles.imgCompImg} ${"imgCompImg"}`} src="/img/amas/matrimonio ascher freymann.jpg" />
-                        <img ref={lastImgRef} id="last1" className={`${styles.imgCompImg} ${styles.last} ${"imgCompImg"}`} src="/img/amas/familia ascher freymann.jpg" />
-                        <input ref={sliderRef} id="slider" onChange={(e) => setValueInput(e.target.value)} className={`${styles.slider} ${"slider"}`} type="range" min="0" max="100" defaultValue={slideValue} />
-                    </div>
-                </div>
-            </Layout>
-        </>
-    )
+	return (
+		<>
+			<Layout title="comparison 2">
+				<div className={`${styles.body} ${"body"}`}>
+					<div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
+						<img
+							className={`${styles.imgCompImg} ${"imgCompImg"}`}
+							src={`${awsUrl}` + `amas-de-leche-25` + ".png"}
+						/>
+						<img
+							ref={lastImgRef}
+							id="last1"
+							className={`${styles.imgCompImg} ${styles.last} ${"imgCompImg"}`}
+							src={`${awsUrl}` + `amas-de-leche-26` + ".png"}
+						/>
+						<input
+							ref={sliderRef}
+							id="slider"
+							onChange={(e) => setValueInput(e.target.value)}
+							className={`${styles.slider} ${"slider"}`}
+							type="range"
+							min="0"
+							max="100"
+							defaultValue={slideValue}
+						/>
+					</div>
+				</div>
+			</Layout>
+		</>
+	);
 }

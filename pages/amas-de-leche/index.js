@@ -125,7 +125,7 @@ export default function index() {
 											<img
 												loading="lazy"
 												className="img-fluid"
-												src="/img/amas/inicio_amas.png"
+												src={`${awsUrl}` + "amas-de-leche-principal" + ".png"}
 												alt=""
 											/>
 										</div>
@@ -197,7 +197,7 @@ export default function index() {
 											<img
 												loading="lazy"
 												className="img-fluid mb-4"
-												src="/img/amas/estudio courret.jpg"
+												src={`${awsUrl}` + "amas-de-leche-1" + ".png"}
 												alt=""
 											/>
 											<div className={`${styles.captionInfo} ${"captionInfo img-fluid"}`}>
@@ -234,7 +234,11 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img className="img-fluid" src="/img/amas/test1.jpg" alt="" />
+													<img
+														className="img-fluid"
+														src={`${awsUrl}` + "amas-de-leche-2" + ".png"}
+														alt=""
+													/>
 												</div>
 											</div>
 										</div>
@@ -288,7 +292,7 @@ export default function index() {
 									<img
 										loading="lazy"
 										className="img-fluid mb-3"
-										src="/img/amas/pedro tonesi.jpg"
+										src={`${awsUrl}` + "amas-de-leche-3" + ".png"}
 										alt=""
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
@@ -305,7 +309,7 @@ export default function index() {
 									<img
 										loading="lazy"
 										className="img-fluid mb-3"
-										src="/img/amas/niña chaize.jpg"
+										src={`${awsUrl}` + "amas-de-leche-4" + ".png"}
 										alt=""
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
@@ -362,7 +366,30 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[5, 6, 7, 8, 9].map((item, index) => {
+											return (
+												<Carousel.Item key={index}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>Isidro Ernesto Ascher Freymann y ama</b>
+																<br />
+																Adolphe Dubreuil, 1903
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -372,8 +399,11 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
-													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
+													<img
+														className="img-fluid"
+														src={`${awsUrl}` + "amas-de-leche-5" + ".png"}
+														alt=""
+													/>
 												</div>
 											</div>
 										</Carousel.Item>
@@ -401,7 +431,6 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
 													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
 												</div>
 											</div>
@@ -416,7 +445,6 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
 													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
 												</div>
 											</div>
@@ -431,11 +459,10 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
 													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item> */}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
@@ -456,7 +483,30 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[10, 11, 12].map((item, index) => {
+											return (
+												<Carousel.Item key={item}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>José Luis Giacometti Soyer y nodriza</b>
+																<br />
+																Eugène Courret, 1888
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -466,7 +516,6 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
 													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
 												</div>
 											</div>
@@ -495,11 +544,10 @@ export default function index() {
 													</p>
 												</div>
 												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
 													<img className="img-fluid" src="/img/amas/ysidro y ama.jpg" alt="" />
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item> */}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
@@ -630,7 +678,7 @@ export default function index() {
 											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
 												<img
 													className="img-fluid"
-													src={`${awsUrl}` + "amas-de-leche-2" + ".png"}
+													src={`${awsUrl}` + "amas-de-leche-15" + ".png"}
 													alt=""
 												/>
 											</div>
@@ -652,7 +700,31 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[16, 17, 18, 19, 20].map((item) => {
+											return (
+												<Carousel.Item key={item}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>Conde José Luis Giacometti Marzano de Visconti</b>
+																<br />
+																Eugenio Courret. 1886
+																<br />
+																12 cm. X 9cm
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -707,7 +779,7 @@ export default function index() {
 													/>
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item> */}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
@@ -721,7 +793,31 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[21, 22, 23, 24].map((item) => {
+											return (
+												<Carousel.Item key={item}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>Conde José Luis Giacometti Marzano de Visconti</b>
+																<br />
+																Eugenio Courret. 1886
+																<br />
+																12 cm. X 9cm
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -776,7 +872,7 @@ export default function index() {
 													/>
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item> */}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
@@ -988,7 +1084,31 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[27, 28].map((item) => {
+											return (
+												<Carousel.Item key={item}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>Conde José Luis Giacometti Marzano de Visconti</b>
+																<br />
+																Eugenio Courret. 1886
+																<br />
+																12 cm. X 9cm
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -1025,7 +1145,7 @@ export default function index() {
 													/>
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item> */}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
@@ -1039,7 +1159,31 @@ export default function index() {
 							<div className={`${styles.gridCarousel} ${"gridCarousel"}`}>
 								<div className="d-flex align-items-center">
 									<Carousel className="mb-5" fade={true} controls={false} interval={null}>
-										<Carousel.Item>
+										{[29, 30, 31, 32, 33, 34, 35].map((item) => {
+											return (
+												<Carousel.Item key={item}>
+													<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+														<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+															<p className="mb-0">
+																<b>Conde José Luis Giacometti Marzano de Visconti</b>
+																<br />
+																Eugenio Courret. 1886
+																<br />
+																12 cm. X 9cm
+															</p>
+														</div>
+														<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+															<img
+																className="img-fluid"
+																src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+																alt=""
+															/>
+														</div>
+													</div>
+												</Carousel.Item>
+											);
+										})}
+										{/* <Carousel.Item>
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
@@ -1148,7 +1292,7 @@ export default function index() {
 													/>
 												</div>
 											</div>
-										</Carousel.Item>
+										</Carousel.Item>*/}
 									</Carousel>
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
