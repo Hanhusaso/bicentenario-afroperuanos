@@ -231,11 +231,11 @@ ul {
     }
     &.martin {
         .text-1 {
-            width: 71%;
+            width: 68%;
             margin-bottom: 2%;
         }
         .wrapper-arrow-text {
-            width: 100%;
+            width: 97%;
             // display: grid;
             // align-items: center;
             // grid-template-columns: auto 15%;
@@ -246,6 +246,10 @@ ul {
             }
         }
         .text-2 {
+            width: 97%;
+            margin-bottom: 2%;
+        }
+        .text-3 {
             width: 100%;
         }
     }

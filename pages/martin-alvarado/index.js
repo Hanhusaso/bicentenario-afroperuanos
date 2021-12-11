@@ -48,17 +48,17 @@ export default function index() {
                                 <div>
                                     <div className="title-page martin mb-5 fw-600">
                                         <img loading="lazy" className="text-1" src="/img/svg/MARTIN ALVARADO/MARTÍN.svg" alt="martín" />
+                                        <img loading="lazy" className="text-2" src="/img/svg/MARTIN ALVARADO/ALVARADO.svg" alt="alvarado" />
                                         <div className="wrapper-arrow-text">
                                             <img loading="lazy" className="flechas" src="/img/svg/MARTIN ALVARADO/flechas_rosa_claro(36).svg" alt="flechas" />
-                                            {/* <img loading="lazy" className="w-100" src="/img/svg/LORRY SALCEDO/DE LA.svg" alt="de la" /> */}
                                         </div>
-                                        <img loading="lazy" className="text-2" src="/img/svg/MARTIN ALVARADO/ALVARADO.svg" alt="alvarado" />
+                                        <img loading="lazy" className="text-3" src="/img/svg/MARTIN ALVARADO/CRÓNICAS AFROPERUANAS.svg" alt="crónicas afroperuanas" />
                                     </div>
                                     <div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
-                                        <div className={`${styles.partText} ${"partText"}`}>
-                                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eligendi blanditiis maxime? Molestiae non voluptatem eum nisi perferendis perspiciatis sed aliquid praesentium quidem fuga sint aperiam reprehenderit architecto, dicta inventore.
-                                            Dicta, atque, fuga eligendi quo culpa iste corporis consequuntur rerum amet quia necessitatibus aliquam consectetur quos vitae repellat officia, omnis alias. Quis molestiae harum iure optio, provident sit iusto dolorem.
-                                            Eveniet omnis dignissimos doloremque et cum excepturi?</p>
+                                        <div className={`${styles.partText} ${"partText lh-normal"}`}>
+                                            <p className="mb-0">Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país documentando con su cámara fotográfica diferentes modos de vida, festividades, personajes, danzas, música y tradiciones. Uno de los motivos fundamentales de su obra es visibilizar la presencia afroperuana en nuestro país, buscando contribuir, a través de su extensa labor fotográfica, al conocimiento y preservación de su memoria cultural y colectiva. Martín Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente más grande del país.</p>
+                                            <p className="mb-0">Su exposición DIA 100, inaugurada en el año 2017, reunió las imágenes de un centenar de compatriotas orgullosos de su ascendencia africana, quienes expresaron por escrito su sentir ante la discriminación, el racismo y los estereotipos que persisten en nuestra sociedad y continúa estigmatizándolos. La muestra fue inaugurada en el marco del Decenio Internacional de los Afrodescendientes (2015-2025) proclamado por la ONU y el Mes de la Cultura Afroperuana celebrado en junio de cada año desde el 2014.</p>
+                                            <p className="mb-0">Como afroperuano, el artista sufrió en carne viva prejuicios. Sus imágenes son testimonios visuales que buscan conformar un manifiesto que aboga por el respeto, la igualdad y el reconocimiento de la identidad, presencia y legado cultural afroperuano.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ export default function index() {
                                 <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
                                     <img loading="lazy" className="arrow left" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
                                     <p className="mb-0">
-                                        “Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
+                                        “DIA 100 significa en sus siglas, Decenio Internacional del Afrodescendiente (DIA), y el número cien representa a las cien personas que han sido fotografiadas. El proyecto tiene como punto de partida la idea de mostrar lo mucho que aportan a diario los afroperuanos y las afroperuanas a este país; señalar que la cantidad de afrodescendientes luchadores y profesionales es mayor a lo que se imaginan muchas personas; y romper con las ideas que estereotipan a la población afroperuana como bailarines, deportistas o cocineros. Además, Día 100 busca el reconocimiento específico de los y las profesionales afro en el país y cómo este puede inspirar y educar a las personas para seguir trabajando en la erradicación del racismo”.
                                     </p>
                                     <img loading="lazy" className="arrow right" src="/img/svg/flechas_rosa-claro(18).svg" alt="arrows" />
                                 </div>
