@@ -393,7 +393,11 @@ export default function Home() {
 
 								<div className={`${styles.containerVideos} ${"containerVideos mb-160"}`}>
 									<div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
-										<video className="w-100" src="/video/video afro.mp4" controls></video>
+										<video
+											className="w-100"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											controls
+										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
@@ -408,7 +412,11 @@ export default function Home() {
 										</div>
 									</div>
 									<div className={`${styles.video2} ${"wrapperVideo mb-5"}`}>
-										<video className="w-100" src="/video/video afro.mp4" controls></video>
+										<video
+											className="w-100"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											controls
+										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
@@ -437,7 +445,11 @@ export default function Home() {
 
 								<div className={`${styles.containerVideos} ${"containerVideos"}`}>
 									<div className={`${styles.video3} ${"wrapperVideo mb-5"}`}>
-										<video className="w-100" src="/video/video afro.mp4" controls></video>
+										<video
+											className="w-100"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											controls
+										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
@@ -452,7 +464,11 @@ export default function Home() {
 										</div>
 									</div>
 									<div className={`${styles.video4} ${"wrapperVideo mb-5"}`}>
-										<video className="w-100" src="/video/video afro.mp4" controls></video>
+										<video
+											className="w-100"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											controls
+										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
