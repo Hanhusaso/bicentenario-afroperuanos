@@ -7,6 +7,7 @@ import { Link as LinkScroll, Element } from "react-scroll";
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
+const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function index() {
 	return (
@@ -381,7 +382,12 @@ export default function index() {
 						</div>
 						<div className={`${styles.containerVideos} ${"containerVideos"}`}>
 							<div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
-								<video className="w-100" src="/video/video afro.mp4" controls></video>
+								<video
+									className="w-100"
+									src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Lorry+Salcedo+Mitrani-1.m4v"
+									controls
+									poster={`${awsUrlVideo}Video+Lorry+Salcedo-02+1.png`}
+								></video>
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>

@@ -7,6 +7,7 @@ import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
+const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function Home() {
 	return (
@@ -395,8 +396,9 @@ export default function Home() {
 									<div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
 										<video
 											className="w-100"
-											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											src={`${awsUrlVideo}Carlos+Estela+Vilela-1-comp-2.mp4`}
 											controls
+											poster={`${awsUrlVideo}el-estudio-courret-y-la-fotografia-de-las-amas-de-leche-afroperuanas-de-fines-del-xix.png`}
 										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
@@ -414,7 +416,8 @@ export default function Home() {
 									<div className={`${styles.video2} ${"wrapperVideo mb-5"}`}>
 										<video
 											className="w-100"
-											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											src={`${awsUrlVideo}Maribel+Arrelucea-1.m4v`}
+											poster={`${awsUrlVideo}Video+Maribel+Arrelucea-04+1+(1).png`}
 											controls
 										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
@@ -447,8 +450,9 @@ export default function Home() {
 									<div className={`${styles.video3} ${"wrapperVideo mb-5"}`}>
 										<video
 											className="w-100"
-											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Sofia Carrillo-1.m4v"
 											controls
+											poster={`${awsUrlVideo}Video+Sofia+Carrillo-05+1.png`}
 										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
@@ -466,7 +470,8 @@ export default function Home() {
 									<div className={`${styles.video4} ${"wrapperVideo mb-5"}`}>
 										<video
 											className="w-100"
-											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/CARLOS+ESTELA+VILELA.mp4"
+											src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Newton+Mori-1.m4v"
+											poster={`${awsUrlVideo}Video+Newton+Mori-06+1.png`}
 											controls
 										></video>
 										<div className={`${styles.infoVideo} ${"infoVideo"}`}>
