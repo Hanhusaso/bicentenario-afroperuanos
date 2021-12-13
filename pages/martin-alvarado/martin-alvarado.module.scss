@@ -31,7 +31,7 @@
     }
     .grid1 {
         display: grid;
-        grid-template-columns: 55% auto;
+        grid-template-columns: 63% auto;
         gap: 0px 60px;
         @media (max-width: 767.98px) {
             display: block;
@@ -82,5 +82,37 @@
     color: $rosa-claro;
     .containerGrid3 {
         padding-top: 0;
+    }
+}
+
+.section5 {
+    background-color: $gris;
+    color: $azul;
+    .minWrap {
+        color: $negro;
+        max-width: 900px;
+        margin-left: auto;
+    }
+}
+
+.section6 {
+    background-color: $negro;
+    color: $piel;
+    // .linkMenu {
+    //     margin-top: 100px;
+    // }
+    .containerVideos {
+        .video1 {
+            .infoVideo {
+                color: $azul;
+                background-color: $verde-mar;
+                .mirar {
+                    border-bottom: 1px solid $azul;
+                }
+                .titulo {
+                    border-bottom: 1px solid $azul;
+                }
+            }
+        }
     }
 }

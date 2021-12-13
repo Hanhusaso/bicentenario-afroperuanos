@@ -231,11 +231,11 @@ ul {
     }
     &.martin {
         .text-1 {
-            width: 71%;
+            width: 68%;
             margin-bottom: 2%;
         }
         .wrapper-arrow-text {
-            width: 100%;
+            width: 97%;
             // display: grid;
             // align-items: center;
             // grid-template-columns: auto 15%;
@@ -246,6 +246,10 @@ ul {
             }
         }
         .text-2 {
+            width: 97%;
+            margin-bottom: 2%;
+        }
+        .text-3 {
             width: 100%;
         }
     }
@@ -262,8 +266,8 @@ ul {
     max-width: 326px;
 }
 .minWrap {
-    max-width: 540px;
-    margin: auto;
+    // max-width: 540px;
+    // margin: auto;
 }
 
 .gridCarousel {
@@ -332,9 +336,10 @@ ul {
 }
 
 .textArrow {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
-    line-height: 1.4;
+    // line-height: 1.4;
+    line-height: 1.2;
     @include media-breakpoint-down(md) {
         font-size: 18px;
     }

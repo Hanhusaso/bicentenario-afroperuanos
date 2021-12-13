@@ -39,8 +39,8 @@ export default function Home() {
 									<img className="text-2" src="/img/svg/HOME/AFROPERUANO.svg" alt="afroperuano" />
 								</div>
 								<div>
-									<div className="mb-4">
-										<p className="mb-0 lh-normal">
+									<div className="mb-4 lh-normal">
+										<p className="mb-0">
 											<b>
 												En el marco de la celebración del Bicentenario de la independencia del Perú
 											</b>{" "}
