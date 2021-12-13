@@ -7,6 +7,7 @@ import { Link as LinkScroll, Element } from "react-scroll";
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const awsUrlAlvarado = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-alvarado/";
+const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function index() {
 	return (
@@ -254,9 +255,7 @@ export default function index() {
 									alt="arrows"
 								/>
 								<p className="mb-0">
-									“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-									euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed
-									diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
+                                “El contenido de Día 100 es un registro fotográfico con historias de hombres, mujeres, niñas, niños, adolescentes y jóvenes afrodescendientes, enfocando al Perú de forma transversal; con ello pretende visibilizar y reconocer la vida de todas y todos aquellos que viven en exclusión, racismo y discriminación por la constante y denigrante práctica de encasillar y atribuir prejuicios a pueblos; lo cual forma parte de la violencia física y psicológica que se ejerce por la condición étnico-racial de un ser humano”.
 								</p>
 								<img
 									loading="lazy"
@@ -359,9 +358,7 @@ export default function index() {
 									alt="arrows"
 								/>
 								<p className="mb-0">
-									“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-									euismod tincidunt ut laoreet m dolor sit amet, consectetuer adipiscing elit, sed
-									diam nonummy nibh euismod tincidunt ut laoreetdolore magna”
+                                “El pueblo afroperuano forma parte de las poblaciones vulneradas, invisibilizadas e injustamente marcadas por la esclavitud y trata de personas. Este proyecto contó con el apoyo de la Dirección de Políticas Públicas para la Población Afroperuana del Viceministerio de Interculturalidad perteneciente al Ministerio de Cultura del Perú y por supuesto con la hermosa historia de cada uno de las y los afroperuanos que participaron y suman para desmitificar, visibilizar y luchar contra la discriminación étnico-racial del pueblo afroperuano”.
 								</p>
 								<img
 									loading="lazy"
@@ -495,6 +492,63 @@ export default function index() {
                                 </div> */}
 						</div>
 						<div></div>
+					</div>
+				</section>
+                <section className={styles.section5}>
+					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
+						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
+							<div className="titleHome text-uppercase mb-1">
+								PRESERVACIÓN DE LA
+								<br />
+								MEMORIA AFROPERUANA
+							</div>
+							<div className="mb-4">
+								<img className="underline-arrows" src="/img/svg/flechas_azul(37).svg" alt="" />
+							</div>
+						</div>
+						<div className={`${styles.minWrap} ${"minWrap"}`}>
+							<p className="mb-0">
+                                Martín Alvarado se inició como fotógrafo deportivo, luego de lo cual llegó a ser editor gráfico de los periódicos El Sol, El Comercio, Correo y La República. A partir del año 2000 fue productor del programa de televisión Costumbres, plataforma que ha documentado la cultura viva en diversas provincias del Perú. Producto de esta labor, en el año 2005 presentó la muestra “Este es mi cariño”, que recopiló 87 fotografías realizadas durante el primer lustro de emisión del programa. 
+							</p>
+                            <p className="mb-0">Su obra fotográfica ha sido presentada en diversas exposiciones individuales y colectivas, y recopilada en varias publicaciones, como Fiestas, Calendario y Costumbres de Sonaly Tuesta (2010) y el libro de su autoría titulado Marcados de Fiesta (2015). Su arte ha trascendido nuestras fronteras, llegando a países como Colombia, República Dominicana, España, Francia y China.</p>
+                            <p className="mb-0">Entre sus exposiciones esta Afroperuanos (2009), donde Alvarado reúne imágenes de emblemáticas figuras de la música y el deporte, como el gran Amador Ballumbrosio o el futbolista Sandro Baylón. Asimismo, retrata la religiosidad presente en la recordada Misa Afroperuana de Lima; y capta en todo su esplendor distintas danzas tradicionales, como el “Hatajo de Negritos” y “Las Pallitas’’ de El Carmen (Ica) o la “danza de los Negritos de Zaña” (Piura). En esta muestra buscó, además, visibilizar otros espacios o áreas conquistadas por los afroperuanos, tales como la política, la ciencia o el ámbito académico, denunciando así los encasillamientos de un sistema que los reconoce o circunscribe solo a determinados oficios o prácticas. Su siguiente exposición, Mujeres afroperuanas (2011), presenta diversos retratos de mujeres y madres que triunfan como emprendedoras, empresarias, artistas, modelos y profesionales de la salud y que en conjunto representan un valioso ejemplo de la enorme capacidad, superación y aporte al desarrollo del país.</p>
+                            <p className="mb-0">Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura afroperuana, ha recibido distintas distinciones, entre las que se encuentran el “Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la “Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en 2015. En el 2021 dirigió y produjo el documental <b>Josef: el inicio de una historia</b>.</p>
+						</div>
+					</div>
+				</section>
+                <section className={styles.section6}>
+					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
+						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
+							<div className="titleHome text-uppercase mb-1">
+								¿QUIÉRES SABER MÁS SOBRE
+								<br />
+								LA PROPUESTA ARTÍSTICA DE
+								<br />
+								MARTÍN ALVARADO?
+							</div>
+							<div className="mb-4">
+								<img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
+							</div>
+						</div>
+						<div className={`${styles.containerVideos} ${"containerVideos"}`}>
+							<div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
+								<video
+									className="w-100"
+									src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v"
+									controls
+									poster={`${awsUrlVideo}Video+Martin+Alvarado-03+1.png`}
+								></video>
+								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
+									<div className={`${styles.mirar} ${"mirar"}`}></div>
+									<div className={`${styles.titulo} ${"titulo"}`}>
+										<b>Testimonio del artista</b>
+										<br />
+										<span>Martín Alvarado. Fotógrafo y productor audiovisual</span>
+									</div>
+									<div className="descripcion"></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</section>
 			</Layout>
