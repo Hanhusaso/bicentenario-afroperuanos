@@ -11,14 +11,18 @@
         border-top: none;
         border-bottom: none;
         @include media-breakpoint-down(md) {
-            height: 15px;
+            height: 20px;
+            width: 20px;
         }
     }
 }
 
 .gridCarousel {
     .carousel-indicators {
-        transform: translate(17%, calc(100% + 20px));
+        transform: translate(29%, calc(100% + 20px));
+        @include media-breakpoint-down(md) {
+            transform: translate(0%, calc(100% + 20px));
+        }
         margin-bottom: 0;
     }
 }

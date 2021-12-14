@@ -40,6 +40,10 @@
     background-color: $azul;
     color: $verde-claro;
     line-height: 1.6;
+    padding-top: 64px;
+    @media (max-width: 767.98px) {
+        padding-top: 0px;
+    }
     .containerGrid {
         padding-top: 32px;
         padding-bottom: 32px;
@@ -50,6 +54,9 @@
     .titleSection1 {
         color: $rosa;
         margin-bottom: 75px;
+        @media (max-width: 767.98px) {
+            margin-bottom: 32px;
+        }
     }
     .captionInfo {
         color: $rosa;
@@ -80,10 +87,10 @@
             .wrapperCaption {
 
             }
-            .wrapperImg {
-                height: 37vw;
-                max-height: 800px;
-            }
+            // .wrapperImg {
+            //     height: 37vw;
+            //     max-height: 800px;
+            // }
         }
         [data-bs-target] {
             background-color: $rosa;
@@ -105,12 +112,18 @@
     background-color: $negro;
     color: $piel;
     padding-top: 64px;
-    .linkMenu {
-        margin-top: 300px;
+    @media (max-width: 767.98px) {
+        padding-top: 0px;
     }
+    // .linkMenu {
+    //     margin-top: 300px;
+    // }
     .titleSection2 {
         color: $rosa;
         margin-bottom: 75px;
+        @media (max-width: 767.98px) {
+            margin-bottom: 32px;
+        }
     }
     .grid2 {
         display: flex;
@@ -118,11 +131,13 @@
         margin-bottom: 80px;
         @media (max-width: 767.98px) {
             display: block;
+            margin-bottom: 0px;
         }
         .wrapperImg {
             @media (max-width: 767.98px) {
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 20px;
             }
             img {
                 // height: 546px;
@@ -135,10 +150,10 @@
     }
     .gridCarousel {
         .gridImgCaption {
-            .wrapperImg {
-                height: 37vw;
-                max-height: 800px;
-            }
+            // .wrapperImg {
+            //     height: 37vw;
+            //     max-height: 800px;
+            // }
         }
         [data-bs-target] {
             background-color: $piel;
@@ -165,6 +180,10 @@
 .section4 {
     background-color: $marron;
     color: #000;
+    padding-top: 64px;
+    @media (max-width: 767.98px) {
+        padding-top: 0px;
+    }
     .textBorder {
         margin-top: 70px;
         border-top: 1px solid #000;
@@ -174,6 +193,9 @@
     .titleSection3 {
         color: #000;
         margin-bottom: 75px;
+        @media (max-width: 767.98px) {
+            margin-bottom: 32px;
+        }
     }
     .grid2 {
         display: flex;
@@ -189,13 +211,13 @@
 
     .gridCarousel {
         .gridImgCaption {
-            .wrapperImg {
-                height: 37vw;
-                max-height: 800px;
-            }
+            // .wrapperImg {
+            //     height: 37vw;
+            //     max-height: 800px;
+            // }
         }
         [data-bs-target] {
-            background-color: #000;
+            background-color: $rosa;
         }
         &.gridCarouselAuto {
             .gridImgCaption {
@@ -260,12 +282,22 @@
 .section5 {
     background-color: $verde-mar;
     color: $azul;
-    .linkMenu {
-        margin-top: 300px;
+    padding-top: 64px;
+    @media (max-width: 767.98px) {
+        padding-top: 0px;
     }
+    // .linkMenu {
+    //     margin-top: 300px;
+    // }
     .titleSection1 {
         color: $verde-claro;
         margin-bottom: 75px;
+        @media (max-width: 767.98px) {
+            margin-bottom: 32px;
+        }
+    }
+    [data-bs-target] {
+        background-color: $azul;
     }
     .grid3 {
         display: grid;
@@ -289,8 +321,22 @@
 .section6 {
     background-color: $negro;
     color: $rosa-claro;
-    .linkMenu {
-        margin-top: 300px;
+    // .linkMenu {
+    //     margin-top: 300px;
+    // }
+    .containerVideos {
+        .video1 {
+            .infoVideo {
+                color: $azul;
+                background-color: $verde-mar;
+                .mirar {
+                    border-bottom: 1px solid $azul;
+                }
+                .titulo {
+                    border-bottom: 1px solid $azul;
+                }
+            }
+        }
     }
 }
 
@@ -300,10 +346,10 @@
 
     .gridCarousel {
         .gridImgCaption {
-            .wrapperImg {
-                height: 37vw;
-                max-height: 800px;
-            }
+            // .wrapperImg {
+            //     height: 37vw;
+            //     max-height: 800px;
+            // }
         }
         [data-bs-target] {
             background-color: #000;
@@ -324,10 +370,10 @@
 
     .gridCarousel {
         .gridImgCaption {
-            .wrapperImg {
-                height: 37vw;
-                max-height: 800px;
-            }
+            // .wrapperImg {
+            //     height: 37vw;
+            //     max-height: 800px;
+            // }
         }
         [data-bs-target] {
             background-color: $rosa-claro;
