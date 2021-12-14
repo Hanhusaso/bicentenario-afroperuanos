@@ -18,7 +18,7 @@ export default function Compar2() {
 
 	return (
 		<>
-			<Layout title="comparison 2">
+			{/* <Layout title="comparison 2"> */}
 				<div className={`${styles.body} ${"body"}`}>
 					<div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
 						<img
@@ -43,7 +43,7 @@ export default function Compar2() {
 						/>
 					</div>
 				</div>
-			</Layout>
+			{/* </Layout> */}
 		</>
 	);
 }

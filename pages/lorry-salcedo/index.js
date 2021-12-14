@@ -127,7 +127,7 @@ export default function index() {
 									</div>
 								</div>
 							</div>
-							<div className="linkDown">
+							{/* <div className="linkDown">
 								<LinkScroll
 									activeClass="active"
 									className=""
@@ -137,7 +137,7 @@ export default function index() {
 								>
 									<ButtonMove dir="down" />
 								</LinkScroll>
-							</div>
+							</div> */}
 						</div>
 						<div></div>
 					</div>

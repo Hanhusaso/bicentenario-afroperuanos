@@ -13,13 +13,12 @@ export default function Compar1() {
 	useEffect(() => {
 		console.log(slideValue);
 		setclipPatchValue("polygon(0 0," + slideValue + "% 0, " + slideValue + "% 100%, 0 100%)");
-		// console.log(clipPatchValue);
 		lastImgRef.current.style.clipPath = clipPatchValue;
 	}, [slideValue, clipPatchValue]);
 
 	return (
 		<>
-			<Layout title="comparison 1">
+			{/* <Layout title="comparison 1"> */}
 				<div className={`${styles.body} ${"body"}`}>
 					<div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
 						<img
@@ -44,7 +43,7 @@ export default function Compar1() {
 						/>
 					</div>
 				</div>
-			</Layout>
+			{/* </Layout> */}
 		</>
 	);
 }

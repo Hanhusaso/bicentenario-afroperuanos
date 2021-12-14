@@ -90,14 +90,14 @@ export default function index() {
 									<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
 										<img
 											loading="lazy"
-											className="img-fluid"
+                                            className={`${styles.imgInicioMartin} ${"img-fluid"}`}
 											src={`${awsUrlAlvarado}` + "martin-alvarado-portada" + ".png"}
 											alt=""
 										/>
 									</div>
 								</div>
 							</div>
-							<div className="linkDown">
+							{/* <div className="linkDown">
 								<LinkScroll
 									activeClass="active"
 									className=""
@@ -107,7 +107,7 @@ export default function index() {
 								>
 									<ButtonMove dir="down" />
 								</LinkScroll>
-							</div>
+							</div> */}
 						</div>
 						<div></div>
 					</div>
