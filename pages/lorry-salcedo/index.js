@@ -145,7 +145,7 @@ export default function index() {
 				<section className={styles.section2}>
 					<Element name="section2">
 						<div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
-							<div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
+							<div className={`${"d-none d-md-block ps-0 ps-xl-5"}`}>
 								<Link href="./#menuPrincipal">
 									<a
 										className={`${
@@ -155,7 +155,7 @@ export default function index() {
 										<div className="mb-2">
 											<ButtonMove dir="up" />
 										</div>
-										<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+										<span className="fw-500 text-uppercase text-center">MENÚ PRINCIPAL</span>
 									</a>
 								</Link>
 							</div>
