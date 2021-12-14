@@ -217,7 +217,7 @@ export default function Home() {
 											</LinkScroll>
 										</div>
 									</div>
-									<div className="d-flex justify-content-end">
+									<div className="d-block d-md-flex justify-content-end">
 										<div>
 											<div className={`${styles.menuGrid} ${"menuGrid"}`}>
 												<div className={`${styles.ama} ${""}`}>
