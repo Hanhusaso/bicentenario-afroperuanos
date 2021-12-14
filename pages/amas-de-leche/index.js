@@ -1351,7 +1351,7 @@ export default function index() {
 									className="w-100"
 									src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v"
 									controls
-									poster={`${awsUrlVideo}el-estudio-courret-y-la-fotografia-de-las-amas-de-leche-afroperuanas-de-fines-del-xix.png`}
+									poster={`${awsUrlVideo}Video+Sofia+Pachas-07+1.png`}
 								></video>
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
