@@ -161,7 +161,9 @@
         padding-bottom: 32px;
         // height: 100%;
         .linkMenu {
-            margin-top: 300px;
+            padding-top: 300px;
+            position: sticky;
+            top: 20px;
         }
         .boxText {
             width: 100%;
