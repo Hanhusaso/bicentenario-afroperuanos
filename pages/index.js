@@ -6,10 +6,114 @@ import { Link as LinkScroll, Element } from "react-scroll";
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
+import { useWindowSize } from "../utils/useWindowSize";
+
 const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function Home() {
+
+	const { width, height } = useWindowSize();
+
+	const MenuMove = () => {
+		return (
+			<div className="d-block d-md-flex justify-content-end">
+				<div>
+					<div className={`${styles.menuGrid} ${"menuGrid"}`}>
+						<div className={`${styles.ama} ${""}`}>
+							<Link href="./amas-de-leche">
+								<a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
+									{/* <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" /> */}
+									<picture>
+										<source
+											srcSet={`${awsUrl}` + "amas-de-leche-responsive-portada" + ".png"}
+											media="(max-width: 767.98px)"
+										/>
+										<img
+											className="img-fluid"
+											srcSet={`${awsUrl}` + "amas-de-leche-menu" + ".png"}
+											alt="Amas de leche"
+										/>
+									</picture>
+									<div className={`${styles.caption} ${"caption"}`}>
+										<p className="mb-0">
+											&quot;AMAS DE LECHE&quot;
+											<br />
+											EN LAS FOTOGRAFÍAS
+											<br />
+											DEL ESTUDIO COURRET
+										</p>
+									</div>
+								</a>
+							</Link>
+						</div>
+						<div className={`${styles.lorry} ${""}`}>
+							<Link href="./lorry-salcedo">
+								<a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
+									{/* <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" /> */}
+									<picture>
+										<source
+											srcSet={
+												`${awsUrl}` +
+												"lorry-salcedo-amas-de-leche-responsive-portada" +
+												".png"
+											}
+											media="(max-width: 767.98px)"
+										/>
+										<img
+											className="img-fluid"
+											srcSet={`${awsUrl}` + "lorry-salcedo-menu" + ".webp"}
+											alt="Lorry Salcedo"
+										/>
+									</picture>
+									<div className={`${styles.caption} ${"caption"}`}>
+										<p className="mb-0">
+											LORRY
+											<br />
+											SALCEDO
+											<br />Y EL CARMEN
+										</p>
+									</div>
+								</a>
+							</Link>
+						</div>
+						<div className={`${styles.martin} ${""}`}>
+							<Link href="./martin-alvarado">
+								<a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
+									{/* <img className="img-fluid" src="/img/menu/martin.jpg" alt="" /> */}
+									<picture>
+										<source
+											srcSet={
+												`${awsUrl}` +
+												"martin-alvarado-amas-de-leche-responsive-portada" +
+												".png"
+											}
+											media="(max-width: 767.98px)"
+										/>
+										<img
+											className="img-fluid"
+											srcSet={`${awsUrl}` + "martin-alvarado-menu" + ".png"}
+											alt="Martín Alvarado"
+										/>
+									</picture>
+									<div className={`${styles.caption} ${"caption"}`}>
+										<p className="mb-0">
+											MARTÍN ALVARADO
+											<br />
+											CRÓNICAS
+											<br />
+											AFROPERUANAS
+										</p>
+									</div>
+								</a>
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
+		);
+	};
+
 	return (
 		<>
 			<LayoutHome
@@ -147,7 +251,7 @@ export default function Home() {
 							<div className="d-flex align-items-center">
 								<div className={`${styles.grid}`}>
 									<div className="pt-4">
-										<div className="mb-5">
+										<div className="mb-3 mb-md-5">
 											{/* <div className="titleMenu fw-500 text-uppercase mb-4">DISCURSOS VISUALES SOBRE LO AFROPERUANO</div> */}
 											<div className="title-page titleMenu home pb-3 mb-4">
 												<img
@@ -181,11 +285,11 @@ export default function Home() {
 												</p>
 											</div>
 										</div>
-										{/* <div className="mb-5">
-                                            <LinkScroll activeClass="active" className="pointer" to="introduccion" smooth={true} duration={200}>
-                                                <div className="titleMenu fw-500 text-uppercase">INTRODUCCIÓN</div>
-                                            </LinkScroll>
-                                        </div> */}
+										{width < 768 && (
+											<>
+												<MenuMove />
+											</>
+										)}
 										<div className="mb-5">
 											<LinkScroll
 												activeClass="active"
@@ -217,100 +321,12 @@ export default function Home() {
 											</LinkScroll>
 										</div>
 									</div>
-									<div className="d-block d-md-flex justify-content-end">
-										<div>
-											<div className={`${styles.menuGrid} ${"menuGrid"}`}>
-												<div className={`${styles.ama} ${""}`}>
-													<Link href="./amas-de-leche">
-														<a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
-															{/* <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" /> */}
-															<picture>
-																<source
-																	srcSet={`${awsUrl}` + "amas-de-leche-responsive-portada" + ".png"}
-																	media="(max-width: 767.98px)"
-																/>
-																<img
-																	className="img-fluid"
-																	srcSet={`${awsUrl}` + "amas-de-leche-menu" + ".png"}
-																	alt="Amas de leche"
-																/>
-															</picture>
-															<div className={`${styles.caption} ${"caption"}`}>
-																<p className="mb-0">
-																	&quot;AMAS DE LECHE&quot;
-																	<br />
-																	EN LAS FOTOGRAFÍAS
-																	<br />
-																	DEL ESTUDIO COURRET
-																</p>
-															</div>
-														</a>
-													</Link>
-												</div>
-												<div className={`${styles.lorry} ${""}`}>
-													<Link href="./lorry-salcedo">
-														<a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
-															{/* <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" /> */}
-															<picture>
-																<source
-																	srcSet={
-																		`${awsUrl}` +
-																		"lorry-salcedo-amas-de-leche-responsive-portada" +
-																		".png"
-																	}
-																	media="(max-width: 767.98px)"
-																/>
-																<img
-																	className="img-fluid"
-																	srcSet={`${awsUrl}` + "lorry-salcedo-menu" + ".webp"}
-																	alt="Lorry Salcedo"
-																/>
-															</picture>
-															<div className={`${styles.caption} ${"caption"}`}>
-																<p className="mb-0">
-																	LORRY
-																	<br />
-																	SALCEDO
-																	<br />Y EL CARMEN
-																</p>
-															</div>
-														</a>
-													</Link>
-												</div>
-												<div className={`${styles.martin} ${""}`}>
-													<Link href="./martin-alvarado">
-														<a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
-															{/* <img className="img-fluid" src="/img/menu/martin.jpg" alt="" /> */}
-															<picture>
-																<source
-																	srcSet={
-																		`${awsUrl}` +
-																		"martin-alvarado-amas-de-leche-responsive-portada" +
-																		".png"
-																	}
-																	media="(max-width: 767.98px)"
-																/>
-																<img
-																	className="img-fluid"
-																	srcSet={`${awsUrl}` + "martin-alvarado-menu" + ".png"}
-																	alt="Martín Alvarado"
-																/>
-															</picture>
-															<div className={`${styles.caption} ${"caption"}`}>
-																<p className="mb-0">
-																	MARTÍN ALVARADO
-																	<br />
-																	CRÓNICAS
-																	<br />
-																	AFROPERUANAS
-																</p>
-															</div>
-														</a>
-													</Link>
-												</div>
-											</div>
-										</div>
-									</div>
+									{width >= 768 && (
+										<>
+											<MenuMove />
+										</>
+									)}
+									
 								</div>
 							</div>
 							<div></div>
