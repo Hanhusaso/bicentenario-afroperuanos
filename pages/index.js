@@ -181,7 +181,7 @@ export default function Home() {
 										</div>
 										<div>
 											<a
-												href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/"
+												href="whatsapp://send?text=https://discursosvisualesafroperuanos.com/"
 												data-action="share/whatsapp/share"
 												className="d-inline-block color-inherit me-1"
 											>
@@ -190,7 +190,7 @@ export default function Home() {
 											<a
 												target="_blank"
 												rel="noreferrer"
-												href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/&quote="
+												href="http://www.facebook.com/sharer.php?u=https://discursosvisualesafroperuanos.com/&quote="
 												className="d-inline-block color-inherit me-1"
 											>
 												<FaFacebookF className="icon" />
@@ -201,7 +201,7 @@ export default function Home() {
 											<a
 												target="_blank"
 												rel="noreferrer"
-												href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/"
+												href="https://twitter.com/intent/tweet?text=https://discursosvisualesafroperuanos.com/"
 												className="d-inline-block color-inherit me-2"
 											>
 												<FaTwitter className="icon" />
