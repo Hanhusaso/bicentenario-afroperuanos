@@ -1349,7 +1349,7 @@ export default function index() {
 							<div className={`${styles.video1} ${"wrapperVideo mb-5"}`}>
 								<video
 									className="w-100"
-									src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Martin+Alvarado-1.m4v"
+									src="https://afroperuanos.s3.us-east-2.amazonaws.com/videos/Sofia+Pachas-1.m4v"
 									controls
 									poster={`${awsUrlVideo}Video+Sofia+Pachas-07+1.png`}
 								></video>
