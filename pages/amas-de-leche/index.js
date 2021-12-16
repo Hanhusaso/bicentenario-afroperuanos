@@ -152,10 +152,24 @@ export default function index() {
 					</div>
 				</section>
 				<section className={styles.section2}>
+					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+						<Link href="./#menuPrincipal">
+							<a
+								className={`${
+									styles.linkMenu
+								} ${"d-inline-flex flex-column align-items-center color-inherit"}`}
+							>
+								<div className="mb-2">
+									<ButtonMove dir="up" />
+								</div>
+								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							</a>
+						</Link>
+					</div>
 					<Element name="section2">
 						<div className={`${styles.containerGrid} ${"containerGrid"}`}>
-							<div className={`${styles.linkMenu} ${"d-none d-md-block ps-0 ps-xl-5"}`}>
-								<Link href="./#menuPrincipal">
+							<div className={`${"d-none d-md-block ps-0 ps-xl-3"}`}>
+								{/* <Link href="./#menuPrincipal">
 									<a
 										className={`${
 											styles.linkMenu
@@ -166,7 +180,7 @@ export default function index() {
 										</div>
 										<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 									</a>
-								</Link>
+								</Link> */}
 							</div>
 							<div>
 								<p className={`${styles.titleSection1} ${"titleSection"}`}>
@@ -262,6 +276,20 @@ export default function index() {
 					</Element>
 				</section>
 				<section className={styles.section3}>
+					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+						<Link href="./#menuPrincipal">
+							<a
+								className={`${
+									styles.linkMenu
+								} ${"d-inline-flex flex-column align-items-center color-inherit"}`}
+							>
+								<div className="mb-2">
+									<ButtonMove dir="up" />
+								</div>
+								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							</a>
+						</Link>
+					</div>
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div></div>
 						<div>
@@ -579,6 +607,20 @@ export default function index() {
 					</div>
 				</section>
 				<section className={styles.section4}>
+					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+						<Link href="./#menuPrincipal">
+							<a
+								className={`${
+									styles.linkMenu
+								} ${"d-inline-flex flex-column align-items-center color-inherit"}`}
+							>
+								<div className="mb-2">
+									<ButtonMove dir="up" />
+								</div>
+								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							</a>
+						</Link>
+					</div>
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div></div>
 						<div>
@@ -1024,6 +1066,20 @@ export default function index() {
                     </div>
                 </section> */}
 				<section className={styles.section5}>
+					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+						<Link href="./#menuPrincipal">
+							<a
+								className={`${
+									styles.linkMenu
+								} ${"d-inline-flex flex-column align-items-center color-inherit"}`}
+							>
+								<div className="mb-2">
+									<ButtonMove dir="up" />
+								</div>
+								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							</a>
+						</Link>
+					</div>
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
 							{/* <Link href="./#menuPrincipal">
