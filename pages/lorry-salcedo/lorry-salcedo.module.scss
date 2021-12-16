@@ -1,6 +1,26 @@
 @import "~/styles/sass/variables";
 
+.main {
+    position: relative;
+}
 
+.parentSticky {
+    position: absolute;
+    // margin-top: -64px;
+    height: 100%;
+    @media (max-width: 767.98px) {
+        margin-top: 0px;
+    }
+    .linkMenu {
+        color: $blanco;
+        padding-top: 440px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        position: sticky;
+        top: 20px;
+        z-index: 9999;
+    }
+}
 
 .section1 {
     background-color: $piel;
@@ -9,8 +29,13 @@
     @media (max-width: 767.98px) {
         height: auto;
     }
+    .sectionShare {
+        margin-bottom: 180px;
+    }
     .linkMenu {
         color: $guinda;
+        position: sticky;
+        top: 20px;
     }
     .containerGrid {
         padding-top: 32px;
