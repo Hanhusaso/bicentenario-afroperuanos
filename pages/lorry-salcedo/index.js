@@ -11,20 +11,28 @@ const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function index() {
 	return (
-		<>
+		<div className={styles.main}>
 			<Layout
 				title="Lorry Salcedo"
 				path="/lorry-salcedo"
 				description="A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianidad, la rutina, el trabajo, las celebraciones o la música."
 			>
+				<div className={`${styles.parentSticky} ${"d-none d-md-block ps-0 ps-xl-3 ps-xxl-5"}`}>
+					<Link href="./#menuPrincipal">
+						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`} >
+							<div className="mb-2">
+								<ButtonMove dir="up" />
+							</div>
+							<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+						</a>
+					</Link>
+				</div>
 				<section className={styles.section1}>
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div
-							className={`${
-								styles.linkMenu
-							} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}
+							className={`${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-3 ps-xxl-5"}`}
 						>
-							<div className="black-text d-inline-flex flex-column align-items-center mb-5">
+							<div className={`${styles.sectionShare} ${"black-text d-inline-flex flex-column align-items-center"}`}>
 								<div className="mb-3">
 									<BsShare className="icon share-icon me-2" />
 									<span>COMPARTIR</span>
@@ -59,14 +67,14 @@ export default function index() {
 								</div>
 							</div>
 
-							<Link href="./#menuPrincipal">
-								<a className="d-inline-flex flex-column align-items-center color-inherit">
+							{/* <Link href="./#menuPrincipal">
+								<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
 									<div className="mb-2">
 										<ButtonMove dir="up" />
 									</div>
 									<p className="mb-0">MENÚ PRINCIPAL</p>
 								</a>
-							</Link>
+							</Link> */}
 						</div>
 						<div className="d-flex align-items-center">
 							<div className={`${styles.grid1} ${"grid1"}`}>
@@ -146,7 +154,7 @@ export default function index() {
 					<Element name="section2">
 						<div className={`${styles.containerGrid3} ${"containerGrid3"}`}>
 							<div className={`${"d-none d-md-block ps-0 ps-xl-5"}`}>
-								<Link href="./#menuPrincipal">
+								{/* <Link href="./#menuPrincipal">
 									<a
 										className={`${
 											styles.linkMenu
@@ -157,7 +165,7 @@ export default function index() {
 										</div>
 										<span className="fw-500 text-uppercase text-center">MENÚ PRINCIPAL</span>
 									</a>
-								</Link>
+								</Link> */}
 							</div>
 							<div className={styles.pt}>
 								{/* <div className={`${styles.textArrow} ${"textArrow mb-160"}`}>
@@ -402,6 +410,6 @@ export default function index() {
 					</div>
 				</section>
 			</Layout>
-		</>
+		</div>
 	);
 }

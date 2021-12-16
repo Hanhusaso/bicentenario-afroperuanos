@@ -15,28 +15,28 @@ const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function index() {
 	return (
-		<>
+		<div className={styles.main}>
 			<Layout
 				title="Amas de leche de la colección Gourret"
 				path="/amas-de-leche"
 				description="En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia, cuyo patrimonio incluía a la propia ama."
 			>
+				<div className={`${styles.parentSticky} ${"d-none d-md-block ps-0 ps-xl-3 ps-xxl-5"}`}>
+					<Link href="./#menuPrincipal">
+						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`} >
+							<div className="mb-2">
+								<ButtonMove dir="up" />
+							</div>
+							<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+						</a>
+					</Link>
+				</div>
 				<section className={styles.section1}>
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div
-							className={`${
-								styles.linkMenu
-							} ${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-5"}`}
+							className={`${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-3 ps-xxl-5"}`}
 						>
-							<Link href="./#menuPrincipal">
-								<a className="d-inline-flex flex-column align-items-center mb-5 color-inherit">
-									<div className="mb-2">
-										<ButtonMove dir="up" />
-									</div>
-									<p className="mb-0">MENÚ PRINCIPAL</p>
-								</a>
-							</Link>
-							<div className="black-text d-inline-flex flex-column align-items-center">
+							<div className={`${styles.sectionShare} ${"black-text d-inline-flex flex-column align-items-center"}`}>
 								<div className="mb-3">
 									<BsShare className="icon share-icon me-2" />
 									<span>COMPARTIR</span>
@@ -70,6 +70,15 @@ export default function index() {
 									</a>
 								</div>
 							</div>
+							{/* <Link href="./#menuPrincipal">
+								<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center color-inherit"}`}>
+									<div className="mb-2">
+										<ButtonMove dir="up" />
+									</div>
+									<p className="mb-0">MENÚ PRINCIPAL</p>
+								</a>
+							</Link> */}
+							
 						</div>
 						<div className="d-flex align-items-center">
 							<div>
@@ -152,7 +161,7 @@ export default function index() {
 					</div>
 				</section>
 				<section className={styles.section2}>
-					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+					{/* <div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
 						<Link href="./#menuPrincipal">
 							<a
 								className={`${
@@ -165,7 +174,7 @@ export default function index() {
 								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 							</a>
 						</Link>
-					</div>
+					</div> */}
 					<Element name="section2">
 						<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 							<div className={`${"d-none d-md-block ps-0 ps-xl-3"}`}>
@@ -276,7 +285,7 @@ export default function index() {
 					</Element>
 				</section>
 				<section className={styles.section3}>
-					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+					{/* <div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
 						<Link href="./#menuPrincipal">
 							<a
 								className={`${
@@ -289,7 +298,7 @@ export default function index() {
 								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 							</a>
 						</Link>
-					</div>
+					</div> */}
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div></div>
 						<div>
@@ -607,7 +616,7 @@ export default function index() {
 					</div>
 				</section>
 				<section className={styles.section4}>
-					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+					{/* <div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
 						<Link href="./#menuPrincipal">
 							<a
 								className={`${
@@ -620,7 +629,7 @@ export default function index() {
 								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 							</a>
 						</Link>
-					</div>
+					</div> */}
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div></div>
 						<div>
@@ -1066,7 +1075,7 @@ export default function index() {
                     </div>
                 </section> */}
 				<section className={styles.section5}>
-					<div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
+					{/* <div className={`${styles.parentSticky} ${"d-none d-md-block"}`}>
 						<Link href="./#menuPrincipal">
 							<a
 								className={`${
@@ -1079,7 +1088,7 @@ export default function index() {
 								<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 							</a>
 						</Link>
-					</div>
+					</div> */}
 					<div className={`${styles.containerGrid} ${"containerGrid"}`}>
 						<div className={`${styles.linkMenu} ${"ps-0 ps-xl-5"}`}>
 							{/* <Link href="./#menuPrincipal">
@@ -1927,6 +1936,6 @@ export default function index() {
                     </div>
                 </section> */}
 			</Layout>
-		</>
+		</div>
 	);
 }
