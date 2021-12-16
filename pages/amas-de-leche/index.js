@@ -43,7 +43,7 @@ export default function index() {
 								</div>
 								<div>
 									<a
-										href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/amas-de-leche"
+										href="whatsapp://send?text=https://discursosvisualesafroperuanos.com/amas-de-leche"
 										data-action="share/whatsapp/share"
 										className="d-inline-block color-inherit me-1"
 									>
@@ -52,7 +52,7 @@ export default function index() {
 									<a
 										target="_blank"
 										rel="noreferrer"
-										href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/amas-de-leche&quote="
+										href="http://www.facebook.com/sharer.php?u=https://discursosvisualesafroperuanos.com/amas-de-leche&quote="
 										className="d-inline-block color-inherit me-1"
 									>
 										<FaFacebookF className="icon" />
@@ -63,7 +63,7 @@ export default function index() {
 									<a
 										target="_blank"
 										rel="noreferrer"
-										href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/amas-de-leche"
+										href="https://twitter.com/intent/tweet?text=https://discursosvisualesafroperuanos.com/amas-de-leche"
 										className="d-inline-block color-inherit me-2"
 									>
 										<FaTwitter className="icon" />

@@ -31,7 +31,7 @@ export default function index() {
 								</div>
 								<div>
 									<a
-										href="whatsapp://send?text=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo"
+										href="whatsapp://send?text=https://discursosvisualesafroperuanos.com/lorry-salcedo"
 										data-action="share/whatsapp/share"
 										className="d-inline-block color-inherit me-1"
 									>
@@ -40,7 +40,7 @@ export default function index() {
 									<a
 										target="_blank"
 										rel="noreferrer"
-										href="http://www.facebook.com/sharer.php?u=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo&quote="
+										href="http://www.facebook.com/sharer.php?u=https://discursosvisualesafroperuanos.com/lorry-salcedo&quote="
 										className="d-inline-block color-inherit me-1"
 									>
 										<FaFacebookF className="icon" />
@@ -51,7 +51,7 @@ export default function index() {
 									<a
 										target="_blank"
 										rel="noreferrer"
-										href="https://twitter.com/intent/tweet?text=https://bicentenario-afroperuanos.vercel.app/lorry-salcedo"
+										href="https://twitter.com/intent/tweet?text=https://discursosvisualesafroperuanos.com/lorry-salcedo"
 										className="d-inline-block color-inherit me-2"
 									>
 										<FaTwitter className="icon" />
