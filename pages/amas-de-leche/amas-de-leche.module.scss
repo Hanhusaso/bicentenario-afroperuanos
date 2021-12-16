@@ -41,6 +41,7 @@
     color: $verde-claro;
     line-height: 1.6;
     padding-top: 64px;
+    position: relative;
     @media (max-width: 767.98px) {
         padding-top: 0px;
     }
@@ -48,8 +49,20 @@
         padding-top: 32px;
         padding-bottom: 32px;
     }
-    .linkMenu {
-        margin-top: 300px;
+    .parentSticky {
+        position: absolute;
+        margin-top: -64px;
+        height: 100%;
+        @media (max-width: 767.98px) {
+            margin-top: 0px;
+        }
+        .linkMenu {
+            padding-top: 300px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            position: sticky;
+            top: 20px;
+        }
     }
     .titleSection1 {
         color: $rosa;
@@ -112,12 +125,25 @@
     background-color: $negro;
     color: $piel;
     padding-top: 64px;
+    position: relative;
     @media (max-width: 767.98px) {
         padding-top: 0px;
     }
-    // .linkMenu {
-    //     margin-top: 300px;
-    // }
+    .parentSticky {
+        position: absolute;
+        margin-top: -64px;
+        height: 100%;
+        @media (max-width: 767.98px) {
+            margin-top: 0px;
+        }
+        .linkMenu {
+            padding-top: 300px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            position: sticky;
+            top: 20px;
+        }
+    }
     .titleSection2 {
         color: $rosa;
         margin-bottom: 75px;
@@ -181,8 +207,24 @@
     background-color: $marron;
     color: #000;
     padding-top: 64px;
+    position: relative;
     @media (max-width: 767.98px) {
         padding-top: 0px;
+    }
+    .parentSticky {
+        position: absolute;
+        margin-top: -64px;
+        height: 100%;
+        @media (max-width: 767.98px) {
+            margin-top: 0px;
+        }
+        .linkMenu {
+            padding-top: 300px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            position: sticky;
+            top: 20px;
+        }
     }
     .textBorder {
         margin-top: 70px;
@@ -283,12 +325,25 @@
     background-color: $verde-mar;
     color: $azul;
     padding-top: 64px;
+    position: relative;
     @media (max-width: 767.98px) {
         padding-top: 0px;
     }
-    // .linkMenu {
-    //     margin-top: 300px;
-    // }
+    .parentSticky {
+        position: absolute;
+        margin-top: -64px;
+        height: 100%;
+        @media (max-width: 767.98px) {
+            margin-top: 0px;
+        }
+        .linkMenu {
+            padding-top: 300px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            position: sticky;
+            top: 20px;
+        }
+    }
     .titleSection1 {
         color: $verde-claro;
         margin-bottom: 75px;
