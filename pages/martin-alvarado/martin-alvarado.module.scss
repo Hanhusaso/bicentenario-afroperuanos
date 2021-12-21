@@ -1,103 +1,104 @@
 @import "~/styles/sass/variables";
 
 .main {
-    position: relative;
+	position: relative;
 }
 
 .parentSticky {
-    position: absolute;
-    // margin-top: -64px;
-    height: 100%;
-    @media (max-width: 767.98px) {
-        margin-top: 0px;
-    }
-    .linkMenu {
-        color: $verde-claro;
-        padding-top: 440px;
-        padding-bottom: 20px;
-        padding-left: 40px;
-        position: sticky;
-        top: 20px;
-        z-index: 9999;
-    }
+	position: absolute;
+	// margin-top: -64px;
+	height: 100%;
+	@media (max-width: 767.98px) {
+		margin-top: 0px;
+	}
+	.linkMenu {
+		color: $verde-claro;
+		padding-top: 440px;
+		padding-bottom: 20px;
+		padding-left: 40px;
+		position: sticky;
+		top: 20px;
+		z-index: 9999;
+	}
 }
 
 .carousel {
-    margin-bottom: 160px;
-    .gridImgCaption {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .wrapperImg {
-            width: 100%;
-            max-width: 458px;
-        }
-    }
+	margin-bottom: 160px;
+	.gridImgCaption {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.wrapperImg {
+			width: 100%;
+			max-width: 458px;
+		}
+	}
 }
 
 .section1 {
-    background-color: $morado;
-    color: $rosa-claro;
-    height: 100vh;
-    @media (max-width: 1199.98px) {
-        height: auto;
-    }
-    @media (max-width: 767.98px) {
-        height: auto;
-    }
-    .sectionShare {
-        margin-bottom: 180px;
-    }
-    .imgInicioMartin {
-        transform: scale(1.2);
-        position: relative;
-        left: 110px;
-        @media (max-width: 767.98px) {
-            transform: none;
-            left: 0;
-        }
-    }
-    .containerGrid {
-        padding-top: 32px;
-        padding-bottom: 32px;
-        height: 100%;
-    }
-    .grid1 {
-        display: grid;
-        grid-template-columns: 63% auto;
-        gap: 0px 40px;
-        @media (max-width: 767.98px) {
-            display: block;
-        }
-        .wrapperImg {
-            display: grid;
-            place-items: center;
-            height: 100%;
-        }
-    }
-    .partText {
-        color: $negro;
-    }
+	background-color: $morado;
+	color: $rosa-claro;
+	// height: 100vh;
+	min-height: 100vh;
+	@media (max-width: 1199.98px) {
+		height: auto;
+	}
+	@media (max-width: 767.98px) {
+		height: auto;
+	}
+	.sectionShare {
+		margin-bottom: 180px;
+	}
+	.imgInicioMartin {
+		transform: scale(1.2);
+		position: relative;
+		left: 110px;
+		@media (max-width: 767.98px) {
+			transform: none;
+			left: 0;
+		}
+	}
+	.containerGrid {
+		padding-top: 32px;
+		padding-bottom: 32px;
+		height: 100%;
+	}
+	.grid1 {
+		display: grid;
+		grid-template-columns: 63% auto;
+		gap: 0px 40px;
+		@media (max-width: 767.98px) {
+			display: block;
+		}
+		.wrapperImg {
+			display: grid;
+			place-items: center;
+			height: 100%;
+		}
+	}
+	.partText {
+		color: $negro;
+	}
 }
 
 .grid2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .section2 {
-    background-color: $verde-oscuro;
-    color: $rosa-claro;
-    .containerGrid3 {
-        padding-bottom: 0;
-    }
-    .linkMenu {
-        color: $verde-claro;
-        padding-top: 300px;
-        position: sticky;
-        top: 20px;
-    }
+	background-color: $verde-oscuro;
+	color: $rosa-claro;
+	.containerGrid3 {
+		padding-bottom: 0;
+	}
+	.linkMenu {
+		color: $verde-claro;
+		padding-top: 300px;
+		position: sticky;
+		top: 20px;
+	}
 }
 
 // .section3 {
@@ -122,33 +123,33 @@
 // }
 
 .section5 {
-    background-color: $gris;
-    color: $azul;
-    .minWrap {
-        color: $negro;
-        max-width: 900px;
-        margin-left: auto;
-    }
+	background-color: $gris;
+	color: $azul;
+	.minWrap {
+		color: $negro;
+		max-width: 900px;
+		margin-left: auto;
+	}
 }
 
 .section6 {
-    background-color: $negro;
-    color: $piel;
-    // .linkMenu {
-    //     margin-top: 100px;
-    // }
-    .containerVideos {
-        .video1 {
-            .infoVideo {
-                color: $azul;
-                background-color: $verde-mar;
-                .mirar {
-                    border-bottom: 1px solid $azul;
-                }
-                .titulo {
-                    border-bottom: 1px solid $azul;
-                }
-            }
-        }
-    }
+	background-color: $negro;
+	color: $piel;
+	// .linkMenu {
+	//     margin-top: 100px;
+	// }
+	.containerVideos {
+		.video1 {
+			.infoVideo {
+				color: $azul;
+				background-color: $verde-mar;
+				.mirar {
+					border-bottom: 1px solid $azul;
+				}
+				.titulo {
+					border-bottom: 1px solid $azul;
+				}
+			}
+		}
+	}
 }

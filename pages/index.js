@@ -12,7 +12,6 @@ const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afro
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function Home() {
-
 	const { width, height } = useWindowSize();
 
 	const MenuMove = () => {
@@ -54,9 +53,7 @@ export default function Home() {
 									<picture>
 										<source
 											srcSet={
-												`${awsUrl}` +
-												"lorry-salcedo-amas-de-leche-responsive-portada" +
-												".png"
+												`${awsUrl}` + "lorry-salcedo-amas-de-leche-responsive-portada" + ".png"
 											}
 											media="(max-width: 767.98px)"
 										/>
@@ -84,9 +81,7 @@ export default function Home() {
 									<picture>
 										<source
 											srcSet={
-												`${awsUrl}` +
-												"martin-alvarado-amas-de-leche-responsive-portada" +
-												".png"
+												`${awsUrl}` + "martin-alvarado-amas-de-leche-responsive-portada" + ".png"
 											}
 											media="(max-width: 767.98px)"
 										/>
@@ -209,7 +204,7 @@ export default function Home() {
 										</div>
 									</div>
 								</div>
-								<div className="d-flex align-items-center justify-content-center">
+								{/* <div className="d-flex align-items-center justify-content-center">
 									<LinkScroll
 										activeClass="active"
 										className=""
@@ -219,7 +214,7 @@ export default function Home() {
 									>
 										<ButtonMove dir="down" />
 									</LinkScroll>
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div>
@@ -326,7 +321,6 @@ export default function Home() {
 											<MenuMove />
 										</>
 									)}
-									
 								</div>
 							</div>
 							<div></div>
