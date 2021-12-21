@@ -111,15 +111,7 @@ export default function index() {
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText"}`}>
 											<p className="">
-												A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani
-												convirtió la vida del distrito de El Carmen, de la provincia de Chincha en
-												la región Ica, en el motivo central de su quehacer fotográfico. Su
-												producción artística puede interpretarse tanto como un registro documental o
-												como una aproximación intrínseca a la vitalidad de los integrantes de la
-												comunidad, la que inicialmente se centraba en la familia Ballumbrosio.
-												Además del valor histórico y estético, las imágenes de El Carmen entre 1985
-												y 1996, son una exploración de gran carga simbólica sobre la cotidianidad,
-												la rutina, el trabajo, las celebraciones o la música.
+											A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianeidad, la rutina, el trabajo, las celebraciones o la música.
 											</p>
 										</div>
 									</div>
@@ -362,14 +354,7 @@ export default function index() {
 						</div>
 						<div className={`${styles.minWrap} ${"minWrap"}`}>
 							<p className="pb-0">
-								Fotógrafo y cineasta. Sus temas de investigación y registro están vinculados a la
-								historia de la cultura peruana, sus mitos y leyendas, la reflexión sobre lo erótico
-								y la muerte, el deseo y la religiosidad. Son notables sus series sobre las
-								comunidades afrodescendientes de Perú y Brasil, a manera de testimonio de sobre la
-								diversidad y celebración de vida. Su trabajo fotográfico se encuentra en colecciones
-								del Perú y universidades de Estados Unidos, Francia e Inglaterra e instituciones
-								como el Brooklyn Museum of Art, Museum of African American Life and Culture, la
-								Biblioteca del Congreso de Estado Unidos y la Biblioteca Nacional de Francia.
+							Fotógrafo y cineasta. Sus temas de investigación y registro están vinculados a la historia de la cultura peruana, sus mitos y leyendas, la reflexión sobre lo erótico y la muerte, el deseo y la religiosidad. Son notables sus series sobre las comunidades afrodescendientes de Perú y Brasil, a manera de testimonio de sobre la diversidad y la celebración de la vida. Su trabajo fotográfico se encuentra en colecciones del Perú y universidades de Estados Unidos, Francia e Inglaterra e instituciones como el Brooklyn Museum of Art, Museum of African American Life and Culture, la Biblioteca del Congreso de Estados Unidos y la Biblioteca Nacional de Francia.
 							</p>
 						</div>
 					</div>

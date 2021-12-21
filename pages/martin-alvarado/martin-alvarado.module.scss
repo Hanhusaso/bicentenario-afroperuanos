@@ -31,6 +31,11 @@
 		.wrapperImg {
 			width: 100%;
 			max-width: 458px;
+			img {
+				width: 80%;
+				display: block;
+				margin: auto;
+			}
 		}
 	}
 }
@@ -40,6 +45,8 @@
 	color: $rosa-claro;
 	// height: 100vh;
 	min-height: 100vh;
+	display: grid;
+	place-items: center;
 	@media (max-width: 1199.98px) {
 		height: auto;
 	}
@@ -62,6 +69,7 @@
 		padding-top: 32px;
 		padding-bottom: 32px;
 		height: 100%;
+		width: 100%;
 	}
 	.grid1 {
 		display: grid;

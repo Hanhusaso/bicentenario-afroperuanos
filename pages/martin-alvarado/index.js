@@ -113,29 +113,13 @@ export default function index() {
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText lh-normal"}`}>
 											<p className="mb-0">
-												Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país
-												documentando con su cámara fotográfica diferentes modos de vida,
-												festividades, personajes, danzas, música y tradiciones. Uno de los motivos
-												fundamentales de su obra es visibilizar la presencia afroperuana en nuestro
-												país, buscando contribuir, a través de su extensa labor fotográfica, al
-												conocimiento y preservación de su memoria cultural y colectiva. Martín
-												Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente
-												más grande del país.
+											Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país documentando con su cámara fotográfica diferentes modos de vida, festividades, personajes, danzas, música y tradiciones. Uno de los motivos fundamentales de su obra es visibilizar la presencia afroperuana en nuestro país, buscando contribuir, a través de su extensa labor fotográfica, al conocimiento y preservación de su memoria cultural y colectiva. Martín Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente más grande del país.
 											</p>
 											<p className="mb-0">
-												Su exposición DIA 100, inaugurada en el año 2017, reunió las imágenes de un
-												centenar de compatriotas orgullosos de su ascendencia africana, quienes
-												expresaron por escrito su sentir ante la discriminación, el racismo y los
-												estereotipos que persisten en nuestra sociedad y continúa estigmatizándolos.
-												La muestra fue inaugurada en el marco del Decenio Internacional de los
-												Afrodescendientes (2015-2025) proclamado por la ONU y el Mes de la Cultura
-												Afroperuana celebrado en junio de cada año desde el 2014.
+											Su exposición DIA 100, inaugurada en el año 2017, reunió las imágenes de un centenar de compatriotas orgullosos de su ascendencia africana, quienes expresaron por escrito su sentir ante la discriminación, el racismo y los estereotipos que persisten en nuestra sociedad y continúan estigmatizándolos. La muestra fue inaugurada en el marco del Decenio Internacional de los Afrodescendientes (2015-2025) proclamado por la ONU y el Mes de la Cultura Afroperuana celebrado en Perú en junio de cada año desde el 2014.
 											</p>
 											<p className="mb-0">
-												Como afroperuano, el artista sufrió en carne viva prejuicios. Sus imágenes
-												son testimonios visuales que buscan conformar un manifiesto que aboga por el
-												respeto, la igualdad y el reconocimiento de la identidad, presencia y legado
-												cultural afroperuano.
+											Como afroperuano, el artista sufrió en carne viva prejuicios. Sus imágenes son testimonios visuales que buscan conformar un manifiesto que aboga por el respeto, la igualdad y el reconocimiento de la identidad, presencia y legado cultural afroperuano.
 											</p>
 										</div>
 									</div>
@@ -192,16 +176,7 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										“DIA 100 significa en sus siglas, Decenio Internacional del Afrodescendiente
-										(DIA), y el número cien representa a las cien personas que han sido
-										fotografiadas. El proyecto tiene como punto de partida la idea de mostrar lo
-										mucho que aportan a diario los afroperuanos y las afroperuanas a este país;
-										señalar que la cantidad de afrodescendientes luchadores y profesionales es mayor
-										a lo que se imaginan muchas personas; y romper con las ideas que estereotipan a
-										la población afroperuana como bailarines, deportistas o cocineros. Además, Día
-										100 busca el reconocimiento específico de los y las profesionales afro en el
-										país y cómo este puede inspirar y educar a las personas para seguir trabajando
-										en la erradicación del racismo”.
+										“DIA 100 significa en sus siglas, Decenio Internacional del Afrodescendiente (DIA), y el número cien representa a las cien personas que han sido fotografiadas. El proyecto tiene como punto de partida la idea de mostrar lo mucho que aportan a diario los afroperuanos y las afroperuanas a este país; señalar que la cantidad de afrodescendientes luchadores y profesionales es mayor a lo que se imaginan muchas personas; y romper con las ideas que estereotipan a la población afroperuana como bailarines, deportistas o cocineros. Además, DIA 100 busca el reconocimiento específico de los y las profesionales afro en el país y cómo este puede inspirar y educar a las personas para seguir trabajando en la erradicación del racismo”.
 									</p>
 									<img
 										loading="lazy"
@@ -414,11 +389,11 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												<b>Yanina García Atoche</b>
+												<b>Yanina García y Sandra Silva</b>
 												<br />
 												Ventanilla, 2017
 												<br />
-												Trabajadora independiente
+												Independiente y promotora de eventos
 												<br />
 												Origen: Ventanilla - Callao
 											</p>
@@ -435,13 +410,13 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												<b>Walter Felipe Aguilar Conca</b>
+												<b>Walter Aguilar y María Saavedra</b>
 												<br />
 												Ventanilla, 2017
 												<br />
-												Fotógrafo y soldador
+												Fotógrafo y soldador y enfermera laboralista
 												<br />
-												Origen: Bellavista – Callao
+												Origen: Bellavista – Callao y Talara - Piura
 											</p>
 										</div>
 									</Carousel.Item>
@@ -722,7 +697,7 @@ export default function index() {
 												<br />
 												Breña, 2017
 												<br />
-												Estudiante de Publicidad, modelo, activista y Blogger
+												Estudiante de publicidad, modelo, activista y blogger
 												<br />
 												Origen: Lima
 											</p>
@@ -743,7 +718,7 @@ export default function index() {
 												<br />
 												San Miguel, 2017
 												<br />
-												Catedrático, Escritor, Novelista
+												Catedrático, escritor, novelista
 												<br />
 												Origen: Jesús María
 											</p>
@@ -764,7 +739,7 @@ export default function index() {
 												<br />
 												San Luis, 2017
 												<br />
-												Líder Afroperuana
+												Líder afroperuana
 												<br />
 												Origen: San Luis
 											</p>
@@ -924,13 +899,7 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										“El contenido de Día 100 es un registro fotográfico con historias de hombres,
-										mujeres, niñas, niños, adolescentes y jóvenes afrodescendientes, enfocando al
-										Perú de forma transversal; con ello pretende visibilizar y reconocer la vida de
-										todas y todos aquellos que viven en exclusión, racismo y discriminación por la
-										constante y denigrante práctica de encasillar y atribuir prejuicios a pueblos;
-										lo cual forma parte de la violencia física y psicológica que se ejerce por la
-										condición étnico-racial de un ser humano”.
+										“El contenido de DIA 100 es un registro fotográfico con historias de hombres, mujeres, niñas, niños, adolescentes y jóvenes afrodescendientes, enfocando al Perú de forma transversal; con ello pretende visibilizar y reconocer la vida de todas y todos aquellos que viven en exclusión, racismo y discriminación por la constante y denigrante práctica de encasillar y atribuir prejuicios a los pueblos; lo cual forma parte de la violencia física y psicológica que se ejerce por la condición étnico-racial de un ser humano”.
 									</p>
 									<img
 										loading="lazy"
@@ -998,7 +967,7 @@ export default function index() {
 												<br />
 												San Luis de Cañete, 2017
 												<br />
-												Agente de Seguridad
+												Agente de seguridad
 												<br />
 												Origen: San Luis de Cañete
 											</p>
@@ -1019,7 +988,7 @@ export default function index() {
 												<br />
 												San Luis de Cañete, 2017
 												<br />
-												Auxiliar de Educación
+												Auxiliar de educación
 												<br />
 												Origen: San Luis de Cañete
 											</p>
@@ -1035,7 +1004,15 @@ export default function index() {
 													loading="lazy"
 												/>
 											</div>
-											<p className="captionInfo text-center mb-0"></p>
+											<p className="captionInfo text-center mb-0">
+												<b>Laura Tovar Gonzáles</b>
+												<br />
+												Barrios Altos, 2017
+												<br />
+												Ama de casa
+												<br />
+												Origen: Lima
+											</p>
 										</div>
 									</Carousel.Item>
 									<Carousel.Item>
@@ -1053,7 +1030,7 @@ export default function index() {
 												<br />
 												Surquillo, 2017
 												<br />
-												Periodista Deportivo Internacional
+												Periodista deportivo internacional
 												<br />
 												Origen: Lima
 											</p>
@@ -1091,9 +1068,9 @@ export default function index() {
 											<p className="captionInfo text-center mb-0">
 												<b>Jaime Ernesto Rojas Angulo</b>
 												<br />
-												La quebrada, 2017
+												La Quebrada, 2017
 												<br />
-												Pintor, Dibujante, Caricaturista
+												Pintor, dibujante, caricaturista
 												<br />
 												Origen: San Benito
 											</p>
@@ -1135,7 +1112,7 @@ export default function index() {
 												<br />
 												San Luis de Cañete, 2017
 												<br />
-												Decimista, Cajonero, Danzante, Musico
+												Decimista, cajonero, danzante, músico
 												<br />
 												Origen: San Luis de Cañete
 											</p>
@@ -1156,7 +1133,7 @@ export default function index() {
 												<br />
 												San Luis de Cañete, 2017
 												<br />
-												Maestro Construtor
+												Maestro constructor
 												<br />
 												Origen: San Luis de Cañete
 											</p>
@@ -1309,7 +1286,7 @@ export default function index() {
 												<br />
 												Ciudad del Pescador, 2017
 												<br />
-												Bailarín Afro
+												Bailarín afro
 												<br />
 												Origen: Callao
 											</p>
@@ -1325,7 +1302,15 @@ export default function index() {
 													loading="lazy"
 												/>
 											</div>
-											<p className="captionInfo text-center mb-0"></p>
+											<p className="captionInfo text-center mb-0">
+												<b>Patricia Flores Álvarez</b>
+												<br />
+												Barrios Altos, 2017
+												<br />
+												Ama de casa
+												<br />
+												Origen: Lima
+											</p>
 										</div>
 									</Carousel.Item>
 									<Carousel.Item>
@@ -1364,8 +1349,7 @@ export default function index() {
 												<br />
 												San Martín de Porres, 2017
 												<br />
-												Licenciada en Administraciòn de Empresas, bailarina del BAC (Ballet
-												Afroperuano del Callao y miembro de la ong EMMA JONES)
+												Licenciada en Administración de Empresas, bailarina del BAC (Ballet Afroperuano del Callao) y miembro de la ONG Emma Jones
 												<br />
 												Origen: Lima
 											</p>
@@ -1580,7 +1564,7 @@ export default function index() {
 												<br />
 												Callao, 2017
 												<br />
-												Estudiante inicial
+												Estudiante de inicial
 												<br />
 												Origen: Callao
 											</p>
@@ -1601,7 +1585,7 @@ export default function index() {
 												<br />
 												Callao, 2017
 												<br />
-												Estudiante de Cosmetología y Bailarina
+												Estudiante de cosmetología y bailarina
 												<br />
 												Origen: Lince
 											</p>
@@ -1621,6 +1605,8 @@ export default function index() {
 												<b>Luisa Bustamante Gonzales</b>
 												<br />
 												2017
+												<br />
+												Gestora y productora cultural
 												<br />
 												Origen: Lima
 											</p>
@@ -1792,7 +1778,15 @@ export default function index() {
 													loading="lazy"
 												/>
 											</div>
-											<p className="captionInfo text-center mb-0"></p>
+											<p className="captionInfo text-center mb-0">
+												<b>Amy Alguedas Penado</b>
+												<br />
+												2017
+												<br />
+												Administradora de Turismo y Hotelería
+												<br />
+												Origen: Callao
+											</p>
 										</div>
 									</Carousel.Item>
 									<Carousel.Item>
@@ -1854,7 +1848,7 @@ export default function index() {
 												<br />
 												San Luis de Cañete, 2017
 												<br />
-												Profesora, voleybolista
+												Profesora, voleibolista
 												<br />
 												Origen: San Luis de Cañete
 											</p>
@@ -1875,7 +1869,7 @@ export default function index() {
 												<br />
 												La Quebrada Cañete, 2017
 												<br />
-												Abogada Penalista, docente de Primaria
+												Abogada penalista, docente de primaria
 												<br />
 												Origen: Cañete
 											</p>
@@ -2026,7 +2020,7 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												{/* <b>Roberto Carlos Jaramillo Ramos</b> */}
+												<b>Luisa Elena Cavero Eléspuru</b>
 												<br />
 												Barrios Altos, 2017
 												<br />
@@ -2089,9 +2083,11 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												<b>Sofía Arizaga</b>
+												<b>Sofía Arizaga Muñoz</b>
 												<br />
 												2017
+												<br />
+												Educadora y promotora de la participación de jóvenes afroperuanos como agentes de cambio
 											</p>
 										</div>
 									</Carousel.Item>
@@ -2105,7 +2101,15 @@ export default function index() {
 													loading="lazy"
 												/>
 											</div>
-											<p className="captionInfo text-center mb-0"></p>
+											<p className="captionInfo text-center mb-0">
+												<b>Julio Tipiani Ramos</b>
+												<br />
+												Carmen de la Legua, 2017
+												<br />
+												Profesor
+												<br />
+												Origen: Callao
+											</p>
 										</div>
 									</Carousel.Item>
 								</Carousel>
@@ -2170,9 +2174,7 @@ export default function index() {
 												<br />
 												Márquez – Callao, 2017
 												<br />
-												Presidenta de organización afroperuana EMMA JONES: Afrodescendientes
-												trabajando por la Inclusión y el Desarrollo Integral, emprendedora, gestora
-												comunitaria y activista afrochalaca
+												Presidenta de organización afroperuana Emma Jones: Afrodescendientes trabajando por la Inclusión y el Desarrollo Integral, emprendedora, gestora comunitaria y activista afrochalaca
 												<br />
 												Origen: San Martín de Porres – Lima
 											</p>
@@ -2279,7 +2281,7 @@ export default function index() {
 												<br />
 												Miraflores, 2017
 												<br />
-												Escritor, Novelista, Periodista y Presidente Ejecutivo de IRTP
+												Escritor, novelista, periodista y Presidente Ejecutivo de IRTP
 												<br />
 												Origen: Lima
 											</p>
@@ -2385,9 +2387,13 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												{/* <b>Giovanna Sofía Carrillo Zegarra</b> */}
+												<b>Hilda La Rosa Rondón</b>
 												<br />
-												2017
+												Puente Piedra, 2017
+												<br />
+												Profesora
+												<br />
+												Origen: Lima
 											</p>
 										</div>
 									</Carousel.Item>
@@ -2406,9 +2412,7 @@ export default function index() {
 												<br />
 												Márquez - Callao, 2017
 												<br />
-												Fundador de organización afroperuana EMMA JONES: Afrodescendientes
-												trabajando por la Inclusión y el Desarrollo Integral, activista afrochalaco,
-												administrador de La 44 Resto bar y Restaurante ETNIAS
+												Fundador de organización afroperuana Emma Jones: Afrodescendientes trabajando por la Inclusión y el Desarrollo Integral, activista afrochalaco, administrador de La 44 Resto bar y Restaurante Etnias
 											</p>
 										</div>
 									</Carousel.Item>
@@ -2487,9 +2491,11 @@ export default function index() {
 												/>
 											</div>
 											<p className="captionInfo text-center mb-0">
-												{/* <b>Mario Felipe Jair Espinoza Vera</b> */}
+												<b>Esther López</b>
 												<br />
 												2017
+												<br />
+												Secretaria penalista
 											</p>
 										</div>
 									</Carousel.Item>
@@ -2605,9 +2611,9 @@ export default function index() {
 					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
 						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
 							<div className="titleHome text-uppercase mb-1">
-								PRESERVACIÓN DE LA
+								MARTÍN ALVARADO
 								<br />
-								MEMORIA AFROPERUANA
+								Y LA MEMORIA AFROPERUANA 
 							</div>
 							<div className="mb-4">
 								<img className="underline-arrows" src="/img/svg/flechas_azul(37).svg" alt="" />
@@ -2615,42 +2621,16 @@ export default function index() {
 						</div>
 						<div className={`${styles.minWrap} ${"minWrap"}`}>
 							<p className="mb-0">
-								Martín Alvarado se inició como fotógrafo deportivo, luego de lo cual llegó a ser
-								editor gráfico de los periódicos El Sol, El Comercio, Correo y La República. A
-								partir del año 2000 fue productor del programa de televisión Costumbres, plataforma
-								que ha documentado la cultura viva en diversas provincias del Perú. Producto de esta
-								labor, en el año 2005 presentó la muestra “Este es mi cariño”, que recopiló 87
-								fotografías realizadas durante el primer lustro de emisión del programa.
+							Martín Alvarado se inició como fotógrafo deportivo, luego de lo cual llegó a ser editor gráfico de los periódicos El Sol, El Comercio, Correo y La República. A partir del año 2000 fue productor del programa de televisión Costumbres, plataforma que ha documentado la cultura viva en diversas provincias del Perú. Producto de esta labor, en el año 2005 presentó la muestra Este es mi cariño, que recopiló 87 fotografías realizadas durante el primer lustro de emisión del programa.
 							</p>
 							<p className="mb-0">
-								Su obra fotográfica ha sido presentada en diversas exposiciones individuales y
-								colectivas, y recopilada en varias publicaciones, como Fiestas, Calendario y
-								Costumbres de Sonaly Tuesta (2010) y el libro de su autoría titulado Marcados de
-								Fiesta (2015). Su arte ha trascendido nuestras fronteras, llegando a países como
-								Colombia, República Dominicana, España, Francia y China.
+							Su obra fotográfica ha sido presentada en diversas exposiciones individuales y colectivas, y recopilada en varias publicaciones, como Fiestas, Calendario y Costumbres de Sonaly Tuesta (2010) y el libro de su autoría titulado Marcados de Fiesta (2015). Su arte ha trascendido nuestras fronteras, llegando a países como Colombia, República Dominicana, España, Francia y China.
 							</p>
 							<p className="mb-0">
-								Entre sus exposiciones esta Afroperuanos (2009), donde Alvarado reúne imágenes de
-								emblemáticas figuras de la música y el deporte, como el gran Amador Ballumbrosio o
-								el futbolista Sandro Baylón. Asimismo, retrata la religiosidad presente en la
-								recordada Misa Afroperuana de Lima; y capta en todo su esplendor distintas danzas
-								tradicionales, como el “Hatajo de Negritos” y “Las Pallitas’’ de El Carmen (Ica) o
-								la “danza de los Negritos de Zaña” (Piura). En esta muestra buscó, además,
-								visibilizar otros espacios o áreas conquistadas por los afroperuanos, tales como la
-								política, la ciencia o el ámbito académico, denunciando así los encasillamientos de
-								un sistema que los reconoce o circunscribe solo a determinados oficios o prácticas.
-								Su siguiente exposición, Mujeres afroperuanas (2011), presenta diversos retratos de
-								mujeres y madres que triunfan como emprendedoras, empresarias, artistas, modelos y
-								profesionales de la salud y que en conjunto representan un valioso ejemplo de la
-								enorme capacidad, superación y aporte al desarrollo del país.
+							Entre sus exposiciones, destaca Afroperuanos (2009), donde Alvarado reúne imágenes de emblemáticas figuras de la música y el deporte, como el gran Amador Ballumbrosio o el futbolista Sandro Baylón. Asimismo, retrata la religiosidad presente en la recordada Misa Afroperuana de Lima; y capta en todo su esplendor distintas danzas tradicionales, como el “Hatajo de Negritos” y “Las Pallitas’’ de El Carmen (Ica) o la “danza de los Negritos de Zaña” (Piura). En esta muestra buscó, además, visibilizar otros espacios o áreas conquistadas por los afroperuanos, tales como la política, la ciencia o el ámbito académico, denunciando así los encasillamientos de un sistema que los reconoce o circunscribe solo a determinados oficios o prácticas. Su siguiente exposición, Mujeres afroperuanas (2011), presenta diversos retratos de mujeres y madres que triunfan como emprendedoras, empresarias, artistas, modelos y profesionales de la salud y que en conjunto representan un valioso ejemplo de la enorme capacidad, superación y aporte al desarrollo del país.
 							</p>
 							<p className="mb-0">
-								Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura
-								afroperuana, ha recibido distintas distinciones, entre las que se encuentran el
-								“Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la
-								“Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en
-								2015. En el 2021 dirigió y produjo el documental{" "}
-								<b>Josef: el inicio de una historia</b>.
+							Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura afroperuana, ha recibido distintas distinciones, entre las que se encuentran el “Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la “Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en 2015. En el 2021 dirigió y produjo el documental <b>Josef: el inicio de una historia</b>.
 							</p>
 						</div>
 					</div>

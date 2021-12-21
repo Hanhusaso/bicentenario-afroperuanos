@@ -114,24 +114,10 @@ export default function index() {
 									<div className={`${styles.partText} ${"partText"}`}>
 										<div>
 											<p className="mb-0">
-												En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente
-												abolición en 1854, los libertos contemplaron diferentes estrategias de
-												subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la
-												lactancia pagada o lactancia mercenaria. De este modo, la presencia de un
-												ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado
-												por la sociedad peruana republicana, siendo las nodrizas de origen
-												afrodescendiente las preferidas como tradición. Esta práctica fue
-												visibilizada a través del retrato fotográfico como un medio de afirmación y
-												aspiración social: el retrato del ama junto al niño a su cuidado era un
-												reflejo del elevado estatus socioeconómico de la familia, cuyo patrimonio
-												incluía a la propia ama.
+											En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia.
 											</p>
 											<p>
-												Se presenta una selección de los retratos fotográficos de amas de leche de
-												ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe
-												Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la
-												actualidad, más de 50 mil placas en vidrio están en custodia en la
-												Biblioteca Nacional del Perú.
+											Presentamos una selección de los retratos fotográficos de amas de leche de ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la actualidad, más de 50 mil placas en vidrio están en custodia en la Biblioteca Nacional del Perú.
 											</p>
 										</div>
 										<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -198,25 +184,13 @@ export default function index() {
 								<div className={`${styles.grid1} ${""}`}>
 									<div>
 										<p>
-											En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron
-											“Fotografía Central”, uno de los estudios fotográficos más importantes de la
-											Lima del siglo XIX. Desde su creación, la casa Courret desarrolló una
-											prolífica actividad, que pervivió hasta 1935, siendo el retrato de estudio su
-											máximo estandarte.
+										En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron “Fotografía Central”, uno de los estudios fotográficos más importantes de la Lima del siglo XIX. Desde su creación, la casa Courret desarrolló una prolífica actividad, que pervivió hasta 1935, siendo el retrato de estudio su máximo estandarte.
 										</p>
 										<p className="">
-											La fotografía se consolidó rápidamente en la ciudad como un medio de
-											afirmación y distinción social, pues los miembros de la élite limeña
-											reflejaban a través de este su elevado estatus. Así, los retratos de estudio,
-											además de ser una cuidadosa construcción o montaje de la imagen que las clases
-											altas buscaron proyectar, fueron una expresión de la mentalidad de su tiempo.
-											En estas imágenes, como valiosos documentos visuales, se reflejan los
-											múltiples vínculos socioculturales, de género y étnicos que se estrecharon en
-											el joven Perú republicano.
+										La fotografía se consolidó rápidamente en la ciudad como un medio de afirmación y distinción social, pues los miembros de la élite limeña reflejaban a través de este arte su elevado estatus. Así, los retratos de estudio, además de ser una cuidadosa construcción o montaje de la imagen que las clases altas buscaron proyectar, fueron una expresión de la mentalidad de su tiempo. En estas imágenes, como valiosos documentos visuales, se reflejan los múltiples vínculos socioculturales, de género y étnicos que se estrecharon en el joven Perú republicano.
 										</p>
 										<p className="mb-5">
-											El estudio Courret fijó, de esta manera, imágenes que hoy forman parte de
-											nuestro acervo y memoria nacional.
+										El estudio Courret fijó, de esta manera, imágenes que hoy forman parte de nuestro acervo y memoria nacional.
 										</p>
 									</div>
 									<div className={styles.wrapperImage}>
@@ -234,10 +208,9 @@ export default function index() {
 													Adolfo Dubreuil, sucesor.
 												</p>
 												<p className="mb-0">
-													Estudio fotográfico Courret. (1863-1935)
-													<br />
-													El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en
-													1905.
+												Estudio fotográfico Courret (1863-1935).
+												<br />
+												El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en 1905
 												</p>
 											</div>
 										</div>
@@ -336,7 +309,7 @@ export default function index() {
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
 											<b>Pedro Tonesi y ama de leche</b>.
-											Eugenio Courret. 1884
+											Eugène Courret, 1884
 										</p>
 									</div>
 								</div>
@@ -350,7 +323,7 @@ export default function index() {
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
 											<b>Niña Chaize y ama de cría</b>.
-											Eugenio Courret. 1883
+											Eugène Courret,  1883
 										</p>
 									</div>
 								</div>
