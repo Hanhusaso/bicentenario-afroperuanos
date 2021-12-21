@@ -107,7 +107,8 @@ ul {
 }
 
 .lh-normal {
-    line-height: normal;
+    // line-height: normal;
+    line-height: 1.3;
 }
 
 .captionInfo {
@@ -366,17 +367,21 @@ ul {
 }
 
 .textArrow {
-    font-size: 34px;
+    font-size: 31px;
     font-weight: 500;
     // line-height: 1.4;
-    line-height: 1.2;
+    line-height: 1.3;
     @include media-breakpoint-down(md) {
         font-size: 18px;
     }
     .arrow {
         width: 100%;
         max-width: 240px;
+        &.left {
+            margin-bottom: 20px;
+        }
         &.right {
+            margin-top: 20px;
             float: right;
         }
     }

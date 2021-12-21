@@ -139,13 +139,13 @@ export default function Home() {
 								</div>
 								<div>
 									<div className="mb-4 lh-normal">
-										<p className="mb-0">
+										<p className="">
 										<b>En el marco de la celebración del Bicentenario de la independencia del Perú</b> es imperativo reconocer y poner en valor la riqueza étnica y multicultural que conforma la república, elemento fundamental para la construcción de la identidad peruana. Una de las poblaciones que ha contribuido a la edificación del imaginario nacional, con su legado, resiliencia y acervo, es la afroperuana; sin embargo, a lo largo de la historia, su presencia ha sido valorada de forma desigual e incluso invisibilizada.
 										</p>
-										<p className="mb-0">
+										<p className="">
 										En ese sentido, esta exposición promueve la reflexión en torno a la representación visual de la comunidad afrodescendiente al reunir una selección de fotografías de tres registros elaborados en diferentes épocas de nuestra historia republicana: los retratos de amas afroperuanas del Estudio Courret realizadas entre 1879 y 1912, los retratos de Lorry Salcedo Mitrani sobre la comunidad de El Carmen, Chincha, entre 1985 y 1996, y el proyecto DIA 100 de Martín Alvarado Gamarra, la compilación más extensa de retratos de afroperuanos.
 										</p>
-										<p className="mb-0">
+										<p className="">
 										La exhibición en conjunto de las imágenes de estos archivos fotográficos propone visibilizar las condiciones históricas y socioculturales de los afrodescendientes en nuestro país, pensar sobre nuestras diferencias y evaluar nuestro pasado y presente. Creemos en la posibilidad de un futuro común que integre plenamente a la comunidad afroperuana, valore su presencia y preserve su herencia, identidad y riqueza cultural. De igual manera, los videos de la sección actividades complementarias están orientados a reflexionar sobre su historia, problemática y agencia, propiciando una reflexión crítica.
 										</p>
 									</div>

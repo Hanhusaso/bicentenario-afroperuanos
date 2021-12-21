@@ -113,7 +113,7 @@ export default function index() {
 								<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 									<div className={`${styles.partText} ${"partText"}`}>
 										<div>
-											<p className="mb-0">
+											<p className="">
 											En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia.
 											</p>
 											<p>
@@ -1077,7 +1077,7 @@ export default function index() {
 							<p className={`${styles.titleSection1} ${"titleSection"}`}>
 								Mujeres afroperuanas en el Perú del siglo XIX
 							</p>
-							<p className="mb-5">
+							<p className="">
 								Tras la abolición de la esclavitud en 1854, las mujeres afroperuanas buscaron
 								diversos medios para subsistir en una sociedad donde el color de la piel, el grado
 								de instrucción y el estatus socioeconómico teñían cada estamento. De acuerdo con el
@@ -1085,7 +1085,7 @@ export default function index() {
 								alimentos, administraban pequeños negocios o eran costureras, trabajadoras
 								domésticas y nodrizas, entre otros oficios.
 							</p>
-							<p className="mb-5">
+							<p className="">
 								También ofrecían sus servicios como ama de leche o ama de cría. No obstante, este no
 								fue un oficio cualquiera, pues, a pesar del modesto salario, estas mujeres se
 								vinculaban directamente con el núcleo familiar de las esferas más altas de la
@@ -1093,7 +1093,7 @@ export default function index() {
 								les solicitaba cumplir con rigurosos requisitos, tales como contar con una excelente
 								salud, conducta y moral intachable.
 							</p>
-							<p className="mb-5">
+							<p className="">
 								La fotografía desveló de forma masiva esta antigua práctica, llenando los álbumes
 								familiares y las tarjetas de visita.
 							</p>
