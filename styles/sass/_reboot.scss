@@ -153,6 +153,22 @@ ul {
     &:hover .caption {
         opacity: 1;
     }
+    .caption2 {
+        transition: all .3s ease;
+        opacity: 1;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 5px 5px;
+        font-size: 10px;
+        background-color: #000;
+        @include media-breakpoint-down(md) {
+            opacity: 0;
+        }
+    }
+    &:hover .caption2 {
+        opacity: 0;
+    }
 }
 
 .wrapperLogo {
