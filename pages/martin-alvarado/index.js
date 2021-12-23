@@ -17,13 +17,13 @@ export default function index() {
 				path="/martin-alvarado"
 				description="Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país documentando con su cámara fotográfica diferentes modos de vida, festividades, personajes, danzas, música y tradiciones. Uno de los motivos fundamentales de su obra es visibilizar la presencia afroperuana en nuestro país, buscando contribuir, a través de su extensa labor fotográfica, al conocimiento y preservación de su memoria cultural y colectiva. Martín Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente más grande del país."
 			>
-				<div className={`${styles.parentSticky} ${"d-none d-md-block ps-0 ps-xl-3 ps-xxl-5"}`}>
+				<div className={`${styles.parentSticky} ${"d-block ps-0 ps-xl-3 ps-xxl-5"}`}>
 					<Link href="./#menuPrincipal">
 						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`}>
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
-							<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							<span className="d-none d-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 						</a>
 					</Link>
 				</div>

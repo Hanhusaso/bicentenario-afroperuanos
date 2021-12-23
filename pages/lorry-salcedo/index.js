@@ -17,13 +17,13 @@ export default function index() {
 				path="/lorry-salcedo"
 				description="A mediados de los años ochenta del siglo pasado, Lorry Salcedo Mitrani convirtió la vida del distrito de El Carmen, de la provincia de Chincha en la región Ica, en el motivo central de su quehacer fotográfico. Su producción artística puede interpretarse tanto como un registro documental o como una aproximación intrínseca a la vitalidad de los integrantes de la comunidad, la que inicialmente se centraba en la familia Ballumbrosio. Además del valor histórico y estético, las imágenes de El Carmen entre 1985 y 1996, son una exploración de gran carga simbólica sobre la cotidianidad, la rutina, el trabajo, las celebraciones o la música."
 			>
-				<div className={`${styles.parentSticky} ${"d-none d-md-block ps-0 ps-xl-3 ps-xxl-5"}`}>
+				<div className={`${styles.parentSticky} ${"d-block ps-0 ps-xl-3 ps-xxl-5"}`}>
 					<Link href="./#menuPrincipal">
 						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`} >
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
-							<span className="fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							<span className="d-none d-md-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 						</a>
 					</Link>
 				</div>
