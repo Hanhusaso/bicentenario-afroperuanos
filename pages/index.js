@@ -43,6 +43,9 @@ export default function Home() {
 											DEL ESTUDIO COURRET
 										</p>
 									</div>
+									<div className={`${styles.caption2} ${"caption2"}`}>
+										<p className="mb-0">&quot;AMAS DE LECHE&quot; EN LAS FOTOGRAFÍAS DEL ESTUDIO COURRET</p>
+									</div>
 								</a>
 							</Link>
 						</div>
@@ -70,6 +73,9 @@ export default function Home() {
 											SALCEDO
 											<br />Y EL CARMEN
 										</p>
+									</div>
+									<div className={`${styles.caption2} ${"caption2"}`}>
+										<p className="mb-0">LORRY SALCEDO Y EL CARMEN</p>
 									</div>
 								</a>
 							</Link>
@@ -99,6 +105,9 @@ export default function Home() {
 											<br />
 											AFROPERUANAS
 										</p>
+									</div>
+									<div className={`${styles.caption2} ${"caption2"}`}>
+										<p className="mb-0">MARTÍN ALVARADO, CRÓNICAS AFROPERUANAS</p>
 									</div>
 								</a>
 							</Link>
