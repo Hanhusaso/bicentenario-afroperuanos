@@ -5,6 +5,13 @@ import Link from "next/link";
 import { Link as LinkScroll, Element } from "react-scroll";
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { motion } from "framer-motion";
+import {
+	titleAnimation,
+	commonAnimation,
+	logoAnimation,
+	socialNetworksAnimation,
+} from "../animations/homeAnimations";
 
 import { useWindowSize } from "../utils/useWindowSize";
 
@@ -44,7 +51,9 @@ export default function Home() {
 										</p>
 									</div>
 									<div className={`${styles.caption2} ${"caption2"}`}>
-										<p className="mb-0">&quot;AMAS DE LECHE&quot; EN LAS FOTOGRAFÍAS DEL ESTUDIO COURRET</p>
+										<p className="mb-0 text-center">
+											&quot;AMAS DE LECHE&quot; EN LAS FOTOGRAFÍAS DEL ESTUDIO COURRET
+										</p>
 									</div>
 								</a>
 							</Link>
@@ -75,7 +84,7 @@ export default function Home() {
 										</p>
 									</div>
 									<div className={`${styles.caption2} ${"caption2"}`}>
-										<p className="mb-0">LORRY SALCEDO Y EL CARMEN</p>
+										<p className="mb-0 text-center">LORRY SALCEDO Y EL CARMEN</p>
 									</div>
 								</a>
 							</Link>
@@ -107,7 +116,7 @@ export default function Home() {
 										</p>
 									</div>
 									<div className={`${styles.caption2} ${"caption2"}`}>
-										<p className="mb-0">MARTÍN ALVARADO, CRÓNICAS AFROPERUANAS</p>
+										<p className="mb-0 text-center">MARTÍN ALVARADO, CRÓNICAS AFROPERUANAS</p>
 									</div>
 								</a>
 							</Link>
@@ -130,7 +139,12 @@ export default function Home() {
 						<div></div>
 						<div className="d-flex align-items-center">
 							<div className={styles.mt}>
-								<div className="title-page home mb-5 fw-600">
+								<motion.div
+									initial="hidden"
+									animate="visible"
+									variants={titleAnimation}
+									className="title-page home mb-5 fw-600"
+								>
 									<img
 										className="text-1"
 										src="/img/svg/HOME/DISCURSOS VISUALES.svg"
@@ -145,20 +159,47 @@ export default function Home() {
 										<img className="w-100" src="/img/svg/HOME/SOBRE LO.svg" alt="sobre lo" />
 									</div>
 									<img className="text-2" src="/img/svg/HOME/AFROPERUANO.svg" alt="afroperuano" />
-								</div>
-								<div>
+								</motion.div>
+								<motion.div initial="hidden" animate="visible" variants={commonAnimation}>
 									<div className="mb-4 lh-normal">
 										<p className="">
-										<b>En el marco de la celebración del Bicentenario de la independencia del Perú</b> es imperativo reconocer y poner en valor la riqueza étnica y multicultural que conforma la república, elemento fundamental para la construcción de la identidad peruana. Una de las poblaciones que ha contribuido a la edificación del imaginario nacional, con su legado, resiliencia y acervo, es la afroperuana; sin embargo, a lo largo de la historia, su presencia ha sido valorada de forma desigual e incluso invisibilizada.
+											<b>
+												En el marco de la celebración del Bicentenario de la independencia del Perú
+											</b>{" "}
+											es imperativo reconocer y poner en valor la riqueza étnica y multicultural que
+											conforma la república, elemento fundamental para la construcción de la
+											identidad peruana. Una de las poblaciones que ha contribuido a la edificación
+											del imaginario nacional, con su legado, resiliencia y acervo, es la
+											afroperuana; sin embargo, a lo largo de la historia, su presencia ha sido
+											valorada de forma desigual e incluso invisibilizada.
 										</p>
 										<p className="">
-										En ese sentido, esta exposición promueve la reflexión en torno a la representación visual de la comunidad afrodescendiente al reunir una selección de fotografías de tres registros elaborados en diferentes épocas de nuestra historia republicana: los retratos de amas afroperuanas del Estudio Courret realizadas entre 1879 y 1912, los retratos de Lorry Salcedo Mitrani sobre la comunidad de El Carmen, Chincha, entre 1985 y 1996, y el proyecto DIA 100 de Martín Alvarado Gamarra, la compilación más extensa de retratos de afroperuanos.
+											En ese sentido, esta exposición promueve la reflexión en torno a la
+											representación visual de la comunidad afrodescendiente al reunir una selección
+											de fotografías de tres registros elaborados en diferentes épocas de nuestra
+											historia republicana: los retratos de amas afroperuanas del Estudio Courret
+											realizadas entre 1879 y 1912, los retratos de Lorry Salcedo Mitrani sobre la
+											comunidad de El Carmen, Chincha, entre 1985 y 1996, y el proyecto DIA 100 de
+											Martín Alvarado Gamarra, la compilación más extensa de retratos de
+											afroperuanos.
 										</p>
 										<p className="">
-										La exhibición en conjunto de las imágenes de estos archivos fotográficos propone visibilizar las condiciones históricas y socioculturales de los afrodescendientes en nuestro país, pensar sobre nuestras diferencias y evaluar nuestro pasado y presente. Creemos en la posibilidad de un futuro común que integre plenamente a la comunidad afroperuana, valore su presencia y preserve su herencia, identidad y riqueza cultural. De igual manera, los videos de la sección actividades complementarias están orientados a reflexionar sobre su historia, problemática y agencia, propiciando una reflexión crítica.
+											La exhibición en conjunto de las imágenes de estos archivos fotográficos
+											propone visibilizar las condiciones históricas y socioculturales de los
+											afrodescendientes en nuestro país, pensar sobre nuestras diferencias y evaluar
+											nuestro pasado y presente. Creemos en la posibilidad de un futuro común que
+											integre plenamente a la comunidad afroperuana, valore su presencia y preserve
+											su herencia, identidad y riqueza cultural. De igual manera, los videos de la
+											sección actividades complementarias están orientados a reflexionar sobre su
+											historia, problemática y agencia, propiciando una reflexión crítica.
 										</p>
 									</div>
-									<div className="d-inline-flex flex-column align-items-center ms-3">
+									<motion.div
+										initial="hidden"
+										animate="visible"
+										variants={socialNetworksAnimation}
+										className="d-inline-flex flex-column align-items-center ms-3"
+									>
 										<div className="mb-3">
 											<BsShare className="icon share-icon me-2" />
 											<span>COMPARTIR</span>
@@ -191,8 +232,8 @@ export default function Home() {
 												<FaTwitter className="icon" />
 											</a>
 										</div>
-									</div>
-								</div>
+									</motion.div>
+								</motion.div>
 								{/* <div className="d-flex align-items-center justify-content-center">
 									<LinkScroll
 										activeClass="active"
@@ -206,13 +247,13 @@ export default function Home() {
 								</div> */}
 							</div>
 						</div>
-						<div>
+						<motion.div initial="hidden" animate="visible" variants={logoAnimation}>
 							<img
 								className={`${styles.logoBicentenario} ${"img-fluid"}`}
 								src="/img/LOGO HORIZONTAL PEB.png"
 								alt="bicentenario peru"
 							/>
-						</div>
+						</motion.div>
 					</div>
 				</section>
 				<section className={styles.home2}>
@@ -259,7 +300,13 @@ export default function Home() {
 											</div>
 											<div>
 												<p className="lh-normal">
-												Aunque separadas por décadas, estas imágenes nos permiten, por un lado, profundizar en una antigua práctica de servidumbre en el siglo XIX y conocer, además, las relaciones sociales, interraciales, afectivas, de género y culturales que cumplió la mujer afroperuana en dicha sociedad; y por otro, construir un discurso sobre la contemporaneidad del pueblo afroperuano desde finales del siglo XX, acercándonos a su cotidianeidad, vitalidad, luchas y resistencia.
+													Aunque separadas por décadas, estas imágenes nos permiten, por un lado,
+													profundizar en una antigua práctica de servidumbre en el siglo XIX y
+													conocer, además, las relaciones sociales, interraciales, afectivas, de
+													género y culturales que cumplió la mujer afroperuana en dicha sociedad; y
+													por otro, construir un discurso sobre la contemporaneidad del pueblo
+													afroperuano desde finales del siglo XX, acercándonos a su cotidianeidad,
+													vitalidad, luchas y resistencia.
 												</p>
 											</div>
 										</div>
@@ -370,7 +417,9 @@ export default function Home() {
 										<img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
 									</div>
 									<p className="mb-0 lh-normal">
-									Promovamos la reflexión y el diálogo sobre la comunidad afroperuana, su desarrollo a través de nuestra historia republicana, su problemática, su riqueza cultural y su resistencia.
+										Promovamos la reflexión y el diálogo sobre la comunidad afroperuana, su
+										desarrollo a través de nuestra historia republicana, su problemática, su riqueza
+										cultural y su resistencia.
 									</p>
 								</div>
 
