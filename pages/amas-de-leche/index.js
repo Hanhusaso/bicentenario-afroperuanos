@@ -10,7 +10,7 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 import Compar1 from "./compar1";
 import Compar2 from "./compar2";
 
-const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
+const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-amas-de-leche/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
 
 export default function index() {
@@ -23,7 +23,7 @@ export default function index() {
 			>
 				<div className={`${styles.parentSticky} ${"d-block ps-0 ps-xl-3 ps-xxl-5"}`}>
 					<Link href="./#menuPrincipal">
-						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`} >
+						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`}>
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
@@ -36,7 +36,11 @@ export default function index() {
 						<div
 							className={`${"d-none d-md-flex flex-column align-items-start justify-content-center ps-0 ps-xl-3 ps-xxl-5"}`}
 						>
-							<div className={`${styles.sectionShare} ${"black-text d-inline-flex flex-column align-items-center"}`}>
+							<div
+								className={`${
+									styles.sectionShare
+								} ${"black-text d-inline-flex flex-column align-items-center"}`}
+							>
 								<div className="mb-3">
 									<BsShare className="icon share-icon me-2" />
 									<span>COMPARTIR</span>
@@ -78,7 +82,6 @@ export default function index() {
 									<p className="mb-0">MENÚ PRINCIPAL</p>
 								</a>
 							</Link> */}
-							
 						</div>
 						<div className="d-flex align-items-center">
 							<div>
@@ -114,10 +117,23 @@ export default function index() {
 									<div className={`${styles.partText} ${"partText"}`}>
 										<div>
 											<p className="">
-											En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia.
+												En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente
+												abolición en 1854, los libertos contemplaron diferentes estrategias de
+												subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la
+												lactancia pagada o lactancia mercenaria. De este modo, la presencia de un
+												ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado
+												por la sociedad peruana republicana, siendo las nodrizas de origen
+												afrodescendiente las preferidas como tradición. Esta práctica fue
+												visibilizada a través del retrato fotográfico como un medio de afirmación y
+												aspiración social: el retrato del ama junto al niño a su cuidado era un
+												reflejo del elevado estatus socioeconómico de la familia.
 											</p>
 											<p>
-											Presentamos una selección de los retratos fotográficos de amas de leche de ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la actualidad, más de 50 mil placas en vidrio están en custodia en la Biblioteca Nacional del Perú.
+												Presentamos una selección de los retratos fotográficos de amas de leche de
+												ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe
+												Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la
+												actualidad, más de 50 mil placas en vidrio están en custodia en la
+												Biblioteca Nacional del Perú.
 											</p>
 										</div>
 										<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -184,13 +200,25 @@ export default function index() {
 								<div className={`${styles.grid1} ${""}`}>
 									<div>
 										<p>
-										En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron “Fotografía Central”, uno de los estudios fotográficos más importantes de la Lima del siglo XIX. Desde su creación, la casa Courret desarrolló una prolífica actividad, que pervivió hasta 1935, siendo el retrato de estudio su máximo estandarte.
+											En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron
+											“Fotografía Central”, uno de los estudios fotográficos más importantes de la
+											Lima del siglo XIX. Desde su creación, la casa Courret desarrolló una
+											prolífica actividad, que pervivió hasta 1935, siendo el retrato de estudio su
+											máximo estandarte.
 										</p>
 										<p className="">
-										La fotografía se consolidó rápidamente en la ciudad como un medio de afirmación y distinción social, pues los miembros de la élite limeña reflejaban a través de este arte su elevado estatus. Así, los retratos de estudio, además de ser una cuidadosa construcción o montaje de la imagen que las clases altas buscaron proyectar, fueron una expresión de la mentalidad de su tiempo. En estas imágenes, como valiosos documentos visuales, se reflejan los múltiples vínculos socioculturales, de género y étnicos que se estrecharon en el joven Perú republicano.
+											La fotografía se consolidó rápidamente en la ciudad como un medio de
+											afirmación y distinción social, pues los miembros de la élite limeña
+											reflejaban a través de este arte su elevado estatus. Así, los retratos de
+											estudio, además de ser una cuidadosa construcción o montaje de la imagen que
+											las clases altas buscaron proyectar, fueron una expresión de la mentalidad de
+											su tiempo. En estas imágenes, como valiosos documentos visuales, se reflejan
+											los múltiples vínculos socioculturales, de género y étnicos que se estrecharon
+											en el joven Perú republicano.
 										</p>
 										<p className="mb-5">
-										El estudio Courret fijó, de esta manera, imágenes que hoy forman parte de nuestro acervo y memoria nacional.
+											El estudio Courret fijó, de esta manera, imágenes que hoy forman parte de
+											nuestro acervo y memoria nacional.
 										</p>
 									</div>
 									<div className={styles.wrapperImage}>
@@ -208,9 +236,10 @@ export default function index() {
 													Adolfo Dubreuil, sucesor.
 												</p>
 												<p className="mb-0">
-												Estudio fotográfico Courret (1863-1935).
-												<br />
-												El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en 1905
+													Estudio fotográfico Courret (1863-1935).
+													<br />
+													El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en
+													1905
 												</p>
 											</div>
 										</div>
@@ -244,13 +273,13 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Los lazos entre las familias Courret y Dubreuil</b> se remontan a tiempos
-										de la primera generación de migrantes franceses al Perú. Eugène Courret y su
-										esposa Emilia Basserre fueron padrinos de boda de Adolphe Dubreuil, quien se
-										casó con Clara Couturier en 1884, y de Juanita Dubreuil, su primogénita. Este
-										retrato refleja el estrecho vínculo de ambas familias. En 1892, Eugène Courret
-										partió definitivamente a Francia dejando a Dubreuil, su socio y amigo, la
-										dirección del estudio fotográfico.
+										<b>Los lazos entre las familias Courret y Dubreuil</b> se remontan a tiempos de
+										la primera generación de migrantes franceses al Perú. Eugène Courret y su esposa
+										Emilia Basserre fueron padrinos de boda de Adolphe Dubreuil, quien se casó con
+										Clara Couturier en 1884, y de Juanita Dubreuil, su primogénita. Este retrato
+										refleja el estrecho vínculo de ambas familias. En 1892, Eugène Courret partió
+										definitivamente a Francia dejando a Dubreuil, su socio y amigo, la dirección del
+										estudio fotográfico.
 									</p>
 								</div>
 							</div>
@@ -308,8 +337,7 @@ export default function index() {
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
-											<b>Pedro Tonesi y ama de leche</b>.
-											Eugène Courret, 1884
+											<b>Pedro Tonesi y ama de leche</b>. Eugène Courret, 1884
 										</p>
 									</div>
 								</div>
@@ -322,8 +350,7 @@ export default function index() {
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
-											<b>Niña Chaize y ama de cría</b>.
-											Eugène Courret,  1883
+											<b>Niña Chaize y ama de cría</b>. Eugène Courret, 1883
 										</p>
 									</div>
 								</div>
@@ -332,236 +359,245 @@ export default function index() {
 						<div></div>
 					</div>
 					<div className={`${styles.fullGrid} ${"fullGrid"}`}>
-
-							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
-								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
-										{[5, 6, 7, 8, 9].map((item, index) => {
-											// return (
-											// 	<Carousel.Item key={index}>
-											// 		<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-											// 			<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-											// 				<p className="mb-0">
-											// 					<b>Isidro Ernesto Ascher Freymann y ama</b>
-											// 					<br />
-											// 					Adolphe Dubreuil, 1903
-											// 				</p>
-											// 			</div>
-											// 			<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-											// 				{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
-											// 				<img
-											// 					className="img-fluid"
-											// 					src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
-											// 					alt=""
-											// 				/>
-											// 			</div>
-											// 		</div>
-											// 	</Carousel.Item>
-											// );
-										})}
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Isidro Ernesto Ascher Freymann y ama</b>
-														<br />
-														Adolphe Dubreuil, 1903
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-5" + ".png"}
-														alt=""
-													/>
-												</div>
+						<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+							<div className="d-flex align-items-center">
+								<Carousel
+									className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+									fade={true}
+									controls={false}
+									interval={null}
+								>
+									{[5, 6, 7, 8, 9].map((item, index) => {
+										// return (
+										// 	<Carousel.Item key={index}>
+										// 		<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+										// 			<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+										// 				<p className="mb-0">
+										// 					<b>Isidro Ernesto Ascher Freymann y ama</b>
+										// 					<br />
+										// 					Adolphe Dubreuil, 1903
+										// 				</p>
+										// 			</div>
+										// 			<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+										// 				{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
+										// 				<img
+										// 					className="img-fluid"
+										// 					src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+										// 					alt=""
+										// 				/>
+										// 			</div>
+										// 		</div>
+										// 	</Carousel.Item>
+										// );
+									})}
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Isidro Ernesto Ascher Freymann y ama</b>
+													<br />
+													Adolphe Dubreuil, 1903
+												</p>
 											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Isidro Ernesto Ascher Freymann</b>
-														<br />
-														Adolphe Dubreuil, 1903
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-6" + ".png"}
-														alt=""
-													/>
-												</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + "amas-de-leche-5" + ".png"}
+													alt=""
+												/>
 											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Familia Ascher Freymann</b>
-														<br />
-														Adolphe Dubreuil, 1903
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-7" + ".png"}
-														alt=""
-													/>
-												</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Isidro Ernesto Ascher Freymann</b>
+													<br />
+													Adolphe Dubreuil, 1903
+												</p>
 											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Familia Ascher Freymann</b>
-														<br />
-														Adolphe Dubreuil, 1903
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-8" + ".png"}
-														alt=""
-													/>
-												</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + "amas-de-leche-6" + ".png"}
+													alt=""
+												/>
 											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Matrimonio Ascher Freymann</b>
-														<br />
-														Eugène Courret, 1880
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + "amas-de-leche-9" + ".png"}
-														alt=""
-													/>
-												</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Familia Ascher Freymann</b>
+													<br />
+													Adolphe Dubreuil, 1903
+												</p>
 											</div>
-										</Carousel.Item>
-									</Carousel>
-								</div>
-								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
-									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Paul Ascher fue un próspero comerciante</b> dedicado a la banca. Se casó con
-										Minna Freymann el 27 de enero de 1880. En la primera imagen, el ama de leche
-										sostiene en brazos al bebé Ascher, con el fin de que el pequeño sea el punto de
-										mira del retrato. En las dos siguientes fotografías, tomadas en ocasión del
-										bautizo del bebé Ascher, Adolphe Dubreuil retrató a la familia en dos ambientes:
-										un fastuoso espacio conformado por un telón de fondo pintado con columnas,
-										cortinaje y exteriores arbolados que están en armonía con el balcón de madera
-										sobre el que se ubica el infante, quien es sostenido amorosamente por sus
-										padres; y otro formado por un fondo neutro y liso, recurrente en los retratos de
-										tres cuartos del estudio.
-									</p>
-								</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + "amas-de-leche-7" + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Familia Ascher Freymann</b>
+													<br />
+													Adolphe Dubreuil, 1903
+												</p>
+											</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + "amas-de-leche-8" + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Matrimonio Ascher Freymann</b>
+													<br />
+													Eugène Courret, 1880
+												</p>
+											</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + "amas-de-leche-9" + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+								</Carousel>
 							</div>
-							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
-								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
-										{[10, 11, 12].map((item, index) => {
-											// return (
-											// 	<Carousel.Item key={item}>
-											// 		<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-											// 			<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-											// 				<p className="mb-0">
-											// 					<b>José Luis Giacometti Soyer y nodriza</b>
-											// 					<br />
-											// 					Eugène Courret, 1888
-											// 				</p>
-											// 			</div>
-											// 			<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-											// 				{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
-											// 				<img
-											// 					className="img-fluid"
-											// 					src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
-											// 					alt=""
-											// 				/>
-											// 			</div>
-											// 		</div>
-											// 	</Carousel.Item>
-											// );
-										})}
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>José Luis Giacometti Soyer y nodriza</b>
-														<br />
-														Eugène Courret, 1888
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + `amas-de-leche-10` + ".png"}
-														alt=""
-													/>
-												</div>
-											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Familia Giacometti Soyer</b>
-														<br />
-														Eugène Courret, 1888
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + `amas-de-leche-11` + ".png"}
-														alt=""
-													/>
-												</div>
-											</div>
-										</Carousel.Item>
-										<Carousel.Item>
-											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
-												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
-													<p className="mb-0">
-														<b>Conde José Luis Giacometti Marzano de Visconti</b>
-														<br />
-														Eugène Courret, 1886
-													</p>
-												</div>
-												<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
-													<img
-														className="img-fluid"
-														src={`${awsUrl}` + `amas-de-leche-12` + ".png"}
-														alt=""
-													/>
-												</div>
-											</div>
-										</Carousel.Item>
-									</Carousel>
-								</div>
-								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
-									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>El conde Giacometti Marzano de Visconti</b>, natural de Piacenza, Italia, se
-										estableció en Lima como comerciante y contrajo matrimonio con la limeña Victoria
-										Soyer Morote. La elegancia de sus vestimentas permite suponer que la familia
-										acudió al estudio en el marco de la celebración del bautizo de su menor hijo,
-										José Luis Giacometti, nacido el 25 de abril de 1888. Eugène Courret empleó una
-										escenografía sobria de fondos lisos y neutros, alfombra y pedestales labrados de
-										piedra y madera; y soporte común para retratar a los infantes. El gesto de
-										protección y cercanía en el retrato está enfatizado en la postura de la nodriza.
-									</p>
-								</div>
+							<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+								<p className={`${styles.text} ${"text mb-0"}`}>
+									<b>Paul Ascher fue un próspero comerciante</b> dedicado a la banca. Se casó con
+									Minna Freymann el 27 de enero de 1880. En la primera imagen, el ama de leche
+									sostiene en brazos al bebé Ascher, con el fin de que el pequeño sea el punto de
+									mira del retrato. En las dos siguientes fotografías, tomadas en ocasión del
+									bautizo del bebé Ascher, Adolphe Dubreuil retrató a la familia en dos ambientes:
+									un fastuoso espacio conformado por un telón de fondo pintado con columnas,
+									cortinaje y exteriores arbolados que están en armonía con el balcón de madera
+									sobre el que se ubica el infante, quien es sostenido amorosamente por sus padres;
+									y otro formado por un fondo neutro y liso, recurrente en los retratos de tres
+									cuartos del estudio.
+								</p>
 							</div>
-							{/* <div className={`${styles.gridCarousel} ${styles.gridCarouselAuto} ${"gridCarousel mb-160"}`}>
+						</div>
+						<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
+							<div className="d-flex align-items-center">
+								<Carousel
+									className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+									fade={true}
+									controls={false}
+									interval={null}
+								>
+									{[10, 11, 12].map((item, index) => {
+										// return (
+										// 	<Carousel.Item key={item}>
+										// 		<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+										// 			<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+										// 				<p className="mb-0">
+										// 					<b>José Luis Giacometti Soyer y nodriza</b>
+										// 					<br />
+										// 					Eugène Courret, 1888
+										// 				</p>
+										// 			</div>
+										// 			<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+										// 				{/* <img className="img-fluid" src="/img/amas/familia ascher freymann.jpg" alt="" /> */}
+										// 				<img
+										// 					className="img-fluid"
+										// 					src={`${awsUrl}` + `amas-de-leche-${item}` + ".png"}
+										// 					alt=""
+										// 				/>
+										// 			</div>
+										// 		</div>
+										// 	</Carousel.Item>
+										// );
+									})}
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>José Luis Giacometti Soyer y nodriza</b>
+													<br />
+													Eugène Courret, 1888
+												</p>
+											</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + `amas-de-leche-10` + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Familia Giacometti Soyer</b>
+													<br />
+													Eugène Courret, 1888
+												</p>
+											</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + `amas-de-leche-11` + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+									<Carousel.Item>
+										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
+											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
+												<p className="mb-0">
+													<b>Conde José Luis Giacometti Marzano de Visconti</b>
+													<br />
+													Eugène Courret, 1886
+												</p>
+											</div>
+											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
+												<img
+													className="img-fluid"
+													src={`${awsUrl}` + `amas-de-leche-12` + ".png"}
+													alt=""
+												/>
+											</div>
+										</div>
+									</Carousel.Item>
+								</Carousel>
+							</div>
+							<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
+								<p className={`${styles.text} ${"text mb-0"}`}>
+									<b>El conde Giacometti Marzano de Visconti</b>, natural de Piacenza, Italia, se
+									estableció en Lima como comerciante y contrajo matrimonio con la limeña Victoria
+									Soyer Morote. La elegancia de sus vestimentas permite suponer que la familia
+									acudió al estudio en el marco de la celebración del bautizo de su menor hijo, José
+									Luis Giacometti, nacido el 25 de abril de 1888. Eugène Courret empleó una
+									escenografía sobria de fondos lisos y neutros, alfombra y pedestales labrados de
+									piedra y madera; y soporte común para retratar a los infantes. El gesto de
+									protección y cercanía en el retrato está enfatizado en la postura de la nodriza.
+								</p>
+							</div>
+						</div>
+						{/* <div className={`${styles.gridCarousel} ${styles.gridCarouselAuto} ${"gridCarousel mb-160"}`}>
                                 <div className="d-flex align-items-center">
                                     <div className="mb-5">
                                         <div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
@@ -662,7 +698,12 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>Dos jóvenes nodrizas posaron</b> junto a Roberto Baudrot, hijo de Augusto Antonio Baudrot, un notable comerciante francés radicado en Lima. Una de ellas sonríe y sostiene al niño con su mano derecha; mientras que el ama ubicada en el fondo destaca por la elegancia de su atuendo, el cual reflejaría indirectamente el elevado estatus de la familia del menor. Las familias más acaudaladas podían contar con más de una nodriza para el cuidado de sus hijos.
+										<b>Dos jóvenes nodrizas posaron</b> junto a Roberto Baudrot, hijo de Augusto
+										Antonio Baudrot, un notable comerciante francés radicado en Lima. Una de ellas
+										sonríe y sostiene al niño con su mano derecha; mientras que el ama ubicada en el
+										fondo destaca por la elegancia de su atuendo, el cual reflejaría indirectamente
+										el elevado estatus de la familia del menor. Las familias más acaudaladas podían
+										contar con más de una nodriza para el cuidado de sus hijos.
 									</p>
 								</div>
 							</div>
@@ -693,13 +734,26 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>La composición</b> de los retratos previos remite a <b>Niño y dos amas</b>, uno de las primeros daguerrotipos o retratos de amas de leche o nodrizas afroperuanas, realizado por Benjamin Franklin Pease casi medio siglo antes. En esa imagen, las nodrizas flanquean y sostienen al niño ubicado sobre una lujosa silla Hepplewhite, mientras que en el fondo se aprecia la mano de una tercera persona escondida tras el cortinaje, quien sujeta la cabeza del infante para mantenerlo estable. Por la fecha aproximada de esta fotografía, es probable que estas mujeres afroperuanas fueran esclavas, lo cual estaría simbolizado y dulcificado en el fuete que sostiene el pequeño.
+										<b>La composición</b> de los retratos previos remite a <b>Niño y dos amas</b>,
+										uno de las primeros daguerrotipos o retratos de amas de leche o nodrizas
+										afroperuanas, realizado por Benjamin Franklin Pease casi medio siglo antes. En
+										esa imagen, las nodrizas flanquean y sostienen al niño ubicado sobre una lujosa
+										silla Hepplewhite, mientras que en el fondo se aprecia la mano de una tercera
+										persona escondida tras el cortinaje, quien sujeta la cabeza del infante para
+										mantenerlo estable. Por la fecha aproximada de esta fotografía, es probable que
+										estas mujeres afroperuanas fueran esclavas, lo cual estaría simbolizado y
+										dulcificado en el fuete que sostiene el pequeño.
 									</p>
 								</div>
 							</div>
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
+									<Carousel
+										className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+										fade={true}
+										controls={false}
+										interval={null}
+									>
 										{[16, 17, 18, 19, 20].map((item) => {
 											// return (
 											// 	<Carousel.Item key={item}>
@@ -818,15 +872,31 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>Las nodrizas eran requeridas</b>, también, cuando se retrataba individualmente a los bebés y niños más pequeños. Ellas debían sostenerlos y, para no aparecer en el retrato, se ocultaban tras el mobiliario, como vemos en el retrato de la niña Carmen Gallagher. En las diferentes tomas se observa al ama sosteniendo a la pequeña a través de una cinta, detrás de la silla para quedar parcialmente fuera de la toma.
-									<br />
-									En algunos casos, las amas eran cubiertas completamente con un manto negro y borradas de la imagen. A lo largo del tiempo se han vertido diversas interpretaciones sobre esta presencia “ausente” de las amas: unas relacionadas con la invisibilización de las nodrizas por cuestiones étnicas o clasistas; mientras que otras refieren que se trataba de una técnica fotográfica. No tenemos ninguna certeza, pero aparentemente las personas cubiertas no eran las madres.
+										<b>Las nodrizas eran requeridas</b>, también, cuando se retrataba
+										individualmente a los bebés y niños más pequeños. Ellas debían sostenerlos y,
+										para no aparecer en el retrato, se ocultaban tras el mobiliario, como vemos en
+										el retrato de la niña Carmen Gallagher. En las diferentes tomas se observa al
+										ama sosteniendo a la pequeña a través de una cinta, detrás de la silla para
+										quedar parcialmente fuera de la toma.
+										<br />
+										En algunos casos, las amas eran cubiertas completamente con un manto negro y
+										borradas de la imagen. A lo largo del tiempo se han vertido diversas
+										interpretaciones sobre esta presencia “ausente” de las amas: unas relacionadas
+										con la invisibilización de las nodrizas por cuestiones étnicas o clasistas;
+										mientras que otras refieren que se trataba de una técnica fotográfica. No
+										tenemos ninguna certeza, pero aparentemente las personas cubiertas no eran las
+										madres.
 									</p>
 								</div>
 							</div>
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-100"}`}>
 								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
+									<Carousel
+										className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+										fade={true}
+										controls={false}
+										interval={null}
+									>
 										{[21, 22, 23, 24].map((item) => {
 											// return (
 											// 	<Carousel.Item key={item}>
@@ -927,7 +997,13 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>En una misma sesión fotográfica</b>, se realizaban diversos retratos del infante, incluyendo el retrato con su nodriza. El ama de leche de María Dubois fue captada llevando aretes de perla y un sobrio uniforme. La niña posó además en un retrato individual o en solitario. Por otro lado, la nodriza de la pequeña Kitz Dibós fue fotografiada cómodamente sentada al mismo nivel que la niña, en una composición recurrente en los retratos de Dubreuil. En otra fotografía, ubicada sobre la misma pequeña mesa, está acompañada por su hermana mayor.
+										<b>En una misma sesión fotográfica</b>, se realizaban diversos retratos del
+										infante, incluyendo el retrato con su nodriza. El ama de leche de María Dubois
+										fue captada llevando aretes de perla y un sobrio uniforme. La niña posó además
+										en un retrato individual o en solitario. Por otro lado, la nodriza de la pequeña
+										Kitz Dibós fue fotografiada cómodamente sentada al mismo nivel que la niña, en
+										una composición recurrente en los retratos de Dubreuil. En otra fotografía,
+										ubicada sobre la misma pequeña mesa, está acompañada por su hermana mayor.
 									</p>
 								</div>
 							</div>
@@ -1130,13 +1206,23 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>En la época, las sesiones fotográficas</b> eran extensas y los retratados debían sostener la pose durante todo el proceso, lo cual era especialmente difícil si se trataba de un niño. Por ello, la presencia de su ama era indispensable para tratar de asegurar el éxito del retrato. Para conseguir el retrato del bebé Arias y su nodriza, se realizaron diversas tomas en las que el escurridizo pequeño arranca las sonrisas de su ama.
+										<b>En la época, las sesiones fotográficas</b> eran extensas y los retratados
+										debían sostener la pose durante todo el proceso, lo cual era especialmente
+										difícil si se trataba de un niño. Por ello, la presencia de su ama era
+										indispensable para tratar de asegurar el éxito del retrato. Para conseguir el
+										retrato del bebé Arias y su nodriza, se realizaron diversas tomas en las que el
+										escurridizo pequeño arranca las sonrisas de su ama.
 									</p>
 								</div>
 							</div>
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
+									<Carousel
+										className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+										fade={true}
+										controls={false}
+										interval={null}
+									>
 										{[27, 28].map((item) => {
 											// return (
 											// 	<Carousel.Item key={item}>
@@ -1201,13 +1287,24 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>Ante un telón de fondo decorado</b> con un cortinaje y una estancia interior, el bebé Melot y su ama fueron retratados en distintas composiciones. En la primera, la nodriza sostiene al pequeño en su regazo mientras que, en la segunda, se agregó una pequeña mesa y se colocó al niño a la misma altura que su ama, generando así una mayor cercanía entre ambos. Ella mira hacia la cámara en tanto que el bebé sonríe y dirige su mirada hacia un punto detrás de la toma fotográfica, posiblemente en donde se encuentra uno de sus padres.
+										<b>Ante un telón de fondo decorado</b> con un cortinaje y una estancia interior,
+										el bebé Melot y su ama fueron retratados en distintas composiciones. En la
+										primera, la nodriza sostiene al pequeño en su regazo mientras que, en la
+										segunda, se agregó una pequeña mesa y se colocó al niño a la misma altura que su
+										ama, generando así una mayor cercanía entre ambos. Ella mira hacia la cámara en
+										tanto que el bebé sonríe y dirige su mirada hacia un punto detrás de la toma
+										fotográfica, posiblemente en donde se encuentra uno de sus padres.
 									</p>
 								</div>
 							</div>
 							<div className={`${styles.gridCarousel} ${"gridCarousel mb-160"}`}>
 								<div className="d-flex align-items-center">
-									<Carousel className={`${styles.wrapCarousel} ${"wrapCarousel"}`} fade={true} controls={false} interval={null}>
+									<Carousel
+										className={`${styles.wrapCarousel} ${"wrapCarousel"}`}
+										fade={true}
+										controls={false}
+										interval={null}
+									>
 										{[29, 30, 31, 32, 33, 34, 35].map((item) => {
 											// return (
 											// 	<Carousel.Item key={item}>
@@ -1362,7 +1459,12 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>La gran mayoría de amas afroperuanas</b> fue retratada vistiendo una mantilla o pañolón largo colocado por encima de la cabeza. Las mujeres de la clase alta también la usaron, pero de finas telas ornamentadas con bordados, mientras que las clases bajas emplearon tejidos más sencillos como el algodón o el lino. Esta prenda habría buscado reflejar la decencia y religiosidad de quien la portaba, cualidades admiradas y requeridas en una nodriza.
+										<b>La gran mayoría de amas afroperuanas</b> fue retratada vistiendo una mantilla
+										o pañolón largo colocado por encima de la cabeza. Las mujeres de la clase alta
+										también la usaron, pero de finas telas ornamentadas con bordados, mientras que
+										las clases bajas emplearon tejidos más sencillos como el algodón o el lino. Esta
+										prenda habría buscado reflejar la decencia y religiosidad de quien la portaba,
+										cualidades admiradas y requeridas en una nodriza.
 									</p>
 								</div>
 							</div>
@@ -1394,7 +1496,9 @@ export default function index() {
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>
-										<b>¿Cuál fue el devenir y la importancia del retrato en el Perú en el siglo XIX?</b>
+										<b>
+											¿Cuál fue el devenir y la importancia del retrato en el Perú en el siglo XIX?
+										</b>
 										<br />
 										<span>Sofía Pachas. Historiadora del arte</span>
 									</div>
