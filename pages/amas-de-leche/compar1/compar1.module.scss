@@ -35,14 +35,31 @@
         outline: none;
         &::-webkit-slider-thumb {
             appearance: none;
-            // height: 100vh;
             height: 600px;
             width: 40px;
             background: url("/img/amas/red_circle_trans.png"), url("/img/amas/red_circle_trans.png"), url("/img/amas/blockred.png");
             background-size: 20px 20px, 20px 20px, 6px 6px;
             background-repeat: no-repeat, no-repeat, no-repeat repeat;
             background-position: center 0%, center 100%, center 0%;
-            // background-position-y: 0, 100%, 0;
+            @media (max-width: 1199.98px) {
+                height: 50vw;
+            }
+            @media (max-width: 767.98px) {
+                height: 117vw;
+            }
+            @media (max-width: 575.98px) {
+                height: 113vw;
+            }
+        }
+        &::-moz-range-thumb {
+            border: none;
+            appearance: none;
+            height: 600px;
+            width: 40px;
+            background: url("/img/amas/red_circle_trans.png"), url("/img/amas/red_circle_trans.png"), url("/img/amas/blockred.png");
+            background-size: 20px 20px, 20px 20px, 6px 6px;
+            background-repeat: no-repeat, no-repeat, no-repeat repeat;
+            background-position: center 0%, center 100%, center 0%;
             @media (max-width: 1199.98px) {
                 height: 50vw;
             }
