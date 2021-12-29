@@ -89,7 +89,9 @@
         }
         img {
             @media (min-width: 992px) {
-                min-height: 630px;
+                // min-height: 630px;
+                // max-height: 630px;
+                height: 630px;
             }
         }
     }
