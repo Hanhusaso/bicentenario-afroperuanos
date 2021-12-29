@@ -230,16 +230,15 @@ export default function index() {
 												alt=""
 											/>
 											<div className={`${styles.captionInfo} ${"captionInfo img-fluid"}`}>
-												<p>
+												{/* <p>
 													“<b>Fotografía Central</b>”. E. Courret y Cia.
 													<br />
 													Adolfo Dubreuil, sucesor.
-												</p>
+												</p> */}
 												<p className="mb-0">
-													Estudio fotográfico Courret (1863-1935).
+													<b>Estudio fotográfico Courret (1863-1935)</b>
 													<br />
-													El frontis en estilo art Nouveau fue inaugurado por Adolfo Dubreuil en
-													1905
+													El frontis en estilo art Nouveau fue inaugurado por Adolphe Dubreuil en 1905
 												</p>
 											</div>
 										</div>
@@ -337,7 +336,7 @@ export default function index() {
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
-											<b>Pedro Tonesi y ama de leche</b>. Eugène Courret, 1884
+											<b>Pedro Tonesi y ama de leche</b> Eugène Courret, 1884
 										</p>
 									</div>
 								</div>
@@ -350,7 +349,7 @@ export default function index() {
 									/>
 									<div className={`${styles.captionInfo} ${"captionInfo text-center"}`}>
 										<p>
-											<b>Niña Chaize y ama de cría</b>. Eugène Courret, 1883
+											<b>Niña Chaize y ama de cría</b> Eugène Courret, 1883
 										</p>
 									</div>
 								</div>
