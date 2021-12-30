@@ -2551,7 +2551,7 @@ export default function index() {
 												Periodista, activista afroperuana y miembro del Centro de Desarrollo Étnico
 												(CEDET)
 												<br />
-												Origen: Zaña – Lambayeque
+												Origen: Zaña - Lambayeque
 											</p>
 										</div>
 									</Carousel.Item>
@@ -2655,9 +2655,9 @@ export default function index() {
 								graphic editor for the newspapers El Sol, El Comercio, Correo and La República.
 								Since 2000, he is producer of television program Costumbres (Customs), a platform
 								that has documented living culture in a lot of Peru provinces. As a result of this
-								work, in 2005 he presented the exhibition “Este es mi cariño” ("This is my love"),
-								which exposed 87 photographs taken during the first five years of the program's
-								broadcast.
+								work, in 2005 he presented the exhibition &quot;Este es mi cariño&quot; ("This is my
+								love"), which exposed 87 photographs taken during the first five years of the
+								program&apos;s broadcast.
 							</p>
 							<p className="">
 								His photographic work has been presented in various individual and group
@@ -2670,19 +2670,19 @@ export default function index() {
 								In Afroperuanos (2009), Alvarado featured images of music and sports figures, such
 								as Amador Ballumbrosio or soccer player Sandro Baylón; this work explores
 								religiosity in Afro-Peruvian Mass in Lima; and captures traditional dances, such as
-								"Hatajo de Negritos" and "Las Pallitas" from El Carmen (Ica) or "dance of the
-								Negritos from Zaña" (Piura). In this exhibition, he also aims to make visible other
-								spaces conquered by Afro-Peruvians, such as politics, science or academia, thus
-								denouncing the classifications of a system that recognizes them only to certain
-								trades or practices. His next exhibition, Afro-Peruvian Women (2011), featured women
-								portraits who succeed as entrepreneurs, businesswomen, artists, models and health
-								professionals, all of them are a valuable example of capacity, improvement and
-								contribution to development of the country.
+								&quot;Hatajo de Negritos&quot; and &quot;Las Pallitas&quot; from El Carmen (Ica) or
+								&quot;dance of the Negritos from Zaña&quot; (Piura). In this exhibition, he also
+								aims to make visible other spaces conquered by Afro-Peruvians, such as politics,
+								science or academia, thus denouncing the classifications of a system that recognizes
+								them only to certain trades or practices. His next exhibition, Afro-Peruvian Women
+								(2011), featured women portraits who succeed as entrepreneurs, businesswomen,
+								artists, models and health professionals, all of them are a valuable example of
+								capacity, improvement and contribution to development of the country.
 							</p>
 							<p className="">
 								Thanks to his art and his work in favor of Afro-Peruvian culture, he has received
 								different distinctions, like "Award for Excellence in Photography" by Harvard
-								University in 2014 and "Meritorious Personality of the Culture”, granted by the
+								University in 2014 and &quot;Meritorious Personality of the Culture”, granted by the
 								Ministry of Culture in 2015. In 2021 he directed and produced the documentary Josef:
 								el inicio de una historia (Josef: the beginning of a story).
 							</p>
@@ -2695,7 +2695,7 @@ export default function index() {
 							<div className="titleHome text-uppercase mb-1">
 								DO YOU WANT TO KNOW MORE ABOUT
 								<br />
-								MARTÍN ALVARADO'S ARTISTIC
+								MARTÍN ALVARADO&apos;S ARTISTIC
 								<br />
 								PROPOSAL?
 							</div>

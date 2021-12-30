@@ -120,12 +120,12 @@ export default function index() {
 												In the 19th century, after slave system crisis and its subsequent abolition
 												in 1854, freedmen contemplated different subsistence strategies. Some
 												Afro-Peruvian women continued to practice paid breastfeeding or mercenary
-												breastfeeding. Thus, wet nurse presence in elite's family life was widely
-												accepted by republican Peruvian society; Afro-descendant wet nurses were the
-												most required nursemaids. This practice was captured in photographic
-												portrait, and it represented an affirmation and social aspiration: nursemaid
-												with child portraits reflected family high socioeconomic status, whose
-												heritage included the nursemaid herself.
+												breastfeeding. Thus, wet nurse presence in elite&apos;s family life was
+												widely accepted by republican Peruvian society; Afro-descendant wet nurses
+												were the most required nursemaids. This practice was captured in
+												photographic portrait, and it represented an affirmation and social
+												aspiration: nursemaid with child portraits reflected family high
+												socioeconomic status, whose heritage included the nursemaid herself.
 											</p>
 											<p>
 												We feature a selection of Afro-Peruvian wet nurse photographic portraits
@@ -203,10 +203,10 @@ export default function index() {
 									<div>
 										<p>
 											En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron
-											“Fotografía Central”, uno de los estudios fotográficos más importantes de la
-											Lima del siglo XIX. Desde su creación, la casa Courret desarrolló una
-											prolífica actividad, que pervivió hasta 1935, siendo el retrato de estudio su
-											máximo estandarte.
+											&quot;Fotografía Central&quot;, uno de los estudios fotográficos más
+											importantes de la Lima del siglo XIX. Desde su creación, la casa Courret
+											desarrolló una prolífica actividad, que pervivió hasta 1935, siendo el retrato
+											de estudio su máximo estandarte.
 										</p>
 										<p className="">
 											La fotografía se consolidó rápidamente en la ciudad como un medio de
