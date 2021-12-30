@@ -247,13 +247,16 @@ export default function Home() {
 								</div> */}
 							</div>
 						</div>
-						<motion.div initial="hidden" animate="visible" variants={logoAnimation}>
-							<img
-								className={`${styles.logoBicentenario} ${"img-fluid"}`}
-								src="/img/LOGO HORIZONTAL PEB.png"
-								alt="bicentenario peru"
-							/>
-						</motion.div>
+						<div className="d-flex flex-column align-items-end">
+							<a className="color-inherit under mb-4" href="#">English version</a>
+							<motion.div initial="hidden" animate="visible" variants={logoAnimation}>
+								<img
+									className={`${styles.logoBicentenario} ${"img-fluid"}`}
+									src="/img/LOGO HORIZONTAL PEB.png"
+									alt="bicentenario peru"
+								/>
+							</motion.div>
+						</div>
 					</div>
 				</section>
 				<section className={styles.home2}>
