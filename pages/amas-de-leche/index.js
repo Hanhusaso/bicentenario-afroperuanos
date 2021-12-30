@@ -159,7 +159,9 @@ export default function index() {
 								</LinkScroll>
 							</div> */}
 						</div>
-						<div></div>
+						<div className="d-flex flex-column align-items-end">
+							<a className="color-inherit under mb-4" href="#">English version</a>
+						</div>
 					</div>
 				</section>
 				<section className={styles.section2}>
