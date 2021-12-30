@@ -456,8 +456,9 @@ export default function Home() {
 													fines del XIX”
 												</b>
 												<span>
-													&nbsp;[“Courret Study and Afro-Peruvian wet nurses photos from the late
-													19th century”]
+													{" "}
+													[“Courret Study and Afro-Peruvian wet nurses photos from the late 19th
+													century”]
 												</span>
 												<br />
 												<span>Carlos Estela Vilela. Litterateur</span>
@@ -480,7 +481,8 @@ export default function Home() {
 													de la identidad afro en el siglo XX”
 												</b>
 												<span>
-													&nbsp;[“Afro-descendants at the beginning of republic and Afro identity
+													{" "}
+													[“Afro-descendants at the beginning of republic and Afro identity
 													configuration in the 20th century”]
 												</span>
 												<br />
@@ -518,8 +520,9 @@ export default function Home() {
 													plena, sin discriminación ni racismo”
 												</b>
 												<span>
-													&nbsp;[“Identity and cultural heritage. The pending agenda for full
-													citizenship, without discrimination or racism”]
+													{" "}
+													[“Identity and cultural heritage. The pending agenda for full citizenship,
+													without discrimination or racism”]
 												</span>
 												<br />
 												<span>Sofía Carillo Zegarra. Journalist and activist</span>
@@ -542,7 +545,8 @@ export default function Home() {
 													afroperuano”
 												</b>
 												<span>
-													&nbsp;[“Historical and sociocultural conditions of black and Afro-Peruvian
+													{" "}
+													[“Historical and sociocultural conditions of black and Afro-Peruvian
 													appellations”]
 												</span>
 												<br />
