@@ -22,7 +22,7 @@ export default function index() {
 				description="En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente abolición en 1854, los libertos contemplaron diferentes estrategias de subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la lactancia pagada o lactancia mercenaria. De este modo, la presencia de un ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado por la sociedad peruana republicana, siendo las nodrizas de origen afrodescendiente las preferidas como tradición. Esta práctica fue visibilizada a través del retrato fotográfico como un medio de afirmación y aspiración social: el retrato del ama junto al niño a su cuidado era un reflejo del elevado estatus socioeconómico de la familia, cuyo patrimonio incluía a la propia ama."
 			>
 				<div className={`${styles.parentSticky} ${"d-block ps-0 ps-xl-3 ps-xxl-5"}`}>
-					<Link href="./#menuPrincipal">
+					<Link href="/#menuPrincipal">
 						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`}>
 							<div className="mb-2">
 								<ButtonMove dir="up" />
