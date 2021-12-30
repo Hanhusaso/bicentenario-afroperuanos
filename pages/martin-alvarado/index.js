@@ -23,7 +23,7 @@ export default function index() {
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
-							<span className="d-none d-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							<span className="d-none d-md-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
 						</a>
 					</Link>
 				</div>
@@ -2620,17 +2620,17 @@ export default function index() {
 							</div>
 						</div>
 						<div className={`${styles.minWrap} ${"minWrap"}`}>
-							<p className="mb-0">
+							<p className="">
 							Martín Alvarado se inició como fotógrafo deportivo, luego de lo cual llegó a ser editor gráfico de los periódicos <i>El Sol</i>, <i>El Comercio</i>, <i>Correo</i> y <i>La República</i>. A partir del año 2000 fue productor del programa de televisión Costumbres, plataforma que ha documentado la cultura viva en diversas provincias del Perú. Producto de esta labor, en el año 2005 presentó la muestra Este es mi cariño, que recopiló 87 fotografías realizadas durante el primer lustro de emisión del programa.
 							</p>
-							<p className="mb-0">
+							<p className="">
 							Su obra fotográfica ha sido presentada en diversas exposiciones individuales y colectivas, y recopilada en varias publicaciones, como <i>Fiestas</i>, <i>Calendario</i> y <i>Costumbres</i> de Sonaly Tuesta (2010) y el libro de su autoría titulado <i>Marcados de Fiesta</i> (2015). Su arte ha trascendido nuestras fronteras, llegando a países como Colombia, República Dominicana, España, Francia y China.
 							</p>
-							<p className="mb-0">
+							<p className="">
 							Entre sus exposiciones, destaca <i>Afroperuanos</i> (2009), donde Alvarado reúne imágenes de emblemáticas figuras de la música y el deporte, como el gran Amador Ballumbrosio o el futbolista Sandro Baylón. Asimismo, retrata la religiosidad presente en la recordada Misa Afroperuana de Lima; y capta en todo su esplendor distintas danzas tradicionales, como el “Hatajo de Negritos” y “Las Pallitas’’ de El Carmen (Ica) o la “danza de los Negritos de Zaña” (Piura). En esta muestra buscó, además, visibilizar otros espacios o áreas conquistadas por los afroperuanos, tales como la política, la ciencia o el ámbito académico, denunciando así los encasillamientos de un sistema que los reconoce o circunscribe solo a determinados oficios o prácticas. Su siguiente exposición, <i>Mujeres afroperuanas</i> (2011), presenta diversos retratos de mujeres y madres que triunfan como emprendedoras, empresarias, artistas, modelos y profesionales de la salud y que en conjunto representan un valioso ejemplo de la enorme capacidad, superación y aporte al desarrollo del país.
 							</p>
-							<p className="mb-0">
-							Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura afroperuana, ha recibido distintas distinciones, entre las que se encuentran el “Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la “Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en 2015. En el 2021 dirigió y produjo el documental <i><b>Josef: el inicio de una historia</b></i>.
+							<p className="">
+							Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura afroperuana, ha recibido distintas distinciones, entre las que se encuentran el “Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la “Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en 2015. En el 2021 dirigió y produjo el documental <i>Josef: el inicio de una historia</i>.
 							</p>
 						</div>
 					</div>
