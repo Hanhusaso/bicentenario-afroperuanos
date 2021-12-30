@@ -27,7 +27,7 @@ export default function Home() {
 				<div>
 					<div className={`${styles.menuGrid} ${"menuGrid"}`}>
 						<div className={`${styles.ama} ${""}`}>
-							<Link href="./amas-de-leche">
+							<Link href="/amas-de-leche">
 								<a className={`${styles.wrapperCaption1} ${"wrapperCaptionMenu"}`}>
 									{/* <img className="img-fluid" src="/img/menu/ama_leche.jpg" alt="" /> */}
 									<picture>
@@ -59,7 +59,7 @@ export default function Home() {
 							</Link>
 						</div>
 						<div className={`${styles.lorry} ${""}`}>
-							<Link href="./lorry-salcedo">
+							<Link href="/lorry-salcedo">
 								<a className={`${styles.wrapperCaption2} ${"wrapperCaptionMenu"}`}>
 									{/* <img className="img-fluid" src="/img/menu/lorry.jpg" alt="" /> */}
 									<picture>
@@ -90,7 +90,7 @@ export default function Home() {
 							</Link>
 						</div>
 						<div className={`${styles.martin} ${""}`}>
-							<Link href="./martin-alvarado">
+							<Link href="/martin-alvarado">
 								<a className={`${styles.wrapperCaption3} ${"wrapperCaptionMenu"}`}>
 									{/* <img className="img-fluid" src="/img/menu/martin.jpg" alt="" /> */}
 									<picture>
