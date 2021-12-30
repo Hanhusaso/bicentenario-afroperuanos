@@ -158,9 +158,9 @@ export default function index() {
 							</div> */}
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="/amas-de-leche">
-								Versión en español
-							</a>
+							<Link href="/amas-de-leche">
+								<a className="color-inherit under mb-4">Versión en español</a>
+							</Link>
 						</div>
 					</div>
 				</section>
