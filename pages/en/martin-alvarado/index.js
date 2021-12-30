@@ -1,6 +1,6 @@
-import Layout from "../../components/Layout";
-import styles from "./martin-alvarado.module.scss";
-import ButtonMove from "../../components/ButtonMove";
+import Layout from "../../../components/Layout";
+import styles from "../../martin-alvarado//martin-alvarado.module.scss";
+import ButtonMove from "../../../components/ButtonMove";
 import Link from "next/link";
 import Carousel from "react-bootstrap/Carousel";
 import { Link as LinkScroll, Element } from "react-scroll";
@@ -18,12 +18,12 @@ export default function index() {
 				description="Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país documentando con su cámara fotográfica diferentes modos de vida, festividades, personajes, danzas, música y tradiciones. Uno de los motivos fundamentales de su obra es visibilizar la presencia afroperuana en nuestro país, buscando contribuir, a través de su extensa labor fotográfica, al conocimiento y preservación de su memoria cultural y colectiva. Martín Alvarado, ha construido el archivo fotográfico del acervo afrodescendiente más grande del país."
 			>
 				<div className={`${styles.parentSticky} ${"d-block ps-0 ps-xl-3 ps-xxl-5"}`}>
-					<Link href="./#menuPrincipal">
+					<Link href="/en/#menuPrincipal">
 						<a className={`${styles.linkMenu} ${"d-inline-flex flex-column align-items-center"}`}>
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
-							<span className="d-none d-md-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							<span className="d-none d-md-inline fw-500 text-uppercase">MAIN MENU</span>
 						</a>
 					</Link>
 				</div>
@@ -39,7 +39,7 @@ export default function index() {
 							>
 								<div className="mb-3">
 									<BsShare className="icon share-icon me-2" />
-									<span>COMPARTIR</span>
+									<span>SHARE</span>
 								</div>
 								<div>
 									<a
@@ -113,30 +113,27 @@ export default function index() {
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText lh-normal"}`}>
 											<p className="">
-												Martín Alvarado Gamarra lleva más de 30 años recorriendo nuestro país
-												documentando con su cámara fotográfica diferentes modos de vida,
-												festividades, personajes, danzas, música y tradiciones. Uno de los motivos
-												fundamentales de su obra es visibilizar la presencia afroperuana en nuestro
-												país, buscando contribuir, a través de su extensa labor fotográfica, al
-												conocimiento y preservación de su memoria cultural y colectiva. Martín
-												Alvarado ha construido el archivo fotográfico del acervo afrodescendiente
-												más grande del país.
+												For over 30 years, Martín Alvarado Gamarra has traveled across our country
+												documenting with his camera different ways of life, festivities, characters,
+												dances, music and traditions. A fundamental reason of his work is to make
+												visible the Afro-Peruvian presence in our country, and to contribute,
+												through his extensive photographic work, to the knowledge and preservation
+												of their cultural and collective memory. Martín Alvarado, has built the
+												largest photographic archive of the Afro-descendant heritage in the country.
 											</p>
 											<p className="">
-												Su exposición DIA 100, inaugurada en el año 2017, reunió las imágenes de un
-												centenar de compatriotas orgullosos de su ascendencia africana, quienes
-												expresaron por escrito su sentir ante la discriminación, el racismo y los
-												estereotipos que persisten en nuestra sociedad y continúan
-												estigmatizándolos. La muestra fue inaugurada en el marco del Decenio
-												Internacional de los Afrodescendientes (2015-2025) proclamado por la ONU y
-												el Mes de la Cultura Afroperuana celebrado en Perú en junio de cada año
-												desde el 2014.
+												His exhibition DIA 100, inaugurated in 2017, exposed a hundred Peruvians who
+												are proud of their African descent, and expressed with their own words their
+												feelings about discrimination, racism and stereotypes that persist in our
+												society and continue to stigmatize them. The exhibition was inaugurated in
+												the context of International Decade for People of African Descent
+												(2015-2025) proclaimed by the UN, and the Afro-Peruvian Culture Month,
+												celebrated every year in June, since 2014.
 											</p>
 											<p className="">
-												Como afroperuano, el artista sufrió en carne viva prejuicios. Sus imágenes
-												son testimonios visuales que buscan conformar un manifiesto que aboga por el
-												respeto, la igualdad y el reconocimiento de la identidad, presencia y legado
-												cultural afroperuano.
+												As an Afro-Peruvian, the artist suffered raw prejudice. His images are
+												visual testimonies that aims to promote respect, equality and recognition of
+												Afro-Peruvian identity, presence and cultural legacy.
 											</p>
 										</div>
 									</div>
@@ -165,8 +162,8 @@ export default function index() {
 							</div> */}
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="/en/martin-alvarado">
-								English version
+							<a className="color-inherit under mb-4" href="/martin-alvarado">
+								Versión en español
 							</a>
 						</div>
 					</div>
@@ -197,16 +194,14 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										“DIA 100 significa en sus siglas, Decenio Internacional del Afrodescendiente
-										(DIA), y el número cien representa a las cien personas que han sido
-										fotografiadas. El proyecto tiene como punto de partida la idea de mostrar lo
-										mucho que aportan a diario los afroperuanos y las afroperuanas a este país;
-										señalar que la cantidad de afrodescendientes luchadores y profesionales es mayor
-										a lo que se imaginan muchas personas; y romper con las ideas que estereotipan a
-										la población afroperuana como bailarines, deportistas o cocineros. Además, DIA
-										100 busca el reconocimiento específico de los y las profesionales afro en el
-										país y cómo este puede inspirar y educar a las personas para seguir trabajando
-										en la erradicación del racismo”.
+										“DIA 100 was named for International Decade for People of African Descent, and
+										the number 100 represents the number of people who have been photographed. The
+										project's starting point is showing Afro-Peruvians continuing contribution to
+										our country; also, this project exhibits the high number of African descent
+										fighters and professionals; and it breaks the stereotype that Afro-Peruvian can
+										only be dancers, athletes or chefs. In addition, DIA 100 aims to recognize that
+										Afro-professionals can be an inspiration, and how their actions can educate
+										people to continue working to eradicate racism”.
 									</p>
 									<img
 										loading="lazy"
@@ -929,13 +924,12 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										“El contenido de DIA 100 es un registro fotográfico con historias de hombres,
-										mujeres, niñas, niños, adolescentes y jóvenes afrodescendientes, enfocando al
-										Perú de forma transversal; con ello pretende visibilizar y reconocer la vida de
-										todas y todos aquellos que viven en exclusión, racismo y discriminación por la
-										constante y denigrante práctica de encasillar y atribuir prejuicios a los
-										pueblos; lo cual forma parte de la violencia física y psicológica que se ejerce
-										por la condición étnico-racial de un ser humano”.
+										"DIA 100 features stories of Africa-descent men, women, girls, boys, adolescents
+										and young people, adopting a cross-cutting approach in Peru; it intends to make
+										visible and recognize all those who live in exclusion, racism and
+										discrimination, those people who are constantly denigrate and classify; and, it
+										shows that physical and psychological violence is exercised by the ethnic-racial
+										condition of a human being”.
 									</p>
 									<img
 										loading="lazy"
@@ -1658,14 +1652,12 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										“El pueblo afroperuano forma parte de las poblaciones vulneradas,
-										invisibilizadas e injustamente marcadas por la esclavitud y trata de personas.
-										Este proyecto contó con el apoyo de la Dirección de Políticas Públicas para la
-										Población Afroperuana del Viceministerio de Interculturalidad perteneciente al
-										Ministerio de Cultura del Perú y por supuesto con la hermosa historia de cada
-										uno de las y los afroperuanos que participaron y suman para desmitificar,
-										visibilizar y luchar contra la discriminación étnico-racial del pueblo
-										afroperuano”.
+										“Afro-Peruvian people are a vulnerable and invisible population, that were
+										unjustly marked with slavery and human trafficking. This project was supported
+										by Public Policies for the Afro-Peruvian Population Office of the Vice Ministry
+										of Interculturality, from Ministry of Culture of Peru; also, it was supported by
+										Afro-Peruvians beautiful histories, that help to demystify, make visible and
+										fight against the ethnic-racial discrimination of the Afro-Peruvian people”.
 									</p>
 									<img
 										loading="lazy"
@@ -2652,55 +2644,47 @@ export default function index() {
 				<section className={styles.section5}>
 					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
 						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
-							<div className="titleHome text-uppercase mb-1">
-								MARTÍN ALVARADO
-								<br />Y LA MEMORIA AFROPERUANA
-							</div>
+							<div className="titleHome text-uppercase mb-1">AFRO-PERUVIAN MEMORY</div>
 							<div className="mb-4">
 								<img className="underline-arrows" src="/img/svg/flechas_azul(37).svg" alt="" />
 							</div>
 						</div>
 						<div className={`${styles.minWrap} ${"minWrap"}`}>
 							<p className="">
-								Martín Alvarado se inició como fotógrafo deportivo, luego de lo cual llegó a ser
-								editor gráfico de los periódicos <i>El Sol</i>, <i>El Comercio</i>, <i>Correo</i> y{" "}
-								<i>La República</i>. A partir del año 2000 fue productor del programa de televisión
-								Costumbres, plataforma que ha documentado la cultura viva en diversas provincias del
-								Perú. Producto de esta labor, en el año 2005 presentó la muestra Este es mi cariño,
-								que recopiló 87 fotografías realizadas durante el primer lustro de emisión del
-								programa.
+								Martín Alvarado began his career as a sports photographer; after that he became a
+								graphic editor for the newspapers El Sol, El Comercio, Correo and La República.
+								Since 2000, he is producer of television program Costumbres (Customs), a platform
+								that has documented living culture in a lot of Peru provinces. As a result of this
+								work, in 2005 he presented the exhibition “Este es mi cariño” ("This is my love"),
+								which exposed 87 photographs taken during the first five years of the program's
+								broadcast.
 							</p>
 							<p className="">
-								Su obra fotográfica ha sido presentada en diversas exposiciones individuales y
-								colectivas, y recopilada en varias publicaciones, como <i>Fiestas</i>,{" "}
-								<i>Calendario</i> y <i>Costumbres</i> de Sonaly Tuesta (2010) y el libro de su
-								autoría titulado <i>Marcados de Fiesta</i> (2015). Su arte ha trascendido nuestras
-								fronteras, llegando a países como Colombia, República Dominicana, España, Francia y
-								China.
+								His photographic work has been presented in various individual and group
+								exhibitions, and compiled in various publications, such as Sonaly Tuesta's Fiestas,
+								calendario y costumbres (Festivities, Calendar and Customs) (2010) and his own book
+								Marcados de Fiesta (2015). His art has been shown at Colombia, the Dominican
+								Republic, Spain, France and China.
 							</p>
 							<p className="">
-								Entre sus exposiciones, destaca <i>Afroperuanos</i> (2009), donde Alvarado reúne
-								imágenes de emblemáticas figuras de la música y el deporte, como el gran Amador
-								Ballumbrosio o el futbolista Sandro Baylón. Asimismo, retrata la religiosidad
-								presente en la recordada Misa Afroperuana de Lima; y capta en todo su esplendor
-								distintas danzas tradicionales, como el “Hatajo de Negritos” y “Las Pallitas’’ de El
-								Carmen (Ica) o la “danza de los Negritos de Zaña” (Piura). En esta muestra buscó,
-								además, visibilizar otros espacios o áreas conquistadas por los afroperuanos, tales
-								como la política, la ciencia o el ámbito académico, denunciando así los
-								encasillamientos de un sistema que los reconoce o circunscribe solo a determinados
-								oficios o prácticas. Su siguiente exposición, <i>Mujeres afroperuanas</i> (2011),
-								presenta diversos retratos de mujeres y madres que triunfan como emprendedoras,
-								empresarias, artistas, modelos y profesionales de la salud y que en conjunto
-								representan un valioso ejemplo de la enorme capacidad, superación y aporte al
-								desarrollo del país.
+								In Afroperuanos (2009), Alvarado featured images of music and sports figures, such
+								as Amador Ballumbrosio or soccer player Sandro Baylón; this work explores
+								religiosity in Afro-Peruvian Mass in Lima; and captures traditional dances, such as
+								"Hatajo de Negritos" and "Las Pallitas" from El Carmen (Ica) or "dance of the
+								Negritos from Zaña" (Piura). In this exhibition, he also aims to make visible other
+								spaces conquered by Afro-Peruvians, such as politics, science or academia, thus
+								denouncing the classifications of a system that recognizes them only to certain
+								trades or practices. His next exhibition, Afro-Peruvian Women (2011), featured women
+								portraits who succeed as entrepreneurs, businesswomen, artists, models and health
+								professionals, all of them are a valuable example of capacity, improvement and
+								contribution to development of the country.
 							</p>
 							<p className="">
-								Gracias a su trabajo artístico y labor en favor de la visibilización de la cultura
-								afroperuana, ha recibido distintas distinciones, entre las que se encuentran el
-								“Premio a la Excelencia en Fotografía” por la Universidad de Harvard en 2014 y la
-								“Personalidad Meritoria de la Cultura”, otorgada por el Ministerio de Cultura en
-								2015. En el 2021 dirigió y produjo el documental{" "}
-								<i>Josef: el inicio de una historia</i>.
+								Thanks to his art and his work in favor of Afro-Peruvian culture, he has received
+								different distinctions, like "Award for Excellence in Photography" by Harvard
+								University in 2014 and "Meritorious Personality of the Culture”, granted by the
+								Ministry of Culture in 2015. In 2021 he directed and produced the documentary Josef:
+								el inicio de una historia (Josef: the beginning of a story).
 							</p>
 						</div>
 					</div>
@@ -2709,11 +2693,11 @@ export default function index() {
 					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
 						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
 							<div className="titleHome text-uppercase mb-1">
-								¿QUIÉRES SABER MÁS SOBRE
+								DO YOU WANT TO KNOW MORE ABOUT
 								<br />
-								LA PROPUESTA ARTÍSTICA DE
+								MARTÍN ALVARADO'S ARTISTIC
 								<br />
-								MARTÍN ALVARADO?
+								PROPOSAL?
 							</div>
 							<div className="mb-4">
 								<img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
@@ -2730,9 +2714,9 @@ export default function index() {
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>
-										<b>Testimonio del artista</b>
+										<b>Artist's testimonial</b>
 										<br />
-										<span>Martín Alvarado. Fotógrafo y productor audiovisual</span>
+										<span>Martin Alvarado. Photographer and audiovisual producer</span>
 									</div>
 									<div className="descripcion"></div>
 								</div>

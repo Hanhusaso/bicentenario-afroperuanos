@@ -1,14 +1,14 @@
-import Layout from "../../components/Layout";
-import styles from "./amas-de-leche.module.scss";
-import ButtonMove from "../../components/ButtonMove";
+import Layout from "../../../components/Layout";
+import styles from "../../amas-de-leche/amas-de-leche.module.scss";
+import ButtonMove from "../../../components/ButtonMove";
 import Link from "next/link";
 import Carousel from "react-bootstrap/Carousel";
 import { Link as LinkScroll, Element } from "react-scroll";
 import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
-import Compar1 from "./compar1";
-import Compar2 from "./compar2";
+import Compar1 from "../../amas-de-leche/compar1";
+import Compar2 from "../../amas-de-leche/compar2";
 
 const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-amas-de-leche/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
@@ -27,7 +27,7 @@ export default function index() {
 							<div className="mb-2">
 								<ButtonMove dir="up" />
 							</div>
-							<span className="d-none d-md-inline fw-500 text-uppercase">MENÚ PRINCIPAL</span>
+							<span className="d-none d-md-inline fw-500 text-uppercase">MAIN MENU</span>
 						</a>
 					</Link>
 				</div>
@@ -43,7 +43,7 @@ export default function index() {
 							>
 								<div className="mb-3">
 									<BsShare className="icon share-icon me-2" />
-									<span>COMPARTIR</span>
+									<span>SHARE</span>
 								</div>
 								<div>
 									<a
@@ -117,23 +117,21 @@ export default function index() {
 									<div className={`${styles.partText} ${"partText"}`}>
 										<div>
 											<p className="">
-												En el siglo XIX, tras la crisis del sistema esclavista y su subsiguiente
-												abolición en 1854, los libertos contemplaron diferentes estrategias de
-												subsistencia. Algunas mujeres afroperuanas continuaron con la práctica de la
-												lactancia pagada o lactancia mercenaria. De este modo, la presencia de un
-												ama dentro de la vida familiar de la élite fue un hecho ampliamente aceptado
-												por la sociedad peruana republicana, siendo las nodrizas de origen
-												afrodescendiente las preferidas como tradición. Esta práctica fue
-												visibilizada a través del retrato fotográfico como un medio de afirmación y
-												aspiración social: el retrato del ama junto al niño a su cuidado era un
-												reflejo del elevado estatus socioeconómico de la familia.
+												In the 19th century, after slave system crisis and its subsequent abolition
+												in 1854, freedmen contemplated different subsistence strategies. Some
+												Afro-Peruvian women continued to practice paid breastfeeding or mercenary
+												breastfeeding. Thus, wet nurse presence in elite's family life was widely
+												accepted by republican Peruvian society; Afro-descendant wet nurses were the
+												most required nursemaids. This practice was captured in photographic
+												portrait, and it represented an affirmation and social aspiration: nursemaid
+												with child portraits reflected family high socioeconomic status, whose
+												heritage included the nursemaid herself.
 											</p>
 											<p>
-												Presentamos una selección de los retratos fotográficos de amas de leche de
-												ascendencia afroperuana realizados por Eugène Courret y su sucesor Adolphe
-												Dubreuil entre 1879 y 1912 en el célebre estudio limeño E. Courret. En la
-												actualidad, más de 50 mil placas en vidrio están en custodia en la
-												Biblioteca Nacional del Perú.
+												We feature a selection of Afro-Peruvian wet nurse photographic portraits
+												made by Eugène Courret and his successor Adolphe Dubreuil between 1879 and
+												1912 in their famous Lima studio E. Courret. Nowdays, more than 50 thousand
+												glass plates are in custody at the National Library of Peru.
 											</p>
 										</div>
 										<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -160,8 +158,8 @@ export default function index() {
 							</div> */}
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="/en/amas-de-leche">
-								English version
+							<a className="color-inherit under mb-4" href="/amas-de-leche">
+								Versión en español
 							</a>
 						</div>
 					</div>
@@ -1479,11 +1477,11 @@ export default function index() {
 					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
 						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
 							<div className="titleHome text-uppercase mb-1">
-								¿QUIÉRES SABER MÁS
+								DO YOU WANT TO KNOW MORE
 								<br />
-								SOBRE EL RETRATO EN
+								ABOUT THE PORTRAIT IN
 								<br />
-								EL SIGLO XIX?
+								THE XIX CENTURY?
 							</div>
 							<div className="mb-4">
 								<img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
@@ -1501,10 +1499,11 @@ export default function index() {
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>
 										<b>
-											¿Cuál fue el devenir y la importancia del retrato en el Perú en el siglo XIX?
+											What was the evolution and importance of the portrait in Peru in the 19th
+											century?
 										</b>
 										<br />
-										<span>Sofía Pachas. Historiadora del arte</span>
+										<span>Sofia Pachas. Art historian</span>
 									</div>
 									<div className="descripcion"></div>
 								</div>
