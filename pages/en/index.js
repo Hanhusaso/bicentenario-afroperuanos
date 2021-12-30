@@ -163,18 +163,19 @@ export default function Home() {
 								<motion.div initial="hidden" animate="visible" variants={commonAnimation}>
 									<div className="mb-4 lh-normal">
 										<p className="">
-											<b>In the context of 200th anniversary of Peru’s independence,</b> it must be
-											recognized and valued the ethnic and multicultural wealth that makes up the
-											republic, because they are fundamental elements of Peruvian identity.
+											<b>In the context of 200th anniversary of Peru&apos;s independence,</b> it
+											must be recognized and valued the ethnic and multicultural wealth that makes
+											up the republic, because they are fundamental elements of Peruvian identity.
 											Afro-Peruvian population has contributed, with its legacy, resilience and
 											heritage, to national imaginary construction; however, its presence has been
 											unvalued and even made invisible. Thus, this exhibition promotes reflection on
 											the visual representation of the Afro-descendant community; it features a
 											selection of photographs made at three different times of our republican
-											history: Estudio Courret’s Afro-Peruvian portraits of wet nurses, made between
-											1879 and 1912; Lorry Salcedo Mitrani’s portraits of El Carmen community, in
-											Chincha, between 1985 and 1996; and Martín Alvarado Gamarra's DIA 100 project,
-											the most extensive compilation of Afro-Peruvian portraits.
+											history: Estudio Courret&apos;s Afro-Peruvian portraits of wet nurses, made
+											between 1879 and 1912; Lorry Salcedo Mitrani&apos;s portraits of El Carmen
+											community, in Chincha, between 1985 and 1996; and Martín Alvarado
+											Gamarra&apos;s DIA 100 project, the most extensive compilation of
+											Afro-Peruvian portraits.
 										</p>
 										<p className="">
 											These photographic archives exhibition stand out Afro-descendants historical
@@ -424,9 +425,9 @@ export default function Home() {
 										<img className="underline-arrows" src="/img/svg/flechas_piel(37).svg" alt="" />
 									</div>
 									<p className="mb-0 lh-normal">
-										Let’s promote reflection and dialogue about the Afro-Peruvian community, its
-										development through our republican history, its problems, its cultural richness,
-										and its resistance.
+										Let&apos;s promote reflection and dialogue about the Afro-Peruvian community,
+										its development through our republican history, its problems, its cultural
+										richness, and its resistance.
 									</p>
 								</div>
 
@@ -435,8 +436,8 @@ export default function Home() {
 										SESSION 1
 									</div>
 									<p className="mb-0 lh-normal">
-										Let´s dive into social, ethnic and cultural relations and the role played by
-										Afro-Peruvian women in 19th and 20th centuries society.
+										Let&apos;s dive into social, ethnic and cultural relations and the role played
+										by Afro-Peruvian women in 19th and 20th centuries society.
 									</p>
 								</div>
 
@@ -452,13 +453,13 @@ export default function Home() {
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
 												<b>
-													“El Estudio Courret y la fotografía de las amas de leche afroperuanas de
-													fines del XIX”
+													&quot;El Estudio Courret y la fotografía de las amas de leche afroperuanas
+													de fines del XIX&quot;
 												</b>
 												<span>
 													{" "}
-													[“Courret Study and Afro-Peruvian wet nurses photos from the late 19th
-													century”]
+													[&quot;Courret Study and Afro-Peruvian wet nurses photos from the late
+													19th century&quot;]
 												</span>
 												<br />
 												<span>Carlos Estela Vilela. Litterateur</span>
@@ -477,13 +478,13 @@ export default function Home() {
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
 												<b>
-													“Los afrodescendientes en los inicios de la república y la configuración
-													de la identidad afro en el siglo XX”
+													&quot;Los afrodescendientes en los inicios de la república y la
+													configuración de la identidad afro en el siglo XX&quot;
 												</b>
 												<span>
 													{" "}
-													[“Afro-descendants at the beginning of republic and Afro identity
-													configuration in the 20th century”]
+													[&quot;Afro-descendants at the beginning of republic and Afro identity
+													configuration in the 20th century&quot;]
 												</span>
 												<br />
 												<span>Maribel Arrelucea Barrantes. Historian</span>
@@ -516,13 +517,13 @@ export default function Home() {
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
 												<b>
-													“Identidad y herencia cultural. La agenda pendiente para una ciudadanía
-													plena, sin discriminación ni racismo”
+													&quot;Identidad y herencia cultural. La agenda pendiente para una
+													ciudadanía plena, sin discriminación ni racismo&quot;
 												</b>
 												<span>
 													{" "}
-													[“Identity and cultural heritage. The pending agenda for full citizenship,
-													without discrimination or racism”]
+													[&quot;Identity and cultural heritage. The pending agenda for full
+													citizenship, without discrimination or racism&quot;]
 												</span>
 												<br />
 												<span>Sofía Carillo Zegarra. Journalist and activist</span>
@@ -541,13 +542,13 @@ export default function Home() {
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
 												<b>
-													“Las condiciones históricas y socioculturales de las denominación negro y
-													afroperuano”
+													&quot;Las condiciones históricas y socioculturales de las denominación
+													negro y afroperuano&quot;
 												</b>
 												<span>
 													{" "}
-													[“Historical and sociocultural conditions of black and Afro-Peruvian
-													appellations”]
+													[&quot;Historical and sociocultural conditions of black and Afro-Peruvian
+													appellations&quot;]
 												</span>
 												<br />
 												<span>Newton Mori Julca. Historian</span>
