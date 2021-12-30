@@ -13,11 +13,11 @@
     }
     .linkMenu {
         color: $blanco;
-        padding-top: 440px;
+        margin-top: 460px;
         padding-bottom: 20px;
         padding-left: 40px;
         position: sticky;
-        top: 20px;
+        top: 460px;
         z-index: 9999;
         @media (max-width: 767.98px) {
             padding-top: 0px;
@@ -89,7 +89,9 @@
         }
         img {
             @media (min-width: 992px) {
-                min-height: 630px;
+                // min-height: 630px;
+                // max-height: 630px;
+                height: 630px;
             }
         }
     }
