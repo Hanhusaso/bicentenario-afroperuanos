@@ -152,9 +152,7 @@ export default function index() {
 						</div>
 						<div className="d-flex flex-column align-items-end">
 							<Link href="/lorry-salcedo">
-								<a className="color-inherit under mb-4" href="/lorry-salcedo">
-									Versión en español
-								</a>
+								<a className="color-inherit under mb-4">Versión en español</a>
 							</Link>
 						</div>
 					</div>
@@ -388,7 +386,7 @@ export default function index() {
 							<div className="titleHome text-uppercase mb-1">
 								DO YOU WANT TO KNOW MORE ABOUT
 								<br />
-								LORRY SALCEDO'S ARTISTIC
+								LORRY SALCEDO&apos;S ARTISTIC
 								<br />
 								PROPOSAL?
 							</div>
@@ -407,7 +405,7 @@ export default function index() {
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>
-										<b>Artist's testimonial</b>
+										<b>Artist&apos;s testimonial</b>
 										<br />
 										<span>Lorry Salcedo. Photographer and filmmaker</span>
 									</div>

@@ -924,12 +924,12 @@ export default function index() {
 										alt="arrows"
 									/>
 									<p className="mb-0">
-										"DIA 100 features stories of Africa-descent men, women, girls, boys, adolescents
-										and young people, adopting a cross-cutting approach in Peru; it intends to make
-										visible and recognize all those who live in exclusion, racism and
-										discrimination, those people who are constantly denigrate and classify; and, it
-										shows that physical and psychological violence is exercised by the ethnic-racial
-										condition of a human being”.
+										&quot;DIA 100 features stories of Africa-descent men, women, girls, boys,
+										adolescents and young people, adopting a cross-cutting approach in Peru; it
+										intends to make visible and recognize all those who live in exclusion, racism
+										and discrimination, those people who are constantly denigrate and classify; and,
+										it shows that physical and psychological violence is exercised by the
+										ethnic-racial condition of a human being&quot;.
 									</p>
 									<img
 										loading="lazy"
@@ -2655,16 +2655,16 @@ export default function index() {
 								graphic editor for the newspapers El Sol, El Comercio, Correo and La República.
 								Since 2000, he is producer of television program Costumbres (Customs), a platform
 								that has documented living culture in a lot of Peru provinces. As a result of this
-								work, in 2005 he presented the exhibition &quot;Este es mi cariño&quot; ("This is my
-								love"), which exposed 87 photographs taken during the first five years of the
-								program&apos;s broadcast.
+								work, in 2005 he presented the exhibition &quot;Este es mi cariño&quot; (&quot;This
+								is my love&quot;), which exposed 87 photographs taken during the first five years of
+								the program&apos;s broadcast.
 							</p>
 							<p className="">
 								His photographic work has been presented in various individual and group
-								exhibitions, and compiled in various publications, such as Sonaly Tuesta's Fiestas,
-								calendario y costumbres (Festivities, Calendar and Customs) (2010) and his own book
-								Marcados de Fiesta (2015). His art has been shown at Colombia, the Dominican
-								Republic, Spain, France and China.
+								exhibitions, and compiled in various publications, such as Sonaly Tuesta&apos;s
+								Fiestas, calendario y costumbres (Festivities, Calendar and Customs) (2010) and his
+								own book Marcados de Fiesta (2015). His art has been shown at Colombia, the
+								Dominican Republic, Spain, France and China.
 							</p>
 							<p className="">
 								In Afroperuanos (2009), Alvarado featured images of music and sports figures, such
@@ -2681,10 +2681,10 @@ export default function index() {
 							</p>
 							<p className="">
 								Thanks to his art and his work in favor of Afro-Peruvian culture, he has received
-								different distinctions, like "Award for Excellence in Photography" by Harvard
-								University in 2014 and &quot;Meritorious Personality of the Culture”, granted by the
-								Ministry of Culture in 2015. In 2021 he directed and produced the documentary Josef:
-								el inicio de una historia (Josef: the beginning of a story).
+								different distinctions, like &quot;Award for Excellence in Photography&quot; by
+								Harvard University in 2014 and &quot;Meritorious Personality of the Culture”,
+								granted by the Ministry of Culture in 2015. In 2021 he directed and produced the
+								documentary Josef: el inicio de una historia (Josef: the beginning of a story).
 							</p>
 						</div>
 					</div>
@@ -2714,7 +2714,7 @@ export default function index() {
 								<div className={`${styles.infoVideo} ${"infoVideo"}`}>
 									<div className={`${styles.mirar} ${"mirar"}`}></div>
 									<div className={`${styles.titulo} ${"titulo"}`}>
-										<b>Artist's testimonial</b>
+										<b>Artist&apos;s testimonial</b>
 										<br />
 										<span>Martin Alvarado. Photographer and audiovisual producer</span>
 									</div>
