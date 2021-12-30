@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import Layout from "../../../components/Layout";
 import styles from "./compar2.module.scss";
-const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
+// const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
+const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-amas-de-leche/";
 
 export default function Compar2() {
 	const lastImgRef = useRef();
@@ -19,30 +20,30 @@ export default function Compar2() {
 	return (
 		<>
 			{/* <Layout title="comparison 2"> */}
-				<div className={`${styles.body} ${"body"}`}>
-					<div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
-						<img
-							className={`${styles.imgCompImg} ${"imgCompImg"}`}
-							src={`${awsUrl}` + `amas-de-leche-25` + ".png"}
-						/>
-						<img
-							ref={lastImgRef}
-							id="last1"
-							className={`${styles.imgCompImg} ${styles.last} ${"imgCompImg"}`}
-							src={`${awsUrl}` + `amas-de-leche-26` + ".png"}
-						/>
-						<input
-							ref={sliderRef}
-							id="slider"
-							onChange={(e) => setValueInput(e.target.value)}
-							className={`${styles.slider} ${"slider"}`}
-							type="range"
-							min="0"
-							max="100"
-							defaultValue={slideValue}
-						/>
-					</div>
+			<div className={`${styles.body} ${"body"}`}>
+				<div className={`${styles.wrapperComp} ${"wrapperComp"}`}>
+					<img
+						className={`${styles.imgCompImg} ${"imgCompImg"}`}
+						src={`${awsUrl}` + `amas-de-leche-25` + ".png"}
+					/>
+					<img
+						ref={lastImgRef}
+						id="last1"
+						className={`${styles.imgCompImg} ${styles.last} ${"imgCompImg"}`}
+						src={`${awsUrl}` + `amas-de-leche-26` + ".png"}
+					/>
+					<input
+						ref={sliderRef}
+						id="slider"
+						onChange={(e) => setValueInput(e.target.value)}
+						className={`${styles.slider} ${"slider"}`}
+						type="range"
+						min="0"
+						max="100"
+						defaultValue={slideValue}
+					/>
 				</div>
+			</div>
 			{/* </Layout> */}
 		</>
 	);
