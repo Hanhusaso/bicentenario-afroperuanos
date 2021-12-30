@@ -151,9 +151,11 @@ export default function index() {
 							</div> */}
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="/lorry-salcedo">
-								Versión en español
-							</a>
+							<Link>
+								<a className="color-inherit under mb-4" href="/lorry-salcedo">
+									Versión en español
+								</a>
+							</Link>
 						</div>
 					</div>
 				</section>

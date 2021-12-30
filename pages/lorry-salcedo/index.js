@@ -144,7 +144,7 @@ export default function index() {
 								<LinkScroll
 									activeClass="active"
 									className=""
-									to="section2"
+									to="section2"d
 									smooth={true}
 									duration={200}
 								>
@@ -153,7 +153,9 @@ export default function index() {
 							</div> */}
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="#">English version</a>
+							<Link href="/en/lorry-salcedo">
+								<a className="color-inherit under mb-4">English version</a>
+							</Link>
 						</div>
 					</div>
 				</section>

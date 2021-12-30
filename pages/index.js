@@ -248,9 +248,9 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="d-flex flex-column align-items-end">
-							<a className="color-inherit under mb-4" href="/en">
-								English version
-							</a>
+							<Link href="/en">
+								<a className="color-inherit under mb-4">English version</a>
+							</Link>
 							<motion.div initial="hidden" animate="visible" variants={logoAnimation}>
 								<img
 									className={`${styles.logoBicentenario} ${"img-fluid"}`}
