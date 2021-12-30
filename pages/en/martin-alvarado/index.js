@@ -196,8 +196,8 @@ export default function index() {
 									<p className="mb-0">
 										“DIA 100 was named for International Decade for People of African Descent, and
 										the number 100 represents the number of people who have been photographed. The
-										project's starting point is showing Afro-Peruvians continuing contribution to
-										our country; also, this project exhibits the high number of African descent
+										project&apos;s starting point is showing Afro-Peruvians continuing contribution
+										to our country; also, this project exhibits the high number of African descent
 										fighters and professionals; and it breaks the stereotype that Afro-Peruvian can
 										only be dancers, athletes or chefs. In addition, DIA 100 aims to recognize that
 										Afro-professionals can be an inspiration, and how their actions can educate
@@ -441,7 +441,7 @@ export default function index() {
 												<br />
 												Fotógrafo y soldador y enfermera laboralista
 												<br />
-												Origen: Bellavista – Callao y Talara - Piura
+												Origen: Bellavista - Callao y Talara - Piura
 											</p>
 										</div>
 									</Carousel.Item>
@@ -677,7 +677,7 @@ export default function index() {
 												<br />
 												Comerciante y dueño de la Picantería “Rinconcito Piurano”
 												<br />
-												Origen: Chulucanas – Piura
+												Origen: Chulucanas - Piura
 											</p>
 										</div>
 									</Carousel.Item>
