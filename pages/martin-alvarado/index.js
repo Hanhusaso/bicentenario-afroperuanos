@@ -8,6 +8,7 @@ import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const awsUrlAlvarado = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-alvarado/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function index() {
 	return (
@@ -84,6 +85,11 @@ export default function index() {
 								<div>
 									<div className="title-page martin mb-5 fw-600">
 										<img
+											src={`${awsUrlTitle}martin-avarado-titulo.png`}
+											alt="martin-alvarado"
+											className="w-100"
+										/>
+										{/* <img
 											loading="lazy"
 											className="text-1"
 											src="/img/svg/MARTIN ALVARADO/MARTÍN.svg"
@@ -108,7 +114,7 @@ export default function index() {
 											className="text-3"
 											src="/img/svg/MARTIN ALVARADO/CRÓNICAS AFROPERUANAS.svg"
 											alt="crónicas afroperuanas"
-										/>
+										/> */}
 									</div>
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText lh-normal"}`}>

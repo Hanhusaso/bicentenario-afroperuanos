@@ -12,6 +12,7 @@ import Compar2 from "./compar2";
 
 const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-amas-de-leche/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function index() {
 	return (
@@ -87,6 +88,11 @@ export default function index() {
 							<div>
 								<div className="title-page amas mb-5 fw-600">
 									<img
+										src={`${awsUrlTitle}amas-de-leche-title.png`}
+										alt="amas-de-leche-titulo"
+										className="w-100"
+									/>
+									{/* <img
 										loading="lazy"
 										className="text-1"
 										src="/img/svg/AMAS DE LECHE/AMAS DE LECHE.svg"
@@ -111,7 +117,7 @@ export default function index() {
 										className="text-2"
 										src="/img/svg/AMAS DE LECHE/FOTOGRAFÍAS DEL ESTUDIO COURRET.svg"
 										alt="fotografías del estudio Courret"
-									/>
+									/> */}
 								</div>
 								<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 									<div className={`${styles.partText} ${"partText"}`}>

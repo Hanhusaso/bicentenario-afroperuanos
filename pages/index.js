@@ -17,6 +17,7 @@ import { useWindowSize } from "../utils/useWindowSize";
 
 const awsUrl = "https://luiscavibotsample.s3.sa-east-1.amazonaws.com/assets/afroperuanos/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function Home() {
 	const { width, height } = useWindowSize();
@@ -146,6 +147,10 @@ export default function Home() {
 									className="title-page home mb-5 fw-600"
 								>
 									<img
+										src={`${awsUrlTitle}discursos-visuales-sobre-lo-afroperuano-titulo-espanol.png`}
+										className="w-100"
+									></img>
+									{/* <im/img/homeg
 										className="text-1"
 										src="/img/svg/HOME/DISCURSOS VISUALES.svg"
 										alt="discursos visuales"
@@ -158,7 +163,7 @@ export default function Home() {
 										/>
 										<img className="w-100" src="/img/svg/HOME/SOBRE LO.svg" alt="sobre lo" />
 									</div>
-									<img className="text-2" src="/img/svg/HOME/AFROPERUANO.svg" alt="afroperuano" />
+									<img className="text-2" src="/img/svg/HOME/AFROPERUANO.svg" alt="afroperuano" /> */}
 								</motion.div>
 								<motion.div initial="hidden" animate="visible" variants={commonAnimation}>
 									<div className="mb-4 lh-normal">
@@ -524,7 +529,7 @@ export default function Home() {
 											<div className={`${styles.mirar} ${"mirar"}`}></div>
 											<div className={`${styles.titulo} ${"titulo"}`}>
 												<b>
-													Las condiciones históricas y socioculturales de las denominación negro y
+													Las condiciones históricas y socioculturales de la denominación negro y
 													afroperuano
 												</b>
 												<br />

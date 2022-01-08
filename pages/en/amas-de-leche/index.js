@@ -12,6 +12,7 @@ import Compar2 from "../../amas-de-leche/compar2";
 
 const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-amas-de-leche/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function index() {
 	return (
@@ -87,6 +88,11 @@ export default function index() {
 							<div>
 								<div className="title-page amas mb-5 fw-600">
 									<img
+										src={`${awsUrlTitle}amas-de-leche-titulo.png`}
+										alt="amas-de-leche-titulo"
+										className="w-100"
+									/>
+									{/* <img
 										loading="lazy"
 										className="text-1"
 										src="/img/svg/AMAS DE LECHE/AMAS DE LECHE.svg"
@@ -111,7 +117,7 @@ export default function index() {
 										className="text-2"
 										src="/img/svg/AMAS DE LECHE/FOTOGRAFÍAS DEL ESTUDIO COURRET.svg"
 										alt="fotografías del estudio Courret"
-									/>
+									/> */}
 								</div>
 								<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 									<div className={`${styles.partText} ${"partText"}`}>
@@ -197,30 +203,29 @@ export default function index() {
 							</div>
 							<div>
 								<p className={`${styles.titleSection1} ${"titleSection"}`}>
-									Los hermanos Courret y los retratos de estudio
+									Courret brothers and studio portraits
 								</p>
 								<div className={`${styles.grid1} ${""}`}>
 									<div>
 										<p>
-											En 1863, los hermanos de origen francés Achilles y Eugène Courret fundaron
-											&quot;Fotografía Central&quot;, uno de los estudios fotográficos más
-											importantes de la Lima del siglo XIX. Desde su creación, la casa Courret
-											desarrolló una prolífica actividad, que pervivió hasta 1935, siendo el retrato
-											de estudio su máximo estandarte.
+											In 1863, the French brothers Achilles and Eug&egrave;ne Courret founded
+											&quot;Central Photography&quot;, one of the most important photo studios in
+											Lima at 19th century.&nbsp;Since its establishment, the Courret studio
+											developed a prolific activity, that lasted until 1935; studio portrait was its
+											greatest standard.
 										</p>
-										<p className="">
-											La fotografía se consolidó rápidamente en la ciudad como un medio de
-											afirmación y distinción social, pues los miembros de la élite limeña
-											reflejaban a través de este arte su elevado estatus. Así, los retratos de
-											estudio, además de ser una cuidadosa construcción o montaje de la imagen que
-											las clases altas buscaron proyectar, fueron una expresión de la mentalidad de
-											su tiempo. En estas imágenes, como valiosos documentos visuales, se reflejan
-											los múltiples vínculos socioculturales, de género y étnicos que se estrecharon
-											en el joven Perú republicano.
+										<p>
+											Photography quickly consolidated in the city as a vehicle of affirmation and
+											social distinction, cause the elite in Lima reflected their high status
+											through this technique.&nbsp;Thus, the studio portraits, in addition to be a
+											careful image construction or montage projected by aristocracy, were an
+											expression of this period mentality.&nbsp;In these images, as valuable visual
+											documents, were reflected the multiple sociocultural, gender and ethnic ties
+											that were strengthened in the young republican Peru.
 										</p>
 										<p className="mb-5">
-											El estudio Courret fijó, de esta manera, imágenes que hoy forman parte de
-											nuestro acervo y memoria nacional.
+											This way, the Courret studio fixed&nbsp;images that are part of our heritage
+											and memory.
 										</p>
 									</div>
 									<div className={styles.wrapperImage}>
@@ -238,10 +243,11 @@ export default function index() {
 													Adolfo Dubreuil, sucesor.
 												</p> */}
 												<p className="mb-0">
-													<b>Estudio fotográfico Courret (1863-1935)</b>
+													<b>
+														Central Photography. E. Courret company. Adolphe Dubreuil, successor
+													</b>
 													<br />
-													El frontis en estilo art Nouveau fue inaugurado por Adolphe Dubreuil en
-													1905
+													The art nouveau façade was inaugurated by Adolphe Dubreuil in 1905
 												</p>
 											</div>
 										</div>
@@ -258,9 +264,9 @@ export default function index() {
 										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 												<p className="mb-0">
-													<b>Familias Courret y Dubreuil</b>
+													<b>Courret and Dubreuil families.</b>
 													<br />
-													Ca. 1890
+													Ca. 1890.
 												</p>
 											</div>
 											<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -275,13 +281,13 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Los lazos entre las familias Courret y Dubreuil</b> se remontan a tiempos de
-										la primera generación de migrantes franceses al Perú. Eugène Courret y su esposa
-										Emilia Basserre fueron padrinos de boda de Adolphe Dubreuil, quien se casó con
-										Clara Couturier en 1884, y de Juanita Dubreuil, su primogénita. Este retrato
-										refleja el estrecho vínculo de ambas familias. En 1892, Eugène Courret partió
-										definitivamente a Francia dejando a Dubreuil, su socio y amigo, la dirección del
-										estudio fotográfico.
+										<b>The ties between the Courret and Dubreuil families </b>date back to the first
+										generation of French migrants to Peru. Eugène Courret and his wife Emilia
+										Basserre were groomsmen of Adolphe Dubreuil, who married Clara Couturier in
+										1884; and they were godparents of Juanita Dubreuil, Adolphes&apos;s first-born
+										daughter. These portraits reflect the close bond between the two families. In
+										1892, Eugène Courret traveled to France; and Dubreuil, his partner and friend,
+										started to direct the photo studio.
 									</p>
 								</div>
 							</div>
@@ -307,27 +313,25 @@ export default function index() {
 						<div></div>
 						<div>
 							<p className={`${styles.titleSection2} ${"titleSection"}`}>
-								Retratos familiares: infantes y amas de leche
+								Family portraits: infants and wet nurses
 							</p>
 							<p>
-								Entre la amalgama de imágenes registradas por el Estudio Courret se encuentra uno
-								potente y entrañable: el retrato de tiernos infantes junto a su ama de leche o ama
-								de cría, mujer comúnmente de ascendencia africana.
+								One image recorded by the Courret Study is powerful and endearing: the portrait of
+								tender infants with their wet nurse or nursemaid, an Afro-descendant woman, usually.
 							</p>
 							<p>
-								En el Perú, la presencia de un ama de leche en las casas señoriales se remonta al
-								periodo virreinal, tiempo en el que el sistema esclavista dejó caer el peso de esta
-								práctica sobre las esclavas africanas. En el siglo XIX, la preferencia por las
-								nodrizas afroperuanas fue predominante, no solo en las familias más tradicionales y
-								aristocráticas de Lima, sino también en las familias de inmigrantes extranjeros que
-								llegaron al país a partir de la apertura económica y el esplendor de la era del
-								guano.
+								In Peru, wet nurse presence in stately homes dates from the colonial period, a time
+								when this practice was relapsed on African slaves. In the 19th century,
+								Afro-Peruvian wet nurses were predominant, not only in traditional and aristocratic
+								families of Lima, but also in foreign and immigrant families who arrived at the
+								country after the economic opening and the splendor of the &quot;era del
+								guano&quot;.
 							</p>
 							<p className="mb-5">
-								El retrato de los pequeños junto a sus amas afroperuanas fue una fotografía esencial
-								en el álbum familiar y un signo de prestigio social. Estos álbumes constituían un
-								relato o crónica visual de la familia y se colocaban en los salones de las
-								residencias burguesas, donde eran admirados por visitantes y allegados.
+								Portraits of children with their Afro-Peruvian nursemaids were an essential
+								photograph in the family album and a social prestige sing. These albums constituted
+								a family story or visual chronicle and they were placed at bourgeois residences,
+								where visitors and relatives admired them.
 							</p>
 							<div className={`${styles.grid2} ${""}`}>
 								<div className={`${styles.wrapperImg} ${"wrapperImg"}`}>
@@ -432,7 +436,7 @@ export default function index() {
 										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 												<p className="mb-0">
-													<b>Familia Ascher Freymann</b>
+													<b>Ascher Freymann family</b>
 													<br />
 													Adolphe Dubreuil, 1903
 												</p>
@@ -450,7 +454,7 @@ export default function index() {
 										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 												<p className="mb-0">
-													<b>Familia Ascher Freymann</b>
+													<b>Ascher Freymann family</b>
 													<br />
 													Adolphe Dubreuil, 1903
 												</p>
@@ -486,16 +490,14 @@ export default function index() {
 							</div>
 							<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 								<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>Paul Ascher fue un próspero comerciante</b> dedicado a la banca. Se casó con
-									Minna Freymann el 27 de enero de 1880. En la primera imagen, el ama de leche
-									sostiene en brazos al bebé Ascher, con el fin de que el pequeño sea el punto de
-									mira del retrato. En las dos siguientes fotografías, tomadas en ocasión del
-									bautizo del bebé Ascher, Adolphe Dubreuil retrató a la familia en dos ambientes:
-									un fastuoso espacio conformado por un telón de fondo pintado con columnas,
-									cortinaje y exteriores arbolados que están en armonía con el balcón de madera
-									sobre el que se ubica el infante, quien es sostenido amorosamente por sus padres;
-									y otro formado por un fondo neutro y liso, recurrente en los retratos de tres
-									cuartos del estudio.
+									<b>Paul Ascher was a prosperous merchant</b> and banker. He married Minna Freymann
+									on January 27th, 1880. On the first image, wet nurse holds baby Ascher in her
+									arms, he is the focus of the portrait. In the following two photographs, on baby
+									Ascher's christening, Adolphe Dubreuil portrayed the family in two settings: a
+									lavish space made up with a painted backdrop with columns, curtains and wooded
+									exteriors that are in harmony with the wood balcony on which the infant is
+									located, who is lovingly supported by his parents; and another space formed by a
+									neutral and smooth background, usually used in study portraits.
 								</p>
 							</div>
 						</div>
@@ -588,14 +590,13 @@ export default function index() {
 							</div>
 							<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 								<p className={`${styles.text} ${"text mb-0"}`}>
-									<b>El conde Giacometti Marzano de Visconti</b>, natural de Piacenza, Italia, se
-									estableció en Lima como comerciante y contrajo matrimonio con la limeña Victoria
-									Soyer Morote. La elegancia de sus vestimentas permite suponer que la familia
-									acudió al estudio en el marco de la celebración del bautizo de su menor hijo, José
-									Luis Giacometti, nacido el 25 de abril de 1888. Eugène Courret empleó una
-									escenografía sobria de fondos lisos y neutros, alfombra y pedestales labrados de
-									piedra y madera; y soporte común para retratar a los infantes. El gesto de
-									protección y cercanía en el retrato está enfatizado en la postura de la nodriza.
+									<b>Count Giacometti Marzano de Visconti</b>was born in Piacenza, Italy, and
+									settled in Lima as a merchant and married Victoria Soyer Morote from Lima. The
+									elegance of their clothing allows us to suppose that the family came to the studio
+									on José Luis Giacometti Soyer&apos;s christening. He was born on April 25, 1888.
+									Eugène Courret used a sober scenography with plain and neutral backgrounds, carved
+									stone and wood carpet, and pedestals. The gesture of protection and closeness in
+									the portrait is emphasized by wet nurse position.
 								</p>
 							</div>
 						</div>
@@ -645,24 +646,22 @@ export default function index() {
 						<div></div>
 						<div>
 							<p className={`${styles.titleSection3} ${"titleSection"}`}>
-								El estudio y la construcción del retrato
+								The study and portrait construction
 							</p>
 							<p>
-								La casa Courret es reconocida por su notable construcción estética de la imagen
-								fotográfica, lograda a partir del decorado de la escenografía, el mobiliario y las
-								posturas que debían sostener los retratados, quienes reflejaban de cierta manera el
-								rol que la sociedad les asignaba o pensaba sobre ellos. En el caso de los retratos
-								de las amas de leche, el discurso visual vertido en estos retratos buscó transmitir
-								familiaridad y un vínculo casi maternal entre el niño y su ama. Gestos como las
-								manos entrelazadas y la misma proximidad, también se encuentran en las fotografías
-								de estos infantes junto a sus madres biológicas.
+								Courret house is recognized for its remarkable aesthetic construction of
+								photographic image, scenography decoration, furniture and postures hold by portrayed
+								people, who reflected their role in society. In the case of wet nurse portraits,
+								visual discourse in these portraits focuses to transmit familiarity and maternal
+								relationship between the child and his wet nurse. Same expressions, like clasped
+								hands, are found in photos of these infants with their biological mothers.
 							</p>
 							<p>
-								Generalmente, los pequeños eran ubicados sobre pedestales para que estén a la misma
-								altura que sus nodrizas; también eran retratados en brazos o sobre el regazo de sus
-								nodrizas, en medio de una escenografía compuesta por telones neutros o pintados con
-								arquitecturas simuladas y una estancia bañada por una luz cenital que descendía a
-								través de teatinas.
+								Generally, the little ones were placed on pedestals, so they were at the same height
+								as their nursemaids. They were also portrayed in the arms or on the lap of their
+								nursemaids; the scenography was composed of neutral or painted curtains with
+								simulated architectures and a room bathed in an overhead light that descended
+								through theatines.
 							</p>
 						</div>
 						<div></div>
@@ -700,12 +699,12 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Dos jóvenes nodrizas posaron</b> junto a Roberto Baudrot, hijo de Augusto
-										Antonio Baudrot, un notable comerciante francés radicado en Lima. Una de ellas
-										sonríe y sostiene al niño con su mano derecha; mientras que el ama ubicada en el
-										fondo destaca por la elegancia de su atuendo, el cual reflejaría indirectamente
-										el elevado estatus de la familia del menor. Las familias más acaudaladas podían
-										contar con más de una nodriza para el cuidado de sus hijos.
+										<b>Two young nurses were photographed</b> next to Roberto Baudrot, Augusto
+										Antonio Baudrot’s son, a notable French merchant based in Lima. One of them is
+										smiling and holding the child with her right hand; while the other was in the
+										background, and she stands out for her elegance. Their clothes would indirectly
+										reflect the family high status. The wealthiest families used to have more than
+										one nurse to care for their children.
 									</p>
 								</div>
 							</div>
@@ -715,11 +714,11 @@ export default function index() {
 										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 												<p className="mb-0">
-													<b>Niño y dos amas</b>
+													<b>Boy and his two nursemaids</b>
 													<br />
 													Benjamin Franklin Pease
 													<br />
-													Ca. 1855, daguerrotipo
+													Ca. 1855, Daguerreotype
 													<br />
 													The Nelson-Atkins Museum of Art
 												</p>
@@ -736,15 +735,14 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>La composición</b> de los retratos previos remite a <b>Niño y dos amas</b>,
-										uno de las primeros daguerrotipos o retratos de amas de leche o nodrizas
-										afroperuanas, realizado por Benjamin Franklin Pease casi medio siglo antes. En
-										esa imagen, las nodrizas flanquean y sostienen al niño ubicado sobre una lujosa
-										silla Hepplewhite, mientras que en el fondo se aprecia la mano de una tercera
-										persona escondida tras el cortinaje, quien sujeta la cabeza del infante para
-										mantenerlo estable. Por la fecha aproximada de esta fotografía, es probable que
-										estas mujeres afroperuanas fueran esclavas, lo cual estaría simbolizado y
-										dulcificado en el fuete que sostiene el pequeño.
+										<b>The composition</b> of these portraits refers to Niño and two wet nurses, one
+										of the first Afro-Peruvian wet nurse portraits, made by Benjamin Franklin Pease,
+										almost half a century earlier. In this image, the nurses surrounded and hold the
+										child located on a luxurious Hepplewhite chair, while, in the background, a
+										third person is hidden behind the curtain, and holds the infant's head, to keep
+										it stable. Due to the approximate date of this photo, it is probable that these
+										Afro-Peruvian women were slaves; this could be symbolized on the whip held by
+										the child.
 									</p>
 								</div>
 							</div>
@@ -784,7 +782,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Carmen Gallagher Canaval y ama</b>
+														<b>Carmen Gallagher Canaval and her wet nurse</b>
 														<br />
 														Eugène Courret, 1882
 													</p>
@@ -802,7 +800,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Carmen Gallagher Canaval y ama</b>
+														<b>Carmen Gallagher Canaval and her wet nurse</b>
 														<br />
 														Eugène Courret, 1882
 													</p>
@@ -820,7 +818,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Carmen Gallagher Canaval y ama</b>
+														<b>Carmen Gallagher Canaval and her wet nurse</b>
 														<br />
 														Eugène Courret, 1882
 													</p>
@@ -838,7 +836,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>María Luisa Tudela Artieda y ama</b>
+														<b>María Luisa Tudela Artieda and her wet nurse</b>
 														<br />
 														Eugène Courret, 1881
 													</p>
@@ -856,7 +854,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>María Luisa Tudela Artieda y ama</b>
+														<b>María Luisa Tudela Artieda and her wet nurse</b>
 														<br />
 														Eugène Courret, 1881
 													</p>
@@ -874,20 +872,18 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Las nodrizas eran requeridas</b>, también, cuando se retrataba
-										individualmente a los bebés y niños más pequeños. Ellas debían sostenerlos y,
-										para no aparecer en el retrato, se ocultaban tras el mobiliario, como vemos en
-										el retrato de la niña Carmen Gallagher. En las diferentes tomas se observa al
-										ama sosteniendo a la pequeña a través de una cinta, detrás de la silla para
-										quedar parcialmente fuera de la toma.
+										<b>Nurses were</b> also required to help for individually portraying of infants
+										and younger children. They had to hold them, but they may not appear in the
+										portrait, so they hid behind the furniture, as we can see in the Carmen
+										Gallagher’s portrait. In the different shots, we can see a wet nurse holding the
+										little girl through a tape, behind the chair, to be partially out of the shot.
 										<br />
-										En algunos casos, las amas eran cubiertas completamente con un manto negro y
-										borradas de la imagen. A lo largo del tiempo se han vertido diversas
-										interpretaciones sobre esta presencia “ausente” de las amas: unas relacionadas
-										con la invisibilización de las nodrizas por cuestiones étnicas o clasistas;
-										mientras que otras refieren que se trataba de una técnica fotográfica. No
-										tenemos ninguna certeza, pero aparentemente las personas cubiertas no eran las
-										madres.
+										In some cases, the nursemaids were completely covered with a black cloak and
+										erased from the image. Over time, there were various interpretations that have
+										been made about &quot;absent&quot; presence of the nursemaids: some were related
+										to their invisibility, due to ethnic or class issues; while others were referred
+										to a photographic technique. We are not certain, but apparently mothers weren’t
+										the ones who were covered.
 									</p>
 								</div>
 							</div>
@@ -927,7 +923,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>María Dubois y ama</b>
+														<b>Maria Dubois and her wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1894
 													</p>
@@ -945,7 +941,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>María Dubois y ama</b>
+														<b>Maria Dubois</b>
 														<br />
 														Adolphe Dubreuil, 1894
 													</p>
@@ -963,7 +959,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Niña Kitz Dibós y ama</b>
+														<b>Girl Kitz Dibós and her wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1897
 													</p>
@@ -981,7 +977,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Niña Kitz Dibós y hermana</b>
+														<b>Girl Kitz Dibós and her sister</b>
 														<br />
 														Adolphe Dubreuil, 1897
 													</p>
@@ -999,13 +995,13 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>En una misma sesión fotográfica</b>, se realizaban diversos retratos del
-										infante, incluyendo el retrato con su nodriza. El ama de leche de María Dubois
-										fue captada llevando aretes de perla y un sobrio uniforme. La niña posó además
-										en un retrato individual o en solitario. Por otro lado, la nodriza de la pequeña
-										Kitz Dibós fue fotografiada cómodamente sentada al mismo nivel que la niña, en
-										una composición recurrente en los retratos de Dubreuil. En otra fotografía,
-										ubicada sobre la misma pequeña mesa, está acompañada por su hermana mayor.
+										<b>In the same photographic session,</b> various infant portraits were made,
+										including the portrait with their nursemaids. In the shot, Maria Dubois&apos;s
+										wet nurse wore pearl earrings and a sober uniform. The girl also posed in an
+										individual or solo portrait. On the other hand, Kitz Dibós&apos;s wet nurse was
+										photographed comfortably seated at the same level as the girl, in a recurring
+										composition in Dubreuil&quot;s portraits. In another photograph, on the same
+										small table, she is accompanied by her older sister.
 									</p>
 								</div>
 							</div>
@@ -1153,27 +1149,25 @@ export default function index() {
 						</div>
 						<div>
 							<p className={`${styles.titleSection1} ${"titleSection"}`}>
-								Mujeres afroperuanas en el Perú del siglo XIX
+								Afro-Peruvian women in 19th century in Peru
 							</p>
 							<p className="">
-								Tras la abolición de la esclavitud en 1854, las mujeres afroperuanas buscaron
-								diversos medios para subsistir en una sociedad donde el color de la piel, el grado
-								de instrucción y el estatus socioeconómico teñían cada estamento. De acuerdo con el
-								censo de Lima de 1860, muchas de ellas se dedicaban a la venta y producción de
-								alimentos, administraban pequeños negocios o eran costureras, trabajadoras
-								domésticas y nodrizas, entre otros oficios.
+								After the abolition of slavery in 1854, Afro-Peruvian women attended to subsist in a
+								society where the color of the skin, the degree of education and the socioeconomic
+								status colored each class. According to the Lima census from 1860, many of them were
+								engaged in food sale and production, managed small businesses or were seamstresses
+								and domestic workers, among other trades.
 							</p>
 							<p className="">
-								También ofrecían sus servicios como ama de leche o ama de cría. No obstante, este no
-								fue un oficio cualquiera, pues, a pesar del modesto salario, estas mujeres se
-								vinculaban directamente con el núcleo familiar de las esferas más altas de la
-								sociedad limeña, nutriendo y asistiendo a los más pequeños. Para su contratación, se
-								les solicitaba cumplir con rigurosos requisitos, tales como contar con una excelente
-								salud, conducta y moral intachable.
+								They also offered their services as wet nurses or nursemaids. However, this trade
+								wasn’t a common job, because, despite the modest salary, these women were directly
+								linked to the family nucleus of Lima aristocracy, and they nurtured and assisted
+								their children. To be hired, they were required to comply with rigorous
+								requirements, such as having excellent health, conduct, and impeccable morals.
 							</p>
 							<p className="">
-								La fotografía desveló de forma masiva esta antigua práctica, llenando los álbumes
-								familiares y las tarjetas de visita.
+								Photography massively revealed this ancient practice and filled family albums and
+								visiting cards.
 							</p>
 						</div>
 						<div></div>
@@ -1190,7 +1184,7 @@ export default function index() {
 										<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 											<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 												<p className="mb-0">
-													<b>José Arias y ama</b>
+													<b>José Arias and his wet nurse</b>
 													<br />
 													Eugène Courret, 1889
 												</p>
@@ -1208,12 +1202,11 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>En la época, las sesiones fotográficas</b> eran extensas y los retratados
-										debían sostener la pose durante todo el proceso, lo cual era especialmente
-										difícil si se trataba de un niño. Por ello, la presencia de su ama era
-										indispensable para tratar de asegurar el éxito del retrato. Para conseguir el
-										retrato del bebé Arias y su nodriza, se realizaron diversas tomas en las que el
-										escurridizo pequeño arranca las sonrisas de su ama.
+										<b>At that time, photographic sessions</b> were lengthy, and people had to hold
+										the pose throughout all the process, it was especially difficult if they were
+										children. Therefore, the nursemaids were essential to ensure the success of the
+										portrait. The photo of Baby Arias and his nursemaid needs several shots; in
+										which the elusive little boy draws his nursemaid smiles.
 									</p>
 								</div>
 							</div>
@@ -1253,7 +1246,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>René Melot y ama</b>
+														<b>José Arias and his wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1912
 													</p>
@@ -1271,7 +1264,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>René Melot y ama</b>
+														<b>René Melot and his wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1912
 													</p>
@@ -1289,13 +1282,13 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>Ante un telón de fondo decorado</b> con un cortinaje y una estancia interior,
-										el bebé Melot y su ama fueron retratados en distintas composiciones. En la
-										primera, la nodriza sostiene al pequeño en su regazo mientras que, en la
-										segunda, se agregó una pequeña mesa y se colocó al niño a la misma altura que su
-										ama, generando así una mayor cercanía entre ambos. Ella mira hacia la cámara en
-										tanto que el bebé sonríe y dirige su mirada hacia un punto detrás de la toma
-										fotográfica, posiblemente en donde se encuentra uno de sus padres.
+										<b>Against a backdrop decorated</b> with a curtain, the baby Melot and his
+										nursemaid were portrayed in different compositions. In the first one, the nurse
+										holds the child on her lap; in the second, a small table was added, and the
+										child was placed at the same height as his nursemaid, it generates greater
+										closeness between them. She looks towards the camera, and the baby smiles and
+										looks towards a point behind the photo shot, possibly where is one of his
+										parents.
 									</p>
 								</div>
 							</div>
@@ -1335,7 +1328,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Carlos Grace y ama</b>
+														<b>Carlos Grace and his wet nurse</b>
 														<br />
 														Eugène Courret, 1881
 													</p>
@@ -1353,7 +1346,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Manuel Valverde y ama</b>
+														<b>Manuel Valverde and his wet nurse</b>
 														<br />
 														Eugène Courret, 1879
 													</p>
@@ -1371,7 +1364,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Niña Alzamora Ciccero y ama</b>
+														<b>Girl Alzamora Ciccero and her wet nurse</b>
 														<br />
 														Eugène Courret, 1885
 													</p>
@@ -1389,7 +1382,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Enrique Meiggs y ama</b>
+														<b>Enrique Meiggs and his wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1894
 													</p>
@@ -1407,7 +1400,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Consuelo Quintana y ama</b>
+														<b>Consuelo Quintana and her wet nurse</b>
 														<br />
 														Eugène Courret, 1889
 													</p>
@@ -1425,7 +1418,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Andrea Seguín y ama</b>
+														<b>Andrea Seguín and her wet nurse</b>
 														<br />
 														Eugène Courret, 1879
 													</p>
@@ -1443,7 +1436,7 @@ export default function index() {
 											<div className={`${styles.gridImgCaption} ${"gridImgCaption"}`}>
 												<div className={`${styles.wrapperCaption} ${"wrapperCaption"}`}>
 													<p className="mb-0">
-														<b>Andrés Larco y ama</b>
+														<b>Andrés Larco and his wet nurse</b>
 														<br />
 														Adolphe Dubreuil, 1895
 													</p>
@@ -1461,12 +1454,12 @@ export default function index() {
 								</div>
 								<div className={`${styles.wrappertextDescImg} ${"wrappertextDescImg mb-0"}`}>
 									<p className={`${styles.text} ${"text mb-0"}`}>
-										<b>La gran mayoría de amas afroperuanas</b> fue retratada vistiendo una mantilla
-										o pañolón largo colocado por encima de la cabeza. Las mujeres de la clase alta
-										también la usaron, pero de finas telas ornamentadas con bordados, mientras que
-										las clases bajas emplearon tejidos más sencillos como el algodón o el lino. Esta
-										prenda habría buscado reflejar la decencia y religiosidad de quien la portaba,
-										cualidades admiradas y requeridas en una nodriza.
+										<b>Afro-Peruvian nursemaids</b> were usually portrayed wearing a long shawl or
+										shawl placed on their head. Aristocracy women also used it, but it was made with
+										fine-fabrics, ornamented with embroidery; while women from low-social levels
+										used simple-fabrics, such as cotton or linen. The shawl attempted to communicate
+										the person decency and religiosity, qualities that were admired and required in
+										a wet nurse.
 									</p>
 								</div>
 							</div>
