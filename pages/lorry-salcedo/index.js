@@ -9,6 +9,7 @@ import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa"
 
 const awsUrl = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-lorry-salcedo/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function index() {
 	return (
@@ -86,6 +87,11 @@ export default function index() {
 								<div>
 									<div className="title-page lorry mb-5 fw-600">
 										<img
+											src={`${awsUrlTitle}lorry-salcedo-y-el-carmen-titulo.png`}
+											alt="lorry-salcedo-y-el-carmen-titulo"
+											className="w-100"
+										/>
+										{/* <img
 											loading="lazy"
 											className="text-1"
 											src="/img/svg/LORRY SALCEDO/LORRY.svg"
@@ -104,14 +110,13 @@ export default function index() {
 												src="/img/svg/LORRY SALCEDO/flechas_moradas(31).svg"
 												alt="flechas"
 											/>
-											{/* <img loading="lazy" className="w-100" src="/img/svg/LORRY SALCEDO/DE LA.svg" alt="de la" /> */}
 										</div>
 										<img
 											loading="lazy"
 											className="text-3 text-right"
 											src="/img/svg/LORRY SALCEDO/Y EL CARMEN.svg"
 											alt="y el carmen"
-										/>
+										/> */}
 									</div>
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText"}`}>

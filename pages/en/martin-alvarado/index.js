@@ -8,6 +8,7 @@ import { BsShare } from "react-icons/bs";
 import { FaWhatsapp, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 const awsUrlAlvarado = "https://afroperuanos.s3.us-east-2.amazonaws.com/fotos-alvarado/";
 const awsUrlVideo = "https://afroperuanos.s3.us-east-2.amazonaws.com/videos/";
+const awsUrlTitle = "https://afroperuanos.s3.us-east-2.amazonaws.com/titulos/";
 
 export default function index() {
 	return (
@@ -84,6 +85,12 @@ export default function index() {
 								<div>
 									<div className="title-page martin mb-5 fw-600">
 										<img
+											src={`${awsUrlTitle}martin-avarado-title.png`}
+											alt="martin-avarado-title"
+											className="w-100"
+										/>
+
+										{/* <img
 											loading="lazy"
 											className="text-1"
 											src="/img/svg/MARTIN ALVARADO/MARTÍN.svg"
@@ -108,7 +115,7 @@ export default function index() {
 											className="text-3"
 											src="/img/svg/MARTIN ALVARADO/CRÓNICAS AFROPERUANAS.svg"
 											alt="crónicas afroperuanas"
-										/>
+										/> */}
 									</div>
 									<div className={`${styles.gridDescImg} ${"gridDescImg"}`}>
 										<div className={`${styles.partText} ${"partText lh-normal"}`}>
@@ -2644,7 +2651,7 @@ export default function index() {
 				<section className={styles.section5}>
 					<div className={`${styles.fullGrid} ${"fullGrid pb-3 pb-md-5"}`}>
 						<div className={`${styles.boxText} ${"mb-3 mb-md-5"}`}>
-							<div className="titleHome text-uppercase mb-1">AFRO-PERUVIAN MEMORY</div>
+							<div className="titleHome text-uppercase mb-1">ABOUT MARTIN ALVARADO</div>
 							<div className="mb-4">
 								<img className="underline-arrows" src="/img/svg/flechas_azul(37).svg" alt="" />
 							</div>
@@ -2654,7 +2661,7 @@ export default function index() {
 								Martín Alvarado began his career as a sports photographer; after that he became a
 								graphic editor for the newspapers El Sol, El Comercio, Correo and La República.
 								Since 2000, he is producer of television program Costumbres (Customs), a platform
-								that has documented living culture in a lot of Peru provinces. As a result of this
+								that has documented living culture in many Peruvian provinces. As a result of this
 								work, in 2005 he presented the exhibition &quot;Este es mi cariño&quot; (&quot;This
 								is my love&quot;), which exposed 87 photographs taken during the first five years of
 								the program&apos;s broadcast.
