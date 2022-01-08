@@ -493,8 +493,8 @@ export default function index() {
 									<b>Paul Ascher was a prosperous merchant</b> and banker. He married Minna Freymann
 									on January 27th, 1880. On the first image, wet nurse holds baby Ascher in her
 									arms, he is the focus of the portrait. In the following two photographs, on baby
-									Ascher's christening, Adolphe Dubreuil portrayed the family in two settings: a
-									lavish space made up with a painted backdrop with columns, curtains and wooded
+									Ascher&apos;s christening, Adolphe Dubreuil portrayed the family in two settings:
+									a lavish space made up with a painted backdrop with columns, curtains and wooded
 									exteriors that are in harmony with the wood balcony on which the infant is
 									located, who is lovingly supported by his parents; and another space formed by a
 									neutral and smooth background, usually used in study portraits.
@@ -739,10 +739,10 @@ export default function index() {
 										of the first Afro-Peruvian wet nurse portraits, made by Benjamin Franklin Pease,
 										almost half a century earlier. In this image, the nurses surrounded and hold the
 										child located on a luxurious Hepplewhite chair, while, in the background, a
-										third person is hidden behind the curtain, and holds the infant's head, to keep
-										it stable. Due to the approximate date of this photo, it is probable that these
-										Afro-Peruvian women were slaves; this could be symbolized on the whip held by
-										the child.
+										third person is hidden behind the curtain, and holds the infant&apos;s head, to
+										keep it stable. Due to the approximate date of this photo, it is probable that
+										these Afro-Peruvian women were slaves; this could be symbolized on the whip held
+										by the child.
 									</p>
 								</div>
 							</div>
